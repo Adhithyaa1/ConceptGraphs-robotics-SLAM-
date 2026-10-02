@@ -1,0 +1,24 @@
+# Slurm / logs
+*.out
+*.err
+
+# Regeneratable bulk data (keep on cluster / separate archive)
+**/s_detections_*/
+**/results/
+lab_walk_rgbd_raw/
+
+# Optional: use Git LFS instead of ignoring
+# *.pkl.gz
+# *.ply
+
+# Caches
+**/.cache/
+**/detections/
+
+# Local env
+.conda/
+__pycache__/
+
+# IDE
+.cursor/
+.vscode/

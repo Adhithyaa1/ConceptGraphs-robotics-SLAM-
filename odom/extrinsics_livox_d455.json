@@ -1,0 +1,63 @@
+{
+  "notes": "Optical-frame chain. ROS TF parent->child is pose of child in parent.",
+  "T_d435_livox": {
+    "parent": "d435_color_optical_frame",
+    "child": "livox_frame",
+    "xyz_m": [
+      0.04,
+      0.07,
+      -0.12
+    ],
+    "rpy_deg": [
+      0.0,
+      -2.4,
+      89.95437383553924
+    ],
+    "rpy_rad_yaw": 1.57
+  },
+  "T_d455_d435": {
+    "parent": "D455_color_optical_frame",
+    "child": "D435_color_optical_frame",
+    "xyz_m": [
+      0.02250147,
+      0.14298372,
+      -0.03824346
+    ],
+    "quat_xyzw": [
+      -0.005000660003685845,
+      -0.41415403030526127,
+      0.9101907006708759,
+      -0.0020787000015321517
+    ]
+  },
+  "T_livox_d455_optical": {
+    "description": "inv(T_d435_livox) @ inv(T_d455_d435); maps D455 optical points into livox/body",
+    "matrix_row_major_4x4": [
+      [
+        0.00681448027137242,
+        -0.6879391836756057,
+        -0.7257363449782386,
+        0.005510776300598444
+      ],
+      [
+        0.9999473395382352,
+        -0.0008812022970267641,
+        0.010224560279927557,
+        0.017960979529907065
+      ],
+      [
+        -0.007673396186646015,
+        -0.7257678024315033,
+        0.6878969515448584,
+        0.2530805708040512
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "assumption": "FAST-LIO body \u2248 livox_frame for first pass"
+}

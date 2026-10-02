@@ -1,0 +1,46 @@
+defaults:
+  - base
+  - base_mapping
+  - lab_walk_kiss
+  - sam
+  - classes
+  - logging_level
+  - _self_
+
+detections_exp_suffix: s_detections_lab_walk_kiss_stride10
+force_detection: !!bool True
+save_detections: !!bool True
+
+make_edges: !!bool False
+
+stride: 10
+exp_suffix: r_mapping_lab_walk_kiss_stride10
+
+save_video: !!bool False
+save_objects_all_frames: !!bool False
+save_pcd: !!bool True
+save_json: !!bool True
+
+downsample_voxel_size: 0.01
+obj_pcd_max_points: 5000
+
+debug_render: !!bool False
+vis_render: !!bool False
+
+denoise_interval: 5
+filter_interval: 5
+merge_interval: 5
+run_denoise_final_frame: !!bool True
+run_filter_final_frame: !!bool True
+run_merge_final_frame: !!bool True
+
+dbscan_remove_noise: !!bool True
+dbscan_eps: 0.1
+dbscan_min_points: 10
+
+obj_min_points: 0
+obj_min_detections: 2
+
+use_rerun: !!bool False
+save_rerun: !!bool False
+use_wandb: !!bool False

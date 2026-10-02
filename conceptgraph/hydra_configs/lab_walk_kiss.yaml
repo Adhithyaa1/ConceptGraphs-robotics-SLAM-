@@ -1,0 +1,14 @@
+defaults:
+  - base
+  - _self_
+
+dataset_name: lab_walk
+dataset_root: ${data_root}/lab_walk
+scene_id: lab_walk_kiss
+dataset_config: ${repo_root}/conceptgraph/dataset/dataconfigs/lab_walk/lab_walk_kiss.yaml
+image_height: 480
+image_width: 640
+depth_scale: 1000.0
+start: 0
+end: -1
+stride: 10
