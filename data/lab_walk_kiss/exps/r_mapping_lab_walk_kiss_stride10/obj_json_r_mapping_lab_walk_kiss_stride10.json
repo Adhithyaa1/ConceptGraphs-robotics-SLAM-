@@ -1,0 +1,818 @@
+{
+  "object_1": {
+    "id": 6,
+    "object_tag": "backpack",
+    "object_caption": "",
+    "bbox_extent": [
+      0.92,
+      0.58,
+      0.3
+    ],
+    "bbox_center": [
+      2.53,
+      4.66,
+      -0.69
+    ],
+    "bbox_volume": 0.16
+  },
+  "object_2": {
+    "id": 14,
+    "object_tag": "laptop",
+    "object_caption": "",
+    "bbox_extent": [
+      1.07,
+      0.46,
+      0.16
+    ],
+    "bbox_center": [
+      0.1,
+      2.94,
+      -0.17
+    ],
+    "bbox_volume": 0.08
+  },
+  "object_3": {
+    "id": 146,
+    "object_tag": "desk",
+    "object_caption": "",
+    "bbox_extent": [
+      2.07,
+      1.32,
+      1.01
+    ],
+    "bbox_center": [
+      2.63,
+      5.16,
+      -0.59
+    ],
+    "bbox_volume": 2.76
+  },
+  "object_4": {
+    "id": 148,
+    "object_tag": "backpack",
+    "object_caption": "",
+    "bbox_extent": [
+      0.55,
+      0.41,
+      0.31
+    ],
+    "bbox_center": [
+      2.15,
+      4.64,
+      -0.73
+    ],
+    "bbox_volume": 0.07
+  },
+  "object_5": {
+    "id": 149,
+    "object_tag": "person",
+    "object_caption": "",
+    "bbox_extent": [
+      1.61,
+      0.7,
+      0.42
+    ],
+    "bbox_center": [
+      3.62,
+      6.09,
+      0.09
+    ],
+    "bbox_volume": 0.47
+  },
+  "object_6": {
+    "id": 155,
+    "object_tag": "backpack",
+    "object_caption": "",
+    "bbox_extent": [
+      0.63,
+      0.56,
+      0.23
+    ],
+    "bbox_center": [
+      2.57,
+      4.87,
+      -0.08
+    ],
+    "bbox_volume": 0.08
+  },
+  "object_7": {
+    "id": 168,
+    "object_tag": "tissue box",
+    "object_caption": "",
+    "bbox_extent": [
+      0.34,
+      0.19,
+      0.14
+    ],
+    "bbox_center": [
+      2.26,
+      4.92,
+      -0.11
+    ],
+    "bbox_volume": 0.01
+  },
+  "object_8": {
+    "id": 178,
+    "object_tag": "desk",
+    "object_caption": "",
+    "bbox_extent": [
+      1.25,
+      0.98,
+      0.83
+    ],
+    "bbox_center": [
+      2.88,
+      4.57,
+      -0.54
+    ],
+    "bbox_volume": 1.02
+  },
+  "object_9": {
+    "id": 210,
+    "object_tag": "jacket",
+    "object_caption": "",
+    "bbox_extent": [
+      0.75,
+      0.6,
+      0.15
+    ],
+    "bbox_center": [
+      0.76,
+      4.64,
+      0.17
+    ],
+    "bbox_volume": 0.07
+  },
+  "object_10": {
+    "id": 272,
+    "object_tag": "folded chair",
+    "object_caption": "",
+    "bbox_extent": [
+      0.92,
+      0.63,
+      0.28
+    ],
+    "bbox_center": [
+      0.9,
+      5.71,
+      -0.59
+    ],
+    "bbox_volume": 0.16
+  },
+  "object_11": {
+    "id": 289,
+    "object_tag": "bottle",
+    "object_caption": "",
+    "bbox_extent": [
+      0.55,
+      0.19,
+      0.1
+    ],
+    "bbox_center": [
+      0.52,
+      6.31,
+      -0.3
+    ],
+    "bbox_volume": 0.01
+  },
+  "object_12": {
+    "id": 310,
+    "object_tag": "chair",
+    "object_caption": "",
+    "bbox_extent": [
+      1.05,
+      0.73,
+      0.8
+    ],
+    "bbox_center": [
+      2.41,
+      9.62,
+      -0.72
+    ],
+    "bbox_volume": 0.61
+  },
+  "object_13": {
+    "id": 314,
+    "object_tag": "chair",
+    "object_caption": "",
+    "bbox_extent": [
+      1.09,
+      0.98,
+      0.6
+    ],
+    "bbox_center": [
+      1.32,
+      7.25,
+      -0.69
+    ],
+    "bbox_volume": 0.64
+  },
+  "object_14": {
+    "id": 317,
+    "object_tag": "chair",
+    "object_caption": "",
+    "bbox_extent": [
+      1.1,
+      0.56,
+      0.52
+    ],
+    "bbox_center": [
+      2.85,
+      6.97,
+      -0.56
+    ],
+    "bbox_volume": 0.32
+  },
+  "object_15": {
+    "id": 320,
+    "object_tag": "desk",
+    "object_caption": "",
+    "bbox_extent": [
+      1.52,
+      0.98,
+      0.69
+    ],
+    "bbox_center": [
+      0.85,
+      6.74,
+      -0.62
+    ],
+    "bbox_volume": 1.03
+  },
+  "object_16": {
+    "id": 369,
+    "object_tag": "desk",
+    "object_caption": "",
+    "bbox_extent": [
+      1.36,
+      0.9,
+      0.68
+    ],
+    "bbox_center": [
+      0.87,
+      6.75,
+      -0.62
+    ],
+    "bbox_volume": 0.83
+  },
+  "object_17": {
+    "id": 405,
+    "object_tag": "folded chair",
+    "object_caption": "",
+    "bbox_extent": [
+      0.85,
+      0.81,
+      0.54
+    ],
+    "bbox_center": [
+      3.04,
+      6.93,
+      -0.53
+    ],
+    "bbox_volume": 0.37
+  },
+  "object_18": {
+    "id": 416,
+    "object_tag": "closet door",
+    "object_caption": "",
+    "bbox_extent": [
+      2.1,
+      1.49,
+      0.33
+    ],
+    "bbox_center": [
+      4.99,
+      8.56,
+      0.26
+    ],
+    "bbox_volume": 1.03
+  },
+  "object_19": {
+    "id": 420,
+    "object_tag": "curtain",
+    "object_caption": "",
+    "bbox_extent": [
+      2.29,
+      0.51,
+      0.56
+    ],
+    "bbox_center": [
+      3.9,
+      8.98,
+      0.45
+    ],
+    "bbox_volume": 0.65
+  },
+  "object_20": {
+    "id": 423,
+    "object_tag": "range hood",
+    "object_caption": "",
+    "bbox_extent": [
+      0.86,
+      0.48,
+      0.21
+    ],
+    "bbox_center": [
+      3.69,
+      9.12,
+      1.65
+    ],
+    "bbox_volume": 0.09
+  },
+  "object_21": {
+    "id": 436,
+    "object_tag": "chair",
+    "object_caption": "",
+    "bbox_extent": [
+      1.12,
+      0.94,
+      0.84
+    ],
+    "bbox_center": [
+      2.67,
+      9.46,
+      -0.63
+    ],
+    "bbox_volume": 0.88
+  },
+  "object_22": {
+    "id": 449,
+    "object_tag": "backpack",
+    "object_caption": "",
+    "bbox_extent": [
+      0.67,
+      0.46,
+      0.23
+    ],
+    "bbox_center": [
+      2.53,
+      9.31,
+      -0.52
+    ],
+    "bbox_volume": 0.07
+  },
+  "object_23": {
+    "id": 472,
+    "object_tag": "blackboard",
+    "object_caption": "",
+    "bbox_extent": [
+      2.24,
+      1.57,
+      0.38
+    ],
+    "bbox_center": [
+      2.27,
+      9.79,
+      0.54
+    ],
+    "bbox_volume": 1.34
+  },
+  "object_24": {
+    "id": 531,
+    "object_tag": "luggage",
+    "object_caption": "",
+    "bbox_extent": [
+      0.86,
+      0.52,
+      0.31
+    ],
+    "bbox_center": [
+      3.03,
+      9.24,
+      -0.78
+    ],
+    "bbox_volume": 0.14
+  },
+  "object_25": {
+    "id": 539,
+    "object_tag": "backpack",
+    "object_caption": "",
+    "bbox_extent": [
+      0.77,
+      0.43,
+      0.27
+    ],
+    "bbox_center": [
+      2.49,
+      9.45,
+      -0.51
+    ],
+    "bbox_volume": 0.09
+  },
+  "object_26": {
+    "id": 559,
+    "object_tag": "closet wall",
+    "object_caption": "",
+    "bbox_extent": [
+      1.31,
+      0.98,
+      0.51
+    ],
+    "bbox_center": [
+      5.31,
+      5.48,
+      0.43
+    ],
+    "bbox_volume": 0.65
+  },
+  "object_27": {
+    "id": 587,
+    "object_tag": "closet door",
+    "object_caption": "",
+    "bbox_extent": [
+      1.83,
+      1.07,
+      0.39
+    ],
+    "bbox_center": [
+      5.56,
+      8.12,
+      0.13
+    ],
+    "bbox_volume": 0.76
+  },
+  "object_28": {
+    "id": 590,
+    "object_tag": "cart",
+    "object_caption": "",
+    "bbox_extent": [
+      1.28,
+      1.25,
+      0.7
+    ],
+    "bbox_center": [
+      4.93,
+      7.34,
+      -0.29
+    ],
+    "bbox_volume": 1.12
+  },
+  "object_29": {
+    "id": 597,
+    "object_tag": "storage bin",
+    "object_caption": "",
+    "bbox_extent": [
+      0.57,
+      0.23,
+      0.17
+    ],
+    "bbox_center": [
+      5.53,
+      6.07,
+      -0.3
+    ],
+    "bbox_volume": 0.02
+  },
+  "object_30": {
+    "id": 656,
+    "object_tag": "mini fridge",
+    "object_caption": "",
+    "bbox_extent": [
+      1.01,
+      1.0,
+      0.5
+    ],
+    "bbox_center": [
+      5.09,
+      5.25,
+      -0.29
+    ],
+    "bbox_volume": 0.5
+  },
+  "object_31": {
+    "id": 671,
+    "object_tag": "mouse",
+    "object_caption": "",
+    "bbox_extent": [
+      1.91,
+      0.91,
+      0.71
+    ],
+    "bbox_center": [
+      3.79,
+      2.14,
+      -0.74
+    ],
+    "bbox_volume": 1.23
+  },
+  "object_32": {
+    "id": 677,
+    "object_tag": "desk",
+    "object_caption": "",
+    "bbox_extent": [
+      2.05,
+      0.81,
+      0.63
+    ],
+    "bbox_center": [
+      4.86,
+      3.78,
+      -0.36
+    ],
+    "bbox_volume": 1.05
+  },
+  "object_33": {
+    "id": 678,
+    "object_tag": "keyboard",
+    "object_caption": "",
+    "bbox_extent": [
+      0.71,
+      0.31,
+      0.09
+    ],
+    "bbox_center": [
+      4.93,
+      4.06,
+      0.03
+    ],
+    "bbox_volume": 0.02
+  },
+  "object_34": {
+    "id": 680,
+    "object_tag": "keyboard",
+    "object_caption": "",
+    "bbox_extent": [
+      0.68,
+      0.33,
+      0.04
+    ],
+    "bbox_center": [
+      4.67,
+      2.94,
+      0.03
+    ],
+    "bbox_volume": 0.01
+  },
+  "object_35": {
+    "id": 685,
+    "object_tag": "tissue box",
+    "object_caption": "",
+    "bbox_extent": [
+      0.76,
+      0.26,
+      0.15
+    ],
+    "bbox_center": [
+      4.25,
+      2.12,
+      0.17
+    ],
+    "bbox_volume": 0.03
+  },
+  "object_36": {
+    "id": 769,
+    "object_tag": "tv",
+    "object_caption": "",
+    "bbox_extent": [
+      0.86,
+      0.53,
+      0.37
+    ],
+    "bbox_center": [
+      3.7,
+      2.2,
+      0.09
+    ],
+    "bbox_volume": 0.17
+  },
+  "object_37": {
+    "id": 770,
+    "object_tag": "keyboard",
+    "object_caption": "",
+    "bbox_extent": [
+      0.59,
+      0.18,
+      0.04
+    ],
+    "bbox_center": [
+      4.71,
+      2.96,
+      -0.07
+    ],
+    "bbox_volume": 0.0
+  },
+  "object_38": {
+    "id": 771,
+    "object_tag": "chair",
+    "object_caption": "",
+    "bbox_extent": [
+      1.02,
+      1.02,
+      0.8
+    ],
+    "bbox_center": [
+      3.92,
+      2.49,
+      -0.37
+    ],
+    "bbox_volume": 0.83
+  },
+  "object_39": {
+    "id": 776,
+    "object_tag": "desk",
+    "object_caption": "",
+    "bbox_extent": [
+      1.93,
+      0.61,
+      0.42
+    ],
+    "bbox_center": [
+      4.85,
+      3.51,
+      -0.15
+    ],
+    "bbox_volume": 0.49
+  },
+  "object_40": {
+    "id": 777,
+    "object_tag": "computer tower",
+    "object_caption": "",
+    "bbox_extent": [
+      0.35,
+      0.34,
+      0.21
+    ],
+    "bbox_center": [
+      5.05,
+      3.02,
+      0.12
+    ],
+    "bbox_volume": 0.02
+  },
+  "object_41": {
+    "id": 778,
+    "object_tag": "tissue box",
+    "object_caption": "",
+    "bbox_extent": [
+      0.5,
+      0.3,
+      0.18
+    ],
+    "bbox_center": [
+      4.21,
+      2.39,
+      -0.05
+    ],
+    "bbox_volume": 0.03
+  },
+  "object_42": {
+    "id": 782,
+    "object_tag": "cart",
+    "object_caption": "",
+    "bbox_extent": [
+      1.87,
+      1.08,
+      0.82
+    ],
+    "bbox_center": [
+      2.86,
+      2.53,
+      -0.75
+    ],
+    "bbox_volume": 1.66
+  },
+  "object_43": {
+    "id": 787,
+    "object_tag": "tv",
+    "object_caption": "",
+    "bbox_extent": [
+      0.6,
+      0.42,
+      0.28
+    ],
+    "bbox_center": [
+      4.88,
+      2.8,
+      0.14
+    ],
+    "bbox_volume": 0.07
+  },
+  "object_44": {
+    "id": 792,
+    "object_tag": "desk",
+    "object_caption": "",
+    "bbox_extent": [
+      1.31,
+      0.77,
+      0.54
+    ],
+    "bbox_center": [
+      3.55,
+      2.34,
+      -0.57
+    ],
+    "bbox_volume": 0.54
+  },
+  "object_45": {
+    "id": 1018,
+    "object_tag": "mouse",
+    "object_caption": "",
+    "bbox_extent": [
+      0.99,
+      0.35,
+      0.17
+    ],
+    "bbox_center": [
+      0.29,
+      3.06,
+      -0.18
+    ],
+    "bbox_volume": 0.06
+  },
+  "object_46": {
+    "id": 1047,
+    "object_tag": "cup",
+    "object_caption": "",
+    "bbox_extent": [
+      0.2,
+      0.17,
+      0.1
+    ],
+    "bbox_center": [
+      0.35,
+      3.37,
+      -0.21
+    ],
+    "bbox_volume": 0.0
+  },
+  "object_47": {
+    "id": 1236,
+    "object_tag": "cabinet",
+    "object_caption": "",
+    "bbox_extent": [
+      1.19,
+      0.93,
+      0.82
+    ],
+    "bbox_center": [
+      -0.54,
+      -1.12,
+      -0.37
+    ],
+    "bbox_volume": 0.91
+  },
+  "object_48": {
+    "id": 1239,
+    "object_tag": "cabinet",
+    "object_caption": "",
+    "bbox_extent": [
+      0.85,
+      0.62,
+      0.28
+    ],
+    "bbox_center": [
+      0.07,
+      -1.45,
+      -0.36
+    ],
+    "bbox_volume": 0.15
+  },
+  "object_49": {
+    "id": 1241,
+    "object_tag": "soap dish",
+    "object_caption": "",
+    "bbox_extent": [
+      0.41,
+      0.25,
+      0.11
+    ],
+    "bbox_center": [
+      -1.24,
+      -1.38,
+      0.12
+    ],
+    "bbox_volume": 0.01
+  },
+  "object_50": {
+    "id": 1707,
+    "object_tag": "folded chair",
+    "object_caption": "",
+    "bbox_extent": [
+      1.53,
+      0.99,
+      0.76
+    ],
+    "bbox_center": [
+      0.92,
+      2.59,
+      -0.64
+    ],
+    "bbox_volume": 1.15
+  },
+  "object_51": {
+    "id": 1708,
+    "object_tag": "desk",
+    "object_caption": "",
+    "bbox_extent": [
+      0.58,
+      0.18,
+      0.09
+    ],
+    "bbox_center": [
+      1.95,
+      1.77,
+      -0.14
+    ],
+    "bbox_volume": 0.01
+  }
+}

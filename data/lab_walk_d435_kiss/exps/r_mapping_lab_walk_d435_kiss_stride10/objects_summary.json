@@ -1,0 +1,312 @@
+{
+  "source_pkl": "/lustre/nvwulf/home/admanoharan/cg_data/lab_walk/lab_walk_d435_kiss/exps/r_mapping_lab_walk_d435_kiss_stride10/pcd_r_mapping_lab_walk_d435_kiss_stride10.pkl.gz",
+  "num_objects": 25,
+  "span_xyz": [
+    5.109446442964928,
+    10.5236071354153,
+    0.7232808981325127
+  ],
+  "objects": [
+    {
+      "index": 0,
+      "object_tag": null,
+      "class_name": "chair",
+      "num_detections": 3,
+      "distinct_frames": 3,
+      "center_xyz": [
+        0.44438554229825716,
+        2.5776080699573356,
+        -1.0075862944367535
+      ]
+    },
+    {
+      "index": 1,
+      "object_tag": null,
+      "class_name": "chair",
+      "num_detections": 4,
+      "distinct_frames": 3,
+      "center_xyz": [
+        1.9581781550541628,
+        2.3598680821026115,
+        -0.9572478472471196
+      ]
+    },
+    {
+      "index": 2,
+      "object_tag": null,
+      "class_name": "chair",
+      "num_detections": 3,
+      "distinct_frames": 2,
+      "center_xyz": [
+        0.6358902104583783,
+        2.51625580498715,
+        -0.6765188836491633
+      ]
+    },
+    {
+      "index": 3,
+      "object_tag": null,
+      "class_name": "floor",
+      "num_detections": 18,
+      "distinct_frames": 16,
+      "center_xyz": [
+        1.5665033310859884,
+        2.806686707745893,
+        -1.2005111293805688
+      ]
+    },
+    {
+      "index": 4,
+      "object_tag": null,
+      "class_name": "stool",
+      "num_detections": 2,
+      "distinct_frames": 2,
+      "center_xyz": [
+        0.8690478764542078,
+        4.2570711319111725,
+        -1.0992723080838909
+      ]
+    },
+    {
+      "index": 5,
+      "object_tag": null,
+      "class_name": "floor",
+      "num_detections": 8,
+      "distinct_frames": 8,
+      "center_xyz": [
+        1.7154822724396623,
+        5.722597385419642,
+        -1.2566727105347106
+      ]
+    },
+    {
+      "index": 6,
+      "object_tag": null,
+      "class_name": "backpack",
+      "num_detections": 6,
+      "distinct_frames": 4,
+      "center_xyz": [
+        2.118375460755019,
+        4.561842456332283,
+        -1.0202381106281693
+      ]
+    },
+    {
+      "index": 7,
+      "object_tag": null,
+      "class_name": "person",
+      "num_detections": 5,
+      "distinct_frames": 4,
+      "center_xyz": [
+        0.8200089963976093,
+        4.645948417165336,
+        -0.915467294094507
+      ]
+    },
+    {
+      "index": 8,
+      "object_tag": null,
+      "class_name": "closet wall",
+      "num_detections": 3,
+      "distinct_frames": 2,
+      "center_xyz": [
+        0.738440331348056,
+        6.2298541026735705,
+        -0.8744089494405778
+      ]
+    },
+    {
+      "index": 9,
+      "object_tag": null,
+      "class_name": "chair",
+      "num_detections": 2,
+      "distinct_frames": 2,
+      "center_xyz": [
+        2.45708474967418,
+        6.95821080044066,
+        -1.0932657255361642
+      ]
+    },
+    {
+      "index": 10,
+      "object_tag": null,
+      "class_name": "floor",
+      "num_detections": 3,
+      "distinct_frames": 3,
+      "center_xyz": [
+        2.552054592043838,
+        8.256611133232786,
+        -1.2276962690083837
+      ]
+    },
+    {
+      "index": 11,
+      "object_tag": null,
+      "class_name": "cart",
+      "num_detections": 4,
+      "distinct_frames": 4,
+      "center_xyz": [
+        4.804196523310589,
+        7.269733568755111,
+        -0.8209125751747539
+      ]
+    },
+    {
+      "index": 12,
+      "object_tag": null,
+      "class_name": "floor",
+      "num_detections": 2,
+      "distinct_frames": 2,
+      "center_xyz": [
+        4.384501775935863,
+        7.76649299102367,
+        -1.136043136770992
+      ]
+    },
+    {
+      "index": 13,
+      "object_tag": null,
+      "class_name": "box",
+      "num_detections": 3,
+      "distinct_frames": 2,
+      "center_xyz": [
+        5.184748585580631,
+        6.142266982163745,
+        -0.722063521012544
+      ]
+    },
+    {
+      "index": 14,
+      "object_tag": null,
+      "class_name": "storage bin",
+      "num_detections": 2,
+      "distinct_frames": 2,
+      "center_xyz": [
+        5.5538319852631854,
+        6.263528041282426,
+        -0.5784850952108996
+      ]
+    },
+    {
+      "index": 15,
+      "object_tag": null,
+      "class_name": "storage bin",
+      "num_detections": 2,
+      "distinct_frames": 2,
+      "center_xyz": [
+        5.115927708578391,
+        6.141375186463678,
+        -0.8353116977175619
+      ]
+    },
+    {
+      "index": 16,
+      "object_tag": null,
+      "class_name": "storage bin",
+      "num_detections": 3,
+      "distinct_frames": 3,
+      "center_xyz": [
+        5.12731776531967,
+        5.927218449292253,
+        -0.7327964332219411
+      ]
+    },
+    {
+      "index": 17,
+      "object_tag": null,
+      "class_name": "floor",
+      "num_detections": 4,
+      "distinct_frames": 4,
+      "center_xyz": [
+        4.35642575702004,
+        4.279639638434552,
+        -1.1035804860958232
+      ]
+    },
+    {
+      "index": 18,
+      "object_tag": null,
+      "class_name": "floor",
+      "num_detections": 2,
+      "distinct_frames": 2,
+      "center_xyz": [
+        4.431377346966869,
+        4.76367423180294,
+        -1.1477639525812429
+      ]
+    },
+    {
+      "index": 19,
+      "object_tag": null,
+      "class_name": "closet door",
+      "num_detections": 2,
+      "distinct_frames": 2,
+      "center_xyz": [
+        4.803359151693987,
+        3.671258075166924,
+        -0.5732806093787323
+      ]
+    },
+    {
+      "index": 20,
+      "object_tag": null,
+      "class_name": "cart",
+      "num_detections": 3,
+      "distinct_frames": 2,
+      "center_xyz": [
+        3.4307876152364516,
+        3.024003121613747,
+        -0.8649870435656803
+      ]
+    },
+    {
+      "index": 21,
+      "object_tag": null,
+      "class_name": "floor",
+      "num_detections": 2,
+      "distinct_frames": 2,
+      "center_xyz": [
+        3.4471697924034777,
+        3.121381328548915,
+        -1.1378227917939316
+      ]
+    },
+    {
+      "index": 22,
+      "object_tag": null,
+      "class_name": "chair",
+      "num_detections": 3,
+      "distinct_frames": 2,
+      "center_xyz": [
+        0.992120388091459,
+        4.262130864312789,
+        -1.202615376215305
+      ]
+    },
+    {
+      "index": 23,
+      "object_tag": null,
+      "class_name": "floor",
+      "num_detections": 3,
+      "distinct_frames": 3,
+      "center_xyz": [
+        0.8277458114362571,
+        0.6538299755282421,
+        -1.154592357326848
+      ]
+    },
+    {
+      "index": 24,
+      "object_tag": null,
+      "class_name": "desk",
+      "num_detections": 4,
+      "distinct_frames": 2,
+      "center_xyz": [
+        3.1064782057801006,
+        -2.266996002182515,
+        -0.5333918124021979
+      ]
+    }
+  ],
+  "class_names_count": 200
+}

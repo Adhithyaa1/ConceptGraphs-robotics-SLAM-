@@ -1,0 +1,14 @@
+{
+  "fx": 909.6206665039062,
+  "fy": 909.37451171875,
+  "cx": 648.3008422851562,
+  "cy": 367.41326904296875,
+  "width": 1280,
+  "height": 720,
+  "camera": "D435_color_optical",
+  "rgb_topic": "/D435/color/image_raw",
+  "depth_topic": "/D435/aligned_depth_to_color/image_raw",
+  "depth_scale": 1000.0,
+  "png_depth_scale": 1000.0,
+  "odom_source": "/home/vsman/bags/kiss_icp_lab_walk/kiss_icp_tum.txt"
+}

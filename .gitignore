@@ -1,0 +1,42 @@
+# Slurm / logs
+*.out
+*.err
+
+# Heavy raw images (keep on Lustre / local drive)
+**/results/
+**/color/
+**/depth/
+lab_walk_rgbd_raw/
+lab_walk_rgbd_raw_d435/
+
+# Regeneratable detection caches
+**/s_detections_*/
+**/detections/
+
+# Neural network weights (fetched separately)
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+
+# Caches
+**/.cache/
+**/__pycache__/
+*.pyc
+
+# Local environments
+.conda/
+env/
+venv/
+
+# IDE & System
+.DS_Store
+.cursor/
+.vscode/
+
+# Note: *.pkl.gz and *.ply are intentionally NOT ignored so map objects are preserved in git.

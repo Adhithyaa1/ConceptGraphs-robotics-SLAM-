@@ -1,0 +1,631 @@
+diff --git a/conceptgraph/hydra_configs/base_mapping.yaml b/conceptgraph/hydra_configs/base_mapping.yaml
+index a5a6c85..d306f13 100644
+--- a/conceptgraph/hydra_configs/base_mapping.yaml
++++ b/conceptgraph/hydra_configs/base_mapping.yaml
+@@ -61,6 +61,8 @@ dbscan_min_points: 10
+ # Selection criteria of the fused object point cloud
+ obj_min_points: 0
+ obj_min_detections: 3
++obj_min_distinct_frames: 1
++excluded_classes: []
+ 
+ # For merge_overlap_objects() function
+ merge_overlap_thresh: 0.7      # -1 means do not perform the merge_overlap_objects()
+diff --git a/conceptgraph/hydra_configs/base_paths.yaml b/conceptgraph/hydra_configs/base_paths.yaml
+index c77ed09..d3fde13 100644
+--- a/conceptgraph/hydra_configs/base_paths.yaml
++++ b/conceptgraph/hydra_configs/base_paths.yaml
+@@ -1,3 +1,3 @@
+ # Main paths
+-repo_root: /home/kuwajerw/repos/new_conceptgraphs/concept-graphs
+-data_root: /home/kuwajerw/new_local_data
+\ No newline at end of file
++repo_root: /lustre/nvwulf/home/admanoharan/concept-graphs
++data_root: /lustre/nvwulf/home/admanoharan/cg_data
+\ No newline at end of file
+diff --git a/conceptgraph/scripts/visualize_cfslam_results.py b/conceptgraph/scripts/visualize_cfslam_results.py
+index 0ad6c69..7bd6454 100644
+--- a/conceptgraph/scripts/visualize_cfslam_results.py
++++ b/conceptgraph/scripts/visualize_cfslam_results.py
+@@ -12,14 +12,12 @@ import os
+ import pickle
+ import gzip
+ import argparse
++from collections import Counter
+ 
+ import matplotlib
+ import numpy as np
+ import pandas as pd
+ import open3d as o3d
+-import torch
+-import torch.nn.functional as F
+-import open_clip
+ 
+ import distinctipy
+ 
+@@ -53,8 +51,8 @@ def get_parser():
+     parser.add_argument("--rgb_pcd_path", type=str, default=None)
+     parser.add_argument("--edge_file", type=str, default=None)
+     
+-    parser.add_argument("--no_clip", action="store_true", 
+-                        help="If set, the CLIP model will not init for fast debugging.")
++    parser.add_argument("--no_clip", action="store_true",
++                        help="Deprecated (CLIP text search removed). Kept for existing launch scripts.")
+     
+     # To inspect the results of merge_overlap_objects
+     # This is mainly to quickly try out different thresholds
+@@ -147,13 +145,6 @@ def main(args):
+ 
+             scene_graph_geometries.extend(line_mesh.cylinder_segments)
+     
+-    if not args.no_clip:
+-        print("Initializing CLIP model...")
+-        clip_model, _, clip_preprocess = open_clip.create_model_and_transforms("ViT-H-14", "laion2b_s32b_b79k")
+-        clip_model = clip_model.to("cuda")
+-        clip_tokenizer = open_clip.get_tokenizer("ViT-H-14")
+-        print("Done initializing CLIP model.")
+-
+     cmap = matplotlib.colormaps.get_cmap("turbo")
+     
+     if bg_objects is not None:
+@@ -276,52 +267,42 @@ def main(args):
+         for pcd in pcds:
+             vis.update_geometry(pcd)
+         
+-    def color_by_clip_sim(vis):
+-        if args.no_clip:
+-            print("CLIP model is not initialized.")
++    def _print_detected_classes():
++        counts = Counter(str(o["class_name"]) for o in objects)
++        print("Detected classes in map:")
++        for name, n in sorted(counts.items(), key=lambda x: x[0].lower()):
++            print(f"  {name} ({n})")
++
++    def highlight_by_class(vis):
++        _print_detected_classes()
++        query = input("Enter class name: ").strip().lower()
++        if not query:
++            print("Empty query.")
+             return
+ 
+-        text_query = input("Enter your query: ")
+-        text_queries = [text_query]
+-        
+-        text_queries_tokenized = clip_tokenizer(text_queries).to("cuda")
+-        text_query_ft = clip_model.encode_text(text_queries_tokenized)
+-        text_query_ft = text_query_ft / text_query_ft.norm(dim=-1, keepdim=True)
+-        text_query_ft = text_query_ft.squeeze()
+-        
+-        # similarities = objects.compute_similarities(text_query_ft)
+-        objects_clip_fts = objects.get_stacked_values_torch("clip_ft")
+-        objects_clip_fts = objects_clip_fts.to("cuda")
+-        similarities = F.cosine_similarity(
+-            text_query_ft.unsqueeze(0), objects_clip_fts, dim=-1
+-        )
+-        max_value = similarities.max()
+-        min_value = similarities.min()
+-        normalized_similarities = (similarities - min_value) / (max_value - min_value)
+-        probs = F.softmax(similarities, dim=0)
+-        max_prob_idx = torch.argmax(probs)
+-        similarity_colors = cmap(normalized_similarities.detach().cpu().numpy())[..., :3]
+-
+-        max_prob_object = objects[max_prob_idx]
+-        print(f"Most probable object is at index {max_prob_idx} with class name '{max_prob_object['class_name']}'")
+-        print(f"location xyz: {max_prob_object['bbox'].center}")
+-        
+-        for i in range(len(objects)):
+-            pcd = pcds[i]
+-            map_colors = np.asarray(pcd.colors)
++        matches = [
++            i for i, o in enumerate(objects)
++            if str(o["class_name"]).strip().lower() == query
++        ]
++        if not matches:
++            print(f"No instances of '{query}'.")
++            return
++
++        highlight = np.array([1.0, 0.15, 0.15])
++        dim = np.array([0.55, 0.55, 0.55])
++        match_set = set(matches)
++        for i, pcd in enumerate(pcds):
++            color = highlight if i in match_set else dim
+             pcd.colors = o3d.utility.Vector3dVector(
+-                np.tile(
+-                    [
+-                        similarity_colors[i, 0].item(),
+-                        similarity_colors[i, 1].item(),
+-                        similarity_colors[i, 2].item()
+-                    ], 
+-                    (len(pcd.points), 1)
+-                )
++                np.tile(color, (len(pcd.points), 1))
+             )
+ 
+         for pcd in pcds:
+             vis.update_geometry(pcd)
++
++        print(f"{len(matches)} instance(s) of '{query}':")
++        for i in matches:
++            print(f"  index {i}  class '{objects[i]['class_name']}'  xyz {objects[i]['bbox'].center}")
+             
+     def save_view_params(vis):
+         param = vis.get_view_control().convert_to_pinhole_camera_parameters()
+@@ -331,7 +312,7 @@ def main(args):
+     vis.register_key_callback(ord("S"), toggle_global_pcd)
+     vis.register_key_callback(ord("C"), color_by_class)
+     vis.register_key_callback(ord("R"), color_by_rgb)
+-    vis.register_key_callback(ord("F"), color_by_clip_sim)
++    vis.register_key_callback(ord("F"), highlight_by_class)
+     vis.register_key_callback(ord("I"), color_by_instance)
+     vis.register_key_callback(ord("V"), save_view_params)
+     vis.register_key_callback(ord("G"), toggle_scene_graph)
+diff --git a/conceptgraph/slam/rerun_realtime_mapping.py b/conceptgraph/slam/rerun_realtime_mapping.py
+index a23733b..66f2f44 100644
+--- a/conceptgraph/slam/rerun_realtime_mapping.py
++++ b/conceptgraph/slam/rerun_realtime_mapping.py
+@@ -174,7 +174,7 @@ def main(cfg : DictConfig):
+ 
+         ## Initialize the detection models
+         detection_model = measure_time(YOLO)('yolov8l-world.pt')
+-        sam_predictor = SAM('sam_l.pt') # SAM('mobile_sam.pt') # UltraLytics SAM
++        sam_predictor = SAM('mobile_sam.pt') # UltraLytics MobileSAM (Phase C default)
+         # sam_predictor = measure_time(get_sam_predictor)(cfg) # Normal SAM
+         clip_model, _, clip_preprocess = open_clip.create_model_and_transforms(
+             "ViT-H-14", "laion2b_s32b_b79k"
+@@ -188,6 +188,8 @@ def main(cfg : DictConfig):
+         print("\n".join(["NOT Running detections..."] * 10))
+ 
+     openai_client = get_openai_client()
++    if cfg.make_edges and openai_client is None:
++        raise RuntimeError("make_edges=True requires OPENAI_API_KEY")
+ 
+     save_hydra_config(cfg, exp_out_path)
+     save_hydra_config(detections_exp_cfg, exp_out_path, is_detection_config=True)
+@@ -235,82 +237,85 @@ def main(cfg : DictConfig):
+         vis_save_path_for_vlm_edges = get_vlm_annotated_image_path(det_exp_vis_path, color_path, w_edges=True)
+         
+         if run_detections:
+-            results = None
+-            # opencv can't read Path objects...
+-            image = cv2.imread(str(color_path)) # This will in BGR color space
+-            image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+-
+-            # Do initial object detection
+-            results = detection_model.predict(color_path, conf=0.1, verbose=False)
+-            confidences = results[0].boxes.conf.cpu().numpy()
+-            detection_class_ids = results[0].boxes.cls.cpu().numpy().astype(int)
+-            detection_class_labels = [f"{obj_classes.get_classes_arr()[class_id]} {class_idx}" for class_idx, class_id in enumerate(detection_class_ids)]
+-            xyxy_tensor = results[0].boxes.xyxy
+-            xyxy_np = xyxy_tensor.cpu().numpy()
+-
+-            # if there are detections,
+-            # Get Masks Using SAM or MobileSAM
+-            # UltraLytics SAM
+-            if xyxy_tensor.numel() != 0:
+-                sam_out = sam_predictor.predict(color_path, bboxes=xyxy_tensor, verbose=False)
+-                masks_tensor = sam_out[0].masks.data
+-
+-                masks_np = masks_tensor.cpu().numpy()
++            det_cache_base = det_exp_pkl_path / color_path.stem
++            if cfg.save_detections and det_cache_base.exists():
++                raw_gobs = load_saved_detections(det_cache_base)
+             else:
+-                masks_np = np.empty((0, *color_tensor.shape[:2]), dtype=np.float64)
+-
+-            # Create a detections object that we will save later
+-            curr_det = sv.Detections(
+-                xyxy=xyxy_np,
+-                confidence=confidences,
+-                class_id=detection_class_ids,
+-                mask=masks_np,
+-            )
+-            
+-            # Make the edges
+-            labels, edges, edge_image, captions = make_vlm_edges_and_captions(image, curr_det, obj_classes, detection_class_labels, det_exp_vis_path, color_path, cfg.make_edges, openai_client)
+-
+-            image_crops, image_feats, text_feats = compute_clip_features_batched(
+-                image_rgb, curr_det, clip_model, clip_preprocess, clip_tokenizer, obj_classes.get_classes_arr(), cfg.device)
+-
+-            # increment total object detections
+-            tracker.increment_total_detections(len(curr_det.xyxy))
+-
+-            # Save results
+-            # Convert the detections to a dict. The elements are in np.array
+-            results = {
+-                # add new uuid for each detection 
+-                "xyxy": curr_det.xyxy,
+-                "confidence": curr_det.confidence,
+-                "class_id": curr_det.class_id,
+-                "mask": curr_det.mask,
+-                "classes": obj_classes.get_classes_arr(),
+-                "image_crops": image_crops,
+-                "image_feats": image_feats,
+-                "text_feats": text_feats,
+-                "detection_class_labels": detection_class_labels,
+-                "labels": labels,
+-                "edges": edges,
+-                "captions": captions,
+-            }
+-
+-            raw_gobs = results
+-
+-            # save the detections if needed
+-            if cfg.save_detections:
+-
+-                vis_save_path = (det_exp_vis_path / color_path.name).with_suffix(".jpg")
+-                # Visualize and save the annotated image
+-                annotated_image, labels = vis_result_fast(image, curr_det, obj_classes.get_classes_arr())
+-                cv2.imwrite(str(vis_save_path), annotated_image)
+-
+-                depth_image_rgb = cv2.normalize(depth_array, None, 0, 255, cv2.NORM_MINMAX)
+-                depth_image_rgb = depth_image_rgb.astype(np.uint8)
+-                depth_image_rgb = cv2.cvtColor(depth_image_rgb, cv2.COLOR_GRAY2BGR)
+-                annotated_depth_image, labels = vis_result_fast_on_depth(depth_image_rgb, curr_det, obj_classes.get_classes_arr())
+-                cv2.imwrite(str(vis_save_path).replace(".jpg", "_depth.jpg"), annotated_depth_image)
+-                cv2.imwrite(str(vis_save_path).replace(".jpg", "_depth_only.jpg"), depth_image_rgb)
+-                save_detection_results(det_exp_pkl_path / vis_save_path.stem, results)
++                # opencv can't read Path objects...
++                image = cv2.imread(str(color_path)) # This will in BGR color space
++                image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
++
++                # Do initial object detection
++                results = detection_model.predict(color_path, conf=0.1, verbose=False)
++                confidences = results[0].boxes.conf.cpu().numpy()
++                detection_class_ids = results[0].boxes.cls.cpu().numpy().astype(int)
++                detection_class_labels = [f"{obj_classes.get_classes_arr()[class_id]} {class_idx}" for class_idx, class_id in enumerate(detection_class_ids)]
++                xyxy_tensor = results[0].boxes.xyxy
++                xyxy_np = xyxy_tensor.cpu().numpy()
++
++                # if there are detections,
++                # Get Masks Using SAM or MobileSAM
++                # UltraLytics SAM
++                if xyxy_tensor.numel() != 0:
++                    sam_out = sam_predictor.predict(color_path, bboxes=xyxy_tensor, verbose=False)
++                    masks_tensor = sam_out[0].masks.data
++
++                    masks_np = masks_tensor.cpu().numpy()
++                else:
++                    masks_np = np.empty((0, *color_tensor.shape[:2]), dtype=np.float64)
++
++                # Create a detections object that we will save later
++                curr_det = sv.Detections(
++                    xyxy=xyxy_np,
++                    confidence=confidences,
++                    class_id=detection_class_ids,
++                    mask=masks_np,
++                )
++
++                # Make the edges
++                labels, edges, edge_image, captions = make_vlm_edges_and_captions(image, curr_det, obj_classes, detection_class_labels, det_exp_vis_path, color_path, cfg.make_edges, openai_client)
++
++                image_crops, image_feats, text_feats = compute_clip_features_batched(
++                    image_rgb, curr_det, clip_model, clip_preprocess, clip_tokenizer, obj_classes.get_classes_arr(), cfg.device)
++
++                # increment total object detections
++                tracker.increment_total_detections(len(curr_det.xyxy))
++
++                # Save results
++                # Convert the detections to a dict. The elements are in np.array
++                results = {
++                    # add new uuid for each detection
++                    "xyxy": curr_det.xyxy,
++                    "confidence": curr_det.confidence,
++                    "class_id": curr_det.class_id,
++                    "mask": curr_det.mask,
++                    "classes": obj_classes.get_classes_arr(),
++                    "image_crops": image_crops,
++                    "image_feats": image_feats,
++                    "text_feats": text_feats,
++                    "detection_class_labels": detection_class_labels,
++                    "labels": labels,
++                    "edges": edges,
++                    "captions": captions,
++                }
++
++                raw_gobs = results
++
++                # save the detections if needed
++                if cfg.save_detections:
++
++                    vis_save_path = (det_exp_vis_path / color_path.name).with_suffix(".jpg")
++                    # Visualize and save the annotated image
++                    annotated_image, labels = vis_result_fast(image, curr_det, obj_classes.get_classes_arr())
++                    cv2.imwrite(str(vis_save_path), annotated_image)
++
++                    depth_image_rgb = cv2.normalize(depth_array, None, 0, 255, cv2.NORM_MINMAX)
++                    depth_image_rgb = depth_image_rgb.astype(np.uint8)
++                    depth_image_rgb = cv2.cvtColor(depth_image_rgb, cv2.COLOR_GRAY2BGR)
++                    annotated_depth_image, labels = vis_result_fast_on_depth(depth_image_rgb, curr_det, obj_classes.get_classes_arr())
++                    cv2.imwrite(str(vis_save_path).replace(".jpg", "_depth.jpg"), annotated_depth_image)
++                    cv2.imwrite(str(vis_save_path).replace(".jpg", "_depth_only.jpg"), depth_image_rgb)
++                    save_detection_results(det_exp_pkl_path / vis_save_path.stem, results)
+         else:
+             # Support current and old saving formats
+             if os.path.exists(det_exp_pkl_path / color_path.stem):
+@@ -491,10 +496,12 @@ def main(cfg : DictConfig):
+             is_final_frame,
+         ):
+             objects = filter_objects(
+-                obj_min_points=cfg['obj_min_points'], 
+-                obj_min_detections=cfg['obj_min_detections'], 
++                obj_min_points=cfg.get('obj_min_points', 0), 
++                obj_min_detections=cfg.get('obj_min_detections', 1), 
+                 objects=objects,
+-                map_edges=map_edges
++                map_edges=map_edges,
++                obj_min_distinct_frames=cfg.get('obj_min_distinct_frames', 1),
++                excluded_classes=cfg.get('excluded_classes', None)
+             )
+ 
+         # Merging
+@@ -583,11 +590,18 @@ def main(cfg : DictConfig):
+                 })
+     # LOOP OVER -----------------------------------------------------
+     
+-    # Consolidate captions 
+-    for object in objects:
+-        obj_captions = object['captions'][:20]
+-        consolidated_caption = consolidate_captions(openai_client, obj_captions)
+-        object['consolidated_caption'] = consolidated_caption
++    # Consolidate captions (skipped when make_edges is off / no OpenAI key)
++    if cfg.make_edges and os.getenv("OPENAI_API_KEY"):
++        for object in objects:
++            obj_captions = object.get("captions") or []
++            if not obj_captions:
++                object["consolidated_caption"] = ""
++                continue
++            consolidated_caption = consolidate_captions(openai_client, obj_captions[:20])
++            object["consolidated_caption"] = consolidated_caption
++    else:
++        for object in objects:
++            object["consolidated_caption"] = ""
+ 
+     handle_rerun_saving(cfg.use_rerun, cfg.save_rerun, cfg.exp_suffix, exp_out_path)
+ 
+diff --git a/conceptgraph/slam/utils.py b/conceptgraph/slam/utils.py
+index a20121b..dab76ea 100644
+--- a/conceptgraph/slam/utils.py
++++ b/conceptgraph/slam/utils.py
+@@ -693,21 +693,65 @@ def denoise_objects(
+ 
+ # @profile
+ def filter_objects(
+-    obj_min_points: int, 
+-    obj_min_detections: int, 
+-    objects: MapObjectList, 
+-    map_edges: MapEdgeMapping = None
++    obj_min_points: int = 0, 
++    obj_min_detections: int = 1, 
++    objects: MapObjectList = None, 
++    map_edges: MapEdgeMapping = None,
++    obj_min_distinct_frames: int = 1,
++    excluded_classes: list = None,
++    **kwargs
+ ):
++    # Handle cfg passed as first argument (legacy calls like filter_objects(cfg, objects))
++    if not isinstance(obj_min_points, (int, float)):
++        cfg = obj_min_points
++        if objects is None and obj_min_detections is not None:
++            objects = obj_min_detections
++        obj_min_points = getattr(cfg, "obj_min_points", 0) if hasattr(cfg, "obj_min_points") else (cfg.get("obj_min_points", 0) if hasattr(cfg, "get") else 0)
++        obj_min_detections = getattr(cfg, "obj_min_detections", 1) if hasattr(cfg, "obj_min_detections") else (cfg.get("obj_min_detections", 1) if hasattr(cfg, "get") else 1)
++        if hasattr(cfg, "obj_min_distinct_frames"):
++            obj_min_distinct_frames = getattr(cfg, "obj_min_distinct_frames")
++        elif hasattr(cfg, "get"):
++            obj_min_distinct_frames = cfg.get("obj_min_distinct_frames", obj_min_distinct_frames)
++        if hasattr(cfg, "excluded_classes"):
++            excluded_classes = getattr(cfg, "excluded_classes")
++        elif hasattr(cfg, "get"):
++            excluded_classes = cfg.get("excluded_classes", excluded_classes)
++
++    excluded_classes_set = set()
++    if excluded_classes is not None:
++        excluded_classes_set = {str(c).lower().strip() for c in excluded_classes}
++
+     print("Before filtering:", len(objects))
+     objects_to_keep = []
+     new_index_map = {}  # Maps old indices to new indices if edges are provided
+ 
+     # Identify which objects to keep
+     for index, obj in enumerate(objects):
+-        if len(obj["pcd"].points) >= obj_min_points and obj["num_detections"] >= obj_min_detections:
++        cname = str(obj.get("class_name", "")).lower().strip()
++        if cname in excluded_classes_set:
++            print(f"Filtering out excluded class: '{cname}' (index {index})")
++            continue
++
++        if "pcd" in obj and hasattr(obj["pcd"], "points"):
++            num_pts = len(obj["pcd"].points)
++        elif "pcd_np" in obj:
++            num_pts = len(obj["pcd_np"])
++        else:
++            num_pts = obj.get("n_points", 0)
++
++        num_dets = obj.get("num_detections", 0)
++        image_idx = obj.get("image_idx", [])
++        distinct_frames = len(set(image_idx)) if len(image_idx) > 0 else num_dets
++
++        if (num_pts >= obj_min_points and 
++            num_dets >= obj_min_detections and 
++            distinct_frames >= obj_min_distinct_frames):
+             objects_to_keep.append(obj)
+             if map_edges is not None:
+                 new_index_map[index] = len(objects_to_keep) - 1
++        else:
++            if distinct_frames < obj_min_distinct_frames:
++                print(f"Filtering out object '{cname}' (index {index}): distinct_frames={distinct_frames} < {obj_min_distinct_frames}")
+ 
+     # Create a new MapObjectList from the kept objects
+     new_objects = MapObjectList(objects_to_keep)
+@@ -735,9 +779,9 @@ def merge_objects(
+     map_edges = None,
+ ):
+     if len(objects) == 0:
+-        return objects
++        return objects, map_edges
+     if merge_overlap_thresh <= 0:
+-        return objects
++        return objects, map_edges
+ 
+     # Assuming compute_overlap_matrix requires only `objects` and `downsample_voxel_size`
+     overlap_matrix = compute_overlap_matrix_general(
+@@ -790,10 +834,7 @@ def merge_objects(
+         
+         # now update all the edge indices using the index_updates, how?
+ 
+-    if do_edges:
+-        return objects, map_edges
+-    else:
+-        return objects
++    return objects, map_edges
+     
+ def filter_captions(captions, detection_class_labels):
+     # Create a dictionary to map id to the index in the captions list
+diff --git a/conceptgraph/utils/general_utils.py b/conceptgraph/utils/general_utils.py
+index e5fe50a..a8759d7 100644
+--- a/conceptgraph/utils/general_utils.py
++++ b/conceptgraph/utils/general_utils.py
+@@ -384,6 +384,16 @@ def filter_detections(
+         if keep:
+             filtered_detections.append(current_det)
+ 
++    if not filtered_detections:
++        h, w = image.shape[:2]
++        empty = sv.Detections(
++            xyxy=np.empty((0, 4), dtype=np.float32),
++            confidence=np.empty((0,), dtype=np.float32),
++            class_id=np.empty((0,), dtype=np.int64),
++            mask=np.empty((0, h, w), dtype=np.bool_),
++        )
++        return empty, []
++
+     # Unzip the filtered results
+     confidences, class_ids, xyxy, masks, indices = zip(*filtered_detections)
+     filtered_labels = [given_labels[i] for i in indices]
+@@ -444,6 +454,7 @@ def make_vlm_edges_and_captions(image, curr_det, obj_classes, detection_class_la
+     
+     edges = []
+     edge_image = None
++    captions = []
+     if make_edges_flag:
+         vis_save_path_for_vlm = get_vlm_annotated_image_path(det_exp_vis_path, color_path)
+         vis_save_path_for_vlm_edges = get_vlm_annotated_image_path(det_exp_vis_path, color_path, w_edges=True)
+diff --git a/conceptgraph/utils/model_utils.py b/conceptgraph/utils/model_utils.py
+index 024fa3c..c8b3077 100644
+--- a/conceptgraph/utils/model_utils.py
++++ b/conceptgraph/utils/model_utils.py
+@@ -133,6 +133,9 @@ def compute_clip_features(image, detections, clip_model, clip_preprocess, clip_t
+ def compute_clip_features_batched(image, detections, clip_model, clip_preprocess, clip_tokenizer, classes, device):
+     
+     image = Image.fromarray(image)
++    if len(detections.xyxy) == 0:
++        return [], np.empty((0, 0), dtype=np.float32), []
++
+     padding = 20  # Adjust the padding amount as needed
+     
+     image_crops = []
+diff --git a/conceptgraph/utils/vis.py b/conceptgraph/utils/vis.py
+index a1483b3..1ccd20b 100644
+--- a/conceptgraph/utils/vis.py
++++ b/conceptgraph/utils/vis.py
+@@ -202,7 +202,7 @@ def vis_result_fast_on_depth(
+     depth_image: np.ndarray, 
+     detections: sv.Detections, 
+     classes: list[str], 
+-    color: Color | ColorPalette = ColorPalette.default(), 
++    color: Color | ColorPalette = ColorPalette.DEFAULT, 
+     instance_random_color: bool = False,
+     draw_bbox: bool = True,
+ ) -> np.ndarray:
+@@ -212,6 +212,10 @@ def vis_result_fast_on_depth(
+     '''
+     # annotate image with detections
+     box_annotator = sv.BoxAnnotator(
++        color = color,
++        thickness=1,
++    )
++    label_annotator = sv.LabelAnnotator(
+         color = color,
+         text_scale=0.3,
+         text_thickness=1,
+@@ -245,7 +249,8 @@ def vis_result_fast_on_depth(
+     annotated_image = mask_annotator.annotate(scene=depth_image.copy(), detections=detections)
+     
+     if draw_bbox:
+-        annotated_image = box_annotator.annotate(scene=annotated_image, detections=detections, labels=labels)
++        annotated_image = box_annotator.annotate(scene=annotated_image, detections=detections)
++        annotated_image = label_annotator.annotate(scene=annotated_image, detections=detections, labels=labels)
+     return annotated_image, labels
+ 
+ 
+@@ -324,7 +329,11 @@ class CustomBoxAnnotator(sv.BoxAnnotator):
+         labels: List[str] = None,
+         save_path: str | None = None,
+     ):
+-        super().__init__(color, thickness, text_color, text_scale, text_thickness, text_padding)
++        super().__init__(color=color, thickness=thickness)
++        self.text_color = text_color
++        self.text_scale = text_scale
++        self.text_thickness = text_thickness
++        self.text_padding = text_padding
+         self.label_mask = None
+         self.save_path = save_path
+         if self.save_path is not None:
+@@ -462,7 +471,7 @@ def vis_result_for_vlm(
+     image: np.ndarray, 
+     detections: sv.Detections, 
+     labels: list[str], 
+-    color: Color | ColorPalette = ColorPalette.default(), 
++    color: Color | ColorPalette = ColorPalette.DEFAULT, 
+     draw_bbox: bool = True,
+     thickness: int = 2,
+     text_scale: float = 0.3,
+@@ -497,7 +506,7 @@ def vis_result_fast(
+     image: np.ndarray, 
+     detections: sv.Detections, 
+     classes: list[str], 
+-    color: Color | ColorPalette = ColorPalette.default(), 
++    color: Color | ColorPalette = ColorPalette.DEFAULT, 
+     instance_random_color: bool = False,
+     draw_bbox: bool = True,
+ ) -> np.ndarray:
+@@ -507,6 +516,10 @@ def vis_result_fast(
+     '''
+     # annotate image with detections
+     box_annotator = sv.BoxAnnotator(
++        color = color,
++        thickness=1,
++    )
++    label_annotator = sv.LabelAnnotator(
+         color = color,
+         text_scale=0.3,
+         text_thickness=1,
+@@ -539,7 +552,8 @@ def vis_result_fast(
+     annotated_image = mask_annotator.annotate(scene=image.copy(), detections=detections)
+     
+     if draw_bbox:
+-        annotated_image = box_annotator.annotate(scene=annotated_image, detections=detections, labels=labels)
++        annotated_image = box_annotator.annotate(scene=annotated_image, detections=detections)
++        annotated_image = label_annotator.annotate(scene=annotated_image, detections=detections, labels=labels)
+     return annotated_image, labels
+ 
+ def vis_result_slow_caption(image, masks, boxes_filt, pred_phrases, caption, text_prompt):
+diff --git a/conceptgraph/utils/vlm.py b/conceptgraph/utils/vlm.py
+index a5dd538..05946fa 100644
+--- a/conceptgraph/utils/vlm.py
++++ b/conceptgraph/utils/vlm.py
+@@ -103,10 +103,10 @@ system_prompt = system_prompt_only_top
+ gpt_model = "gpt-4o-2024-05-13"
+ 
+ def get_openai_client():
+-    client = OpenAI(
+-        api_key=os.getenv('OPENAI_API_KEY')
+-    )
+-    return client
++    api_key = os.getenv("OPENAI_API_KEY")
++    if not api_key:
++        return None
++    return OpenAI(api_key=api_key)
+ 
+ # Function to encode the image as base64
+ def encode_image_for_openai(image_path: str, resize = False, target_size: int=512):

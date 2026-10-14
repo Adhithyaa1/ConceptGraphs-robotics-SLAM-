@@ -1,0 +1,38 @@
+{
+  "bag": "/lustre/nvwulf/home/admanoharan/lab_walk_7526_wd455_semantics",
+  "out": "/lustre/nvwulf/home/admanoharan/cg_data/lab_walk/lab_walk_rgbd_raw",
+  "topics": {
+    "color": "/D455/color/image_raw",
+    "depth": "/D455/aligned_depth_to_color/image_raw",
+    "camera_info": "/D455/aligned_depth_to_color/camera_info"
+  },
+  "n_color_msgs": 1531,
+  "n_depth_msgs": 975,
+  "n_pairs_written": 975,
+  "skipped_sync": 0,
+  "skipped_duration": 0,
+  "stride": 1,
+  "max_dt_ms": 30.0,
+  "max_duration": null,
+  "cam_params": {
+    "fx": 385.7361145019531,
+    "fy": 385.2418212890625,
+    "cx": 310.2564392089844,
+    "cy": 237.36386108398438,
+    "width": 640,
+    "height": 480,
+    "depth_scale": 1000.0,
+    "png_depth_scale": 1000.0
+  },
+  "orientation_fix": "rotate RGB+depth 180; update cx,cy",
+  "cam_params_before_rotate": {
+    "fx": 385.7361145019531,
+    "fy": 385.2418212890625,
+    "cx": 328.7435607910156,
+    "cy": 241.63613891601562,
+    "width": 640,
+    "height": 480,
+    "depth_scale": 1000.0,
+    "png_depth_scale": 1000.0
+  }
+}
