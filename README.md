@@ -104,24 +104,7 @@ Both 3D maps exist directly in this repository:
 
 ---
 
-## 3. Uploading to GitHub
-
-Once downloaded to your local machine:
-
-```bash
-cd lab_walk_conceptgraphs
-git init -b main
-git add .
-git commit -m "feat: lab_walk conceptgraphs pipeline with D455 and D435 3D maps"
-git remote add origin git@github.com:<YOUR_USERNAME>/<YOUR_REPO>.git
-git push -u origin main
-```
-
-*(Total repo size is ~55 MB, well within GitHub's 100 MB per-file and per-push constraints).*
-
----
-
-## 4. Re-Running on a Cluster
+## 3. Re-Running on a Cluster
 
 1. Copy the Hydra YAML configs into your ConceptGraphs clone:
    ```bash
