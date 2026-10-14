@@ -1,3 +1,6 @@
+# ConceptGraphs-robotics-SLAM-
+This is an implementation of [concept graph](https://github.com/concept-graphs/concept-graphs) on a custom robotics dataset to create 3D maps that can be queried for object locations.
+
 # lab_walk_conceptgraphs
 
 Portable snapshot of the **KISS-ICP + Multi-Camera (D455 + D435) → ConceptGraphs** 3D semantic mapping pipeline for the `lab_walk` dataset.
