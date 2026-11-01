@@ -1,0 +1,413 @@
+{
+ "frames": 150,
+ "px": {
+  "painted": 26817709,
+  "hit_gaussian": 26811801,
+  "depth_ok": 13615793
+ },
+ "evaluated_px": 13615793,
+ "pixel_labeled_frac": 0.9866813486368367,
+ "accuracy_over_labeled": 0.9398026670092685,
+ "accuracy_over_all": 0.9272857629372009,
+ "mean_iou_over_classes": 0.5073809901600123,
+ "per_class": {
+  "backpack": {
+   "truth_px": 5188,
+   "recall_of_all": 0.9117193523515805,
+   "labeled_frac": 0.9886276021588281,
+   "recall_of_labeled": 0.9222070579060245,
+   "precision": 0.8592188919164396,
+   "iou": 0.7932248868019454,
+   "confused_with": [
+    "couch"
+   ]
+  },
+  "banner": {
+   "truth_px": 11794,
+   "recall_of_all": 0.649313210106834,
+   "labeled_frac": 0.9192809903340682,
+   "recall_of_labeled": 0.7063272458955913,
+   "precision": 0.979534407776925,
+   "iou": 0.6406223858122804,
+   "confused_with": [
+    "window"
+   ]
+  },
+  "bench": {
+   "truth_px": 124138,
+   "recall_of_all": 0.2155101580499122,
+   "labeled_frac": 0.9937730590149673,
+   "recall_of_labeled": 0.21686053580837353,
+   "precision": 0.7983348751156337,
+   "iou": 0.20438363280772523,
+   "confused_with": [
+    "couch"
+   ]
+  },
+  "bookshelf": {
+   "truth_px": 40170,
+   "recall_of_all": 0.1664924072691063,
+   "labeled_frac": 0.8297485685835201,
+   "recall_of_labeled": 0.20065404578320484,
+   "precision": 0.5998744281998386,
+   "iou": 0.14985100042571306,
+   "confused_with": [
+    "window",
+    "wall"
+   ]
+  },
+  "box": {
+   "truth_px": 77214,
+   "recall_of_all": 0.8868339938353148,
+   "labeled_frac": 0.9909860906053306,
+   "recall_of_labeled": 0.894900546276693,
+   "precision": 0.8290574489981234,
+   "iou": 0.7497399625546078,
+   "confused_with": [
+    "couch",
+    "reception desk"
+   ]
+  },
+  "bulletin board": {
+   "truth_px": 42405,
+   "recall_of_all": 0.33392288645206936,
+   "labeled_frac": 0.525386157292772,
+   "recall_of_labeled": 0.6355761030566902,
+   "precision": 0.5905659590440839,
+   "iou": 0.271150090000383,
+   "confused_with": [
+    "window",
+    "wall"
+   ]
+  },
+  "cabinet": {
+   "truth_px": 67277,
+   "recall_of_all": 0.2788174264607518,
+   "labeled_frac": 0.9273302911842086,
+   "recall_of_labeled": 0.3006667948964544,
+   "precision": 0.6541814884564414,
+   "iou": 0.24300130840879355,
+   "confused_with": [
+    "vending machine",
+    "floor"
+   ]
+  },
+  "ceiling": {
+   "truth_px": 449047,
+   "recall_of_all": 0.9895489781693231,
+   "labeled_frac": 0.9986437945248493,
+   "recall_of_labeled": 0.9908928324539847,
+   "precision": 0.9815140825626266,
+   "iou": 0.9714439372474947,
+   "confused_with": []
+  },
+  "ceiling light": {
+   "truth_px": 3205,
+   "recall_of_all": 0.6046801872074883,
+   "labeled_frac": 0.9351014040561623,
+   "recall_of_labeled": 0.6466466466466466,
+   "precision": 0.579372197309417,
+   "iou": 0.4202081526452732,
+   "confused_with": [
+    "ceiling"
+   ]
+  },
+  "chair": {
+   "truth_px": 47467,
+   "recall_of_all": 0.2779193966334506,
+   "labeled_frac": 0.9863273432068596,
+   "recall_of_labeled": 0.28177196804647786,
+   "precision": 0.8228542914171657,
+   "iou": 0.2622299083626533,
+   "confused_with": [
+    "couch"
+   ]
+  },
+  "column": {
+   "truth_px": 2056,
+   "recall_of_all": 0.9892996108949417,
+   "labeled_frac": 1.0,
+   "recall_of_labeled": 0.9892996108949417,
+   "precision": 0.9084412684234033,
+   "iou": 0.8996019460415745,
+   "confused_with": []
+  },
+  "couch": {
+   "truth_px": 1324722,
+   "recall_of_all": 0.9840162690738132,
+   "labeled_frac": 0.99719110877603,
+   "recall_of_labeled": 0.9867880493655947,
+   "precision": 0.8831063604350401,
+   "iou": 0.8706176850102988,
+   "confused_with": []
+  },
+  "curtain": {
+   "truth_px": 1588,
+   "recall_of_all": 0.327455919395466,
+   "labeled_frac": 0.4464735516372796,
+   "recall_of_labeled": 0.7334273624823695,
+   "precision": 0.6146572104018913,
+   "iou": 0.2716823406478579,
+   "confused_with": [
+    "chair"
+   ]
+  },
+  "desk": {
+   "truth_px": 778,
+   "recall_of_all": 0.0,
+   "labeled_frac": 1.0,
+   "recall_of_labeled": 0.0,
+   "precision": 0.0,
+   "iou": 0.0,
+   "confused_with": [
+    "window"
+   ]
+  },
+  "display screen": {
+   "truth_px": 1677,
+   "recall_of_all": 0.0,
+   "labeled_frac": 0.7811568276684556,
+   "recall_of_labeled": 0.0,
+   "precision": 0.0,
+   "iou": 0.0,
+   "confused_with": [
+    "window"
+   ]
+  },
+  "door": {
+   "truth_px": 788501,
+   "recall_of_all": 0.7175273081454557,
+   "labeled_frac": 0.9785009784388352,
+   "recall_of_labeled": 0.7332923767641459,
+   "precision": 0.8857582560720917,
+   "iou": 0.6567491456483786,
+   "confused_with": [
+    "wall"
+   ]
+  },
+  "exit sign": {
+   "truth_px": 1281,
+   "recall_of_all": 0.6268540202966433,
+   "labeled_frac": 0.9929742388758782,
+   "recall_of_labeled": 0.6312893081761006,
+   "precision": 0.7758454106280194,
+   "iou": 0.5307336417713153,
+   "confused_with": [
+    "ceiling",
+    "wall"
+   ]
+  },
+  "floor": {
+   "truth_px": 6759701,
+   "recall_of_all": 0.9972059415054009,
+   "labeled_frac": 0.9999062088692976,
+   "recall_of_labeled": 0.9972994793512181,
+   "precision": 0.9980287610776698,
+   "iou": 0.9952456919112094,
+   "confused_with": []
+  },
+  "glass door": {
+   "truth_px": 24835,
+   "recall_of_all": 0.03535333199114153,
+   "labeled_frac": 0.8775115764042681,
+   "recall_of_labeled": 0.04028816592483825,
+   "precision": 0.6990445859872612,
+   "iou": 0.034823305437671044,
+   "confused_with": [
+    "window",
+    "bookshelf"
+   ]
+  },
+  "handrail": {
+   "truth_px": 4783,
+   "recall_of_all": 0.7420029270332428,
+   "labeled_frac": 1.0,
+   "recall_of_labeled": 0.7420029270332428,
+   "precision": 0.7656957928802589,
+   "iou": 0.6047026750724144,
+   "confused_with": [
+    "door"
+   ]
+  },
+  "lamp": {
+   "truth_px": 4649,
+   "recall_of_all": 0.5768982576898257,
+   "labeled_frac": 0.8591094859109486,
+   "recall_of_labeled": 0.671507260891337,
+   "precision": 0.7776167004928964,
+   "iou": 0.4951994091580502,
+   "confused_with": [
+    "wall",
+    "ceiling"
+   ]
+  },
+  "light switch": {
+   "truth_px": 2326,
+   "recall_of_all": 0.6754084264832331,
+   "labeled_frac": 0.9935511607910577,
+   "recall_of_labeled": 0.6797922977066205,
+   "precision": 0.7491654744873629,
+   "iou": 0.5508415147265077,
+   "confused_with": [
+    "wall",
+    "door"
+   ]
+  },
+  "plant": {
+   "truth_px": 8159,
+   "recall_of_all": 0.8840544184336315,
+   "labeled_frac": 0.9924010295379335,
+   "recall_of_labeled": 0.8908237618871186,
+   "precision": 0.8583839105081519,
+   "iou": 0.7715263664563055,
+   "confused_with": [
+    "wall",
+    "couch"
+   ]
+  },
+  "poster": {
+   "truth_px": 191169,
+   "recall_of_all": 0.514638879734685,
+   "labeled_frac": 0.8209908510271017,
+   "recall_of_labeled": 0.6268509315187196,
+   "precision": 0.8247587750551192,
+   "iou": 0.46391101177424754,
+   "confused_with": [
+    "window",
+    "wall"
+   ]
+  },
+  "radiator": {
+   "truth_px": 5356,
+   "recall_of_all": 0.012882748319641523,
+   "labeled_frac": 1.0,
+   "recall_of_labeled": 0.012882748319641523,
+   "precision": 0.9078947368421053,
+   "iou": 0.01286593324631736,
+   "confused_with": [
+    "poster"
+   ]
+  },
+  "reception desk": {
+   "truth_px": 27641,
+   "recall_of_all": 0.5114865598205565,
+   "labeled_frac": 0.9182374009623385,
+   "recall_of_labeled": 0.5570308498483117,
+   "precision": 0.7680773618732004,
+   "iou": 0.4430586023190223,
+   "confused_with": [
+    "couch",
+    "floor"
+   ]
+  },
+  "recycling bin": {
+   "truth_px": 21978,
+   "recall_of_all": 0.026026026026026026,
+   "labeled_frac": 0.9947674947674948,
+   "recall_of_labeled": 0.026162923660979737,
+   "precision": 0.8614457831325302,
+   "iou": 0.02591753511554146,
+   "confused_with": [
+    "trash can",
+    "box"
+   ]
+  },
+  "shelf": {
+   "truth_px": 1237,
+   "recall_of_all": 0.018593371059013743,
+   "labeled_frac": 0.7607113985448666,
+   "recall_of_labeled": 0.024442082890541977,
+   "precision": 0.6571428571428571,
+   "iou": 0.018414731785428344,
+   "confused_with": [
+    "cabinet",
+    "vending machine",
+    "wall"
+   ]
+  },
+  "sign": {
+   "truth_px": 660,
+   "recall_of_all": 0.9954545454545455,
+   "labeled_frac": 1.0,
+   "recall_of_labeled": 0.9954545454545455,
+   "precision": 1.0,
+   "iou": 0.9954545454545455,
+   "confused_with": []
+  },
+  "stool": {
+   "truth_px": 11503,
+   "recall_of_all": 0.00017386768669042858,
+   "labeled_frac": 0.98782926193167,
+   "recall_of_labeled": 0.00017600985655196692,
+   "precision": 0.6666666666666666,
+   "iou": 0.00017385257301808066,
+   "confused_with": [
+    "couch",
+    "floor"
+   ]
+  },
+  "trash can": {
+   "truth_px": 72637,
+   "recall_of_all": 0.987210374877817,
+   "labeled_frac": 0.9994355493756626,
+   "recall_of_labeled": 0.9877679210975812,
+   "precision": 0.8545008222312257,
+   "iou": 0.8451447900338256,
+   "confused_with": []
+  },
+  "tv": {
+   "truth_px": 16279,
+   "recall_of_all": 0.9453897659561398,
+   "labeled_frac": 0.9912156766386142,
+   "recall_of_labeled": 0.9537679722359941,
+   "precision": 0.8940397350993378,
+   "iou": 0.8501353366845275,
+   "confused_with": [
+    "window"
+   ]
+  },
+  "vending machine": {
+   "truth_px": 257541,
+   "recall_of_all": 0.9475656303268217,
+   "labeled_frac": 0.9759649919818592,
+   "recall_of_labeled": 0.9709012496469082,
+   "precision": 0.8478717823106562,
+   "iou": 0.8098743225797888,
+   "confused_with": [
+    "cabinet"
+   ]
+  },
+  "vent": {
+   "truth_px": 5068,
+   "recall_of_all": 0.994869771112865,
+   "labeled_frac": 1.0,
+   "recall_of_labeled": 0.994869771112865,
+   "precision": 0.9324949140003699,
+   "iou": 0.9280323946254372,
+   "confused_with": []
+  },
+  "wall": {
+   "truth_px": 2717951,
+   "recall_of_all": 0.9282717017341372,
+   "labeled_frac": 0.9842822773478992,
+   "recall_of_labeled": 0.9430950074965488,
+   "precision": 0.9143158550095545,
+   "iou": 0.853982089709859,
+   "confused_with": [
+    "window"
+   ]
+  },
+  "window": {
+   "truth_px": 493032,
+   "recall_of_all": 0.8443873825634036,
+   "labeled_frac": 0.9329435006247059,
+   "recall_of_labeled": 0.905078798445989,
+   "precision": 0.714252626269385,
+   "iou": 0.6311715129104297,
+   "confused_with": [
+    "wall",
+    "door"
+   ]
+  }
+ }
+}

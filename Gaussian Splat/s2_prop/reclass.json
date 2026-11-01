@@ -1,0 +1,7360 @@
+[
+ {
+  "instance": 0,
+  "voted": "backpack",
+  "n_gaussians": 1439,
+  "p_voted": 0.9947618842124939,
+  "clip_top": [
+   [
+    "backpack",
+    0.995
+   ],
+   [
+    "chair",
+    0.004
+   ],
+   [
+    "couch",
+    0.001
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.3021312199200794,
+   0.236158223763393,
+   0.02097507971368588
+  ]
+ },
+ {
+  "instance": 1,
+  "voted": "banner",
+  "n_gaussians": 57,
+  "p_voted": 0.0002724184305407107,
+  "clip_top": [
+   [
+    "sign",
+    0.773
+   ],
+   [
+    "stairs",
+    0.102
+   ],
+   [
+    "elevator",
+    0.09
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.14100750114606775,
+   -0.20674292484055395,
+   0.07547098705949991
+  ]
+ },
+ {
+  "instance": 2,
+  "voted": "banner",
+  "n_gaussians": 459,
+  "p_voted": 0.0003261863312218338,
+  "clip_top": [
+   [
+    "sign",
+    0.804
+   ],
+   [
+    "elevator",
+    0.09
+   ],
+   [
+    "stairs",
+    0.072
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.10629135265182225,
+   -0.1429875441086598,
+   0.05477985327060406
+  ]
+ },
+ {
+  "instance": 3,
+  "voted": "banner",
+  "n_gaussians": 110,
+  "p_voted": 0.04789021238684654,
+  "clip_top": [
+   [
+    "sign",
+    0.891
+   ],
+   [
+    "banner",
+    0.048
+   ],
+   [
+    "poster",
+    0.029
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.12849703945574306,
+   0.29911285922640846,
+   0.05483902449763957
+  ]
+ },
+ {
+  "instance": 4,
+  "voted": "banner",
+  "n_gaussians": 87,
+  "p_voted": 0.00022499174519907683,
+  "clip_top": [
+   [
+    "sign",
+    0.875
+   ],
+   [
+    "door",
+    0.099
+   ],
+   [
+    "exit sign",
+    0.011
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.07118600185798563,
+   0.33099930247534876,
+   0.0584241087022035
+  ]
+ },
+ {
+  "instance": 5,
+  "voted": "banner",
+  "n_gaussians": 9,
+  "p_voted": 0.9723526835441589,
+  "clip_top": [
+   [
+    "banner",
+    0.972
+   ],
+   [
+    "bulletin board",
+    0.006
+   ],
+   [
+    "ceiling",
+    0.005
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.29546933703952366,
+   0.04415168199274275,
+   0.08098034974601534
+  ]
+ },
+ {
+  "instance": 6,
+  "voted": "banner",
+  "n_gaussians": 35,
+  "p_voted": 0.00022993091261014342,
+  "clip_top": [
+   [
+    "sign",
+    0.876
+   ],
+   [
+    "door",
+    0.098
+   ],
+   [
+    "exit sign",
+    0.011
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.06341167017817498,
+   0.23666464941842216,
+   0.025587131029793195
+  ]
+ },
+ {
+  "instance": 7,
+  "voted": "banner",
+  "n_gaussians": 8,
+  "p_voted": 0.934858500957489,
+  "clip_top": [
+   [
+    "banner",
+    0.935
+   ],
+   [
+    "logo",
+    0.049
+   ],
+   [
+    "sign",
+    0.006
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.010820828145369887,
+   0.22963784635066986,
+   0.07838137168437243
+  ]
+ },
+ {
+  "instance": 8,
+  "voted": "bench",
+  "n_gaussians": 2345,
+  "p_voted": 0.3160003423690796,
+  "clip_top": [
+   [
+    "couch",
+    0.333
+   ],
+   [
+    "bench",
+    0.316
+   ],
+   [
+    "counter",
+    0.076
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.13534556869307213,
+   -0.05237533225439248,
+   -0.005261430667445471
+  ]
+ },
+ {
+  "instance": 9,
+  "voted": "bench",
+  "n_gaussians": 1396,
+  "p_voted": 0.08256394416093826,
+  "clip_top": [
+   [
+    "reception desk",
+    0.177
+   ],
+   [
+    "box",
+    0.176
+   ],
+   [
+    "counter",
+    0.163
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.2219422964261508,
+   0.29763403291406193,
+   -0.002846861924997003
+  ]
+ },
+ {
+  "instance": 10,
+  "voted": "bookshelf",
+  "n_gaussians": 232,
+  "p_voted": 5.445501665235497e-05,
+  "clip_top": [
+   [
+    "window",
+    0.985
+   ],
+   [
+    "display screen",
+    0.008
+   ],
+   [
+    "bulletin board",
+    0.004
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.2608164141018843,
+   0.025659521834940874,
+   0.06920759407161124
+  ]
+ },
+ {
+  "instance": 11,
+  "voted": "bookshelf",
+  "n_gaussians": 1198,
+  "p_voted": 0.000992423389106989,
+  "clip_top": [
+   [
+    "window",
+    0.979
+   ],
+   [
+    "shelf",
+    0.017
+   ],
+   [
+    "bulletin board",
+    0.002
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.30397758095432786,
+   0.1476745793012945,
+   0.0679522858104377
+  ]
+ },
+ {
+  "instance": 12,
+  "voted": "bookshelf",
+  "n_gaussians": 7,
+  "p_voted": 0.0016726567409932613,
+  "clip_top": [
+   [
+    "window",
+    0.964
+   ],
+   [
+    "shelf",
+    0.029
+   ],
+   [
+    "bulletin board",
+    0.003
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.3556159479277475,
+   0.15277558352266038,
+   0.10634205171040126
+  ]
+ },
+ {
+  "instance": 13,
+  "voted": "box",
+  "n_gaussians": 81,
+  "p_voted": 0.8135290741920471,
+  "clip_top": [
+   [
+    "box",
+    0.814
+   ],
+   [
+    "fire alarm",
+    0.062
+   ],
+   [
+    "shelf",
+    0.034
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.2783300659538787,
+   -0.052394015461574364,
+   0.05411148278249635
+  ]
+ },
+ {
+  "instance": 14,
+  "voted": "box",
+  "n_gaussians": 1977,
+  "p_voted": 0.9999854564666748,
+  "clip_top": [
+   [
+    "box",
+    1.0
+   ],
+   [
+    "shelf",
+    0.0
+   ],
+   [
+    "pillar",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.33481944247144757,
+   0.04091908332459512,
+   -0.0005424262226841617
+  ]
+ },
+ {
+  "instance": 15,
+  "voted": "box",
+  "n_gaussians": 229,
+  "p_voted": 0.9999809265136719,
+  "clip_top": [
+   [
+    "box",
+    1.0
+   ],
+   [
+    "shelf",
+    0.0
+   ],
+   [
+    "recycling bin",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.4487605455375853,
+   0.11822374754008792,
+   0.02656093548451151
+  ]
+ },
+ {
+  "instance": 16,
+  "voted": "box",
+  "n_gaussians": 23,
+  "p_voted": 0.9999717473983765,
+  "clip_top": [
+   [
+    "box",
+    1.0
+   ],
+   [
+    "shelf",
+    0.0
+   ],
+   [
+    "couch",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.2563425089631762,
+   0.02492976720843996,
+   0.021814879961311817
+  ]
+ },
+ {
+  "instance": 17,
+  "voted": "box",
+  "n_gaussians": 4,
+  "p_voted": 0.9999736547470093,
+  "clip_top": [
+   [
+    "box",
+    1.0
+   ],
+   [
+    "shelf",
+    0.0
+   ],
+   [
+    "recycling bin",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.4012265279889107,
+   0.11243290267884731,
+   0.03612400405108929
+  ]
+ },
+ {
+  "instance": 18,
+  "voted": "box",
+  "n_gaussians": 6,
+  "p_voted": 0.99997878074646,
+  "clip_top": [
+   [
+    "box",
+    1.0
+   ],
+   [
+    "shelf",
+    0.0
+   ],
+   [
+    "recycling bin",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.2302137166261673,
+   -0.029879354871809483,
+   0.002756968062991897
+  ]
+ },
+ {
+  "instance": 19,
+  "voted": "box",
+  "n_gaussians": 14,
+  "p_voted": 0.9999837875366211,
+  "clip_top": [
+   [
+    "box",
+    1.0
+   ],
+   [
+    "pillar",
+    0.0
+   ],
+   [
+    "column",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.17743344285658427,
+   -0.020187465607055595,
+   -0.008445394591295294
+  ]
+ },
+ {
+  "instance": 20,
+  "voted": "box",
+  "n_gaussians": 4,
+  "p_voted": 0.9922067523002625,
+  "clip_top": [
+   [
+    "box",
+    0.992
+   ],
+   [
+    "fire alarm",
+    0.005
+   ],
+   [
+    "wall",
+    0.001
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.10189167596399784,
+   -0.07955729030072689,
+   0.02016338985413313
+  ]
+ },
+ {
+  "instance": 21,
+  "voted": "box",
+  "n_gaussians": 14,
+  "p_voted": 0.9999774694442749,
+  "clip_top": [
+   [
+    "box",
+    1.0
+   ],
+   [
+    "shelf",
+    0.0
+   ],
+   [
+    "floor",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.6444998582204183,
+   0.1762110268076261,
+   -0.0052525746820416925
+  ]
+ },
+ {
+  "instance": 22,
+  "voted": "bulletin board",
+  "n_gaussians": 1605,
+  "p_voted": 0.43617692589759827,
+  "clip_top": [
+   [
+    "poster",
+    0.533
+   ],
+   [
+    "bulletin board",
+    0.436
+   ],
+   [
+    "window",
+    0.017
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.025813163161935024,
+   0.12692667220480852,
+   0.07527264807152902
+  ]
+ },
+ {
+  "instance": 23,
+  "voted": "bulletin board",
+  "n_gaussians": 32,
+  "p_voted": 0.6193431615829468,
+  "clip_top": [
+   [
+    "bulletin board",
+    0.619
+   ],
+   [
+    "poster",
+    0.3
+   ],
+   [
+    "window",
+    0.066
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.15875891037285328,
+   0.10720892995595932,
+   0.026652415341231972
+  ]
+ },
+ {
+  "instance": 24,
+  "voted": "bulletin board",
+  "n_gaussians": 14,
+  "p_voted": 0.6193431615829468,
+  "clip_top": [
+   [
+    "bulletin board",
+    0.619
+   ],
+   [
+    "poster",
+    0.3
+   ],
+   [
+    "window",
+    0.066
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.04177948047540018,
+   0.1026957498065063,
+   0.06616494591747012
+  ]
+ },
+ {
+  "instance": 25,
+  "voted": "cabinet",
+  "n_gaussians": 1008,
+  "p_voted": 0.9195435047149658,
+  "clip_top": [
+   [
+    "cabinet",
+    0.92
+   ],
+   [
+    "monitor",
+    0.038
+   ],
+   [
+    "box",
+    0.027
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.03552479897583877,
+   -0.21928789888645386,
+   0.01022627667993725
+  ]
+ },
+ {
+  "instance": 26,
+  "voted": "cabinet",
+  "n_gaussians": 36,
+  "p_voted": 0.8300641775131226,
+  "clip_top": [
+   [
+    "cabinet",
+    0.83
+   ],
+   [
+    "monitor",
+    0.095
+   ],
+   [
+    "box",
+    0.037
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.11668518144223425,
+   -0.13952887348002857,
+   0.0028108402022755602
+  ]
+ },
+ {
+  "instance": 27,
+  "voted": "cabinet",
+  "n_gaussians": 33,
+  "p_voted": 0.8160579204559326,
+  "clip_top": [
+   [
+    "cabinet",
+    0.816
+   ],
+   [
+    "monitor",
+    0.104
+   ],
+   [
+    "box",
+    0.037
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.04117708472591458,
+   -0.07100000367923216,
+   -0.00597681527759767
+  ]
+ },
+ {
+  "instance": 28,
+  "voted": "cabinet",
+  "n_gaussians": 17,
+  "p_voted": 0.028411533683538437,
+  "clip_top": [
+   [
+    "elevator",
+    0.274
+   ],
+   [
+    "door",
+    0.271
+   ],
+   [
+    "pillar",
+    0.199
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.0581578391001505,
+   -0.00038957281675025383,
+   0.0066210578319014
+  ]
+ },
+ {
+  "instance": 29,
+  "voted": "cabinet",
+  "n_gaussians": 102,
+  "p_voted": 0.6316922903060913,
+  "clip_top": [
+   [
+    "cabinet",
+    0.632
+   ],
+   [
+    "box",
+    0.15
+   ],
+   [
+    "column",
+    0.071
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.05217909502486388,
+   0.09605123762351771,
+   -0.0016077790197641662
+  ]
+ },
+ {
+  "instance": 30,
+  "voted": "cabinet",
+  "n_gaussians": 26,
+  "p_voted": 0.858267068862915,
+  "clip_top": [
+   [
+    "cabinet",
+    0.858
+   ],
+   [
+    "monitor",
+    0.074
+   ],
+   [
+    "box",
+    0.032
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.012068139442887444,
+   -0.010405832325012363,
+   -0.00176670224562678
+  ]
+ },
+ {
+  "instance": 31,
+  "voted": "cabinet",
+  "n_gaussians": 6,
+  "p_voted": 0.028411533683538437,
+  "clip_top": [
+   [
+    "elevator",
+    0.274
+   ],
+   [
+    "door",
+    0.271
+   ],
+   [
+    "pillar",
+    0.199
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.055976773922642074,
+   0.06163212594886621,
+   -0.009584612833956877
+  ]
+ },
+ {
+  "instance": 32,
+  "voted": "ceiling",
+  "n_gaussians": 56136,
+  "p_voted": 0.9542466998100281,
+  "clip_top": [
+   [
+    "ceiling",
+    0.954
+   ],
+   [
+    "ceiling light",
+    0.041
+   ],
+   [
+    "vent",
+    0.003
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.22846221080831058,
+   -0.1099790812036587,
+   0.0705406236150068
+  ]
+ },
+ {
+  "instance": 33,
+  "voted": "ceiling",
+  "n_gaussians": 419,
+  "p_voted": 0.9809539318084717,
+  "clip_top": [
+   [
+    "ceiling",
+    0.981
+   ],
+   [
+    "ceiling light",
+    0.005
+   ],
+   [
+    "vent",
+    0.004
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.2913683501727273,
+   0.18813801353627985,
+   0.009729807354781652
+  ]
+ },
+ {
+  "instance": 34,
+  "voted": "ceiling",
+  "n_gaussians": 1012,
+  "p_voted": 7.933455890452024e-06,
+  "clip_top": [
+   [
+    "exit sign",
+    0.974
+   ],
+   [
+    "fire alarm",
+    0.015
+   ],
+   [
+    "logo",
+    0.005
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.15569965177919806,
+   0.2427479821007426,
+   0.09574150221376884
+  ]
+ },
+ {
+  "instance": 35,
+  "voted": "ceiling",
+  "n_gaussians": 30,
+  "p_voted": 0.973272442817688,
+  "clip_top": [
+   [
+    "ceiling",
+    0.973
+   ],
+   [
+    "vent",
+    0.013
+   ],
+   [
+    "ceiling light",
+    0.005
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.26959777962077747,
+   -0.24770844253626736,
+   0.19782739064910196
+  ]
+ },
+ {
+  "instance": 36,
+  "voted": "ceiling",
+  "n_gaussians": 1606,
+  "p_voted": 0.855042576789856,
+  "clip_top": [
+   [
+    "ceiling",
+    0.855
+   ],
+   [
+    "vent",
+    0.116
+   ],
+   [
+    "ceiling light",
+    0.027
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.07196073706648154,
+   0.21964033055520488,
+   0.018126898001924248
+  ]
+ },
+ {
+  "instance": 37,
+  "voted": "ceiling light",
+  "n_gaussians": 5,
+  "p_voted": 0.004912703298032284,
+  "clip_top": [
+   [
+    "shelf",
+    0.404
+   ],
+   [
+    "banner",
+    0.124
+   ],
+   [
+    "logo",
+    0.117
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.005576460203155875,
+   -0.11525367796421052,
+   0.07077598422765732
+  ]
+ },
+ {
+  "instance": 38,
+  "voted": "ceiling light",
+  "n_gaussians": 526,
+  "p_voted": 0.00776743795722723,
+  "clip_top": [
+   [
+    "banner",
+    0.327
+   ],
+   [
+    "monitor",
+    0.172
+   ],
+   [
+    "display screen",
+    0.161
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.06255017012131936,
+   -0.33291351319016177,
+   0.08443256358798214
+  ]
+ },
+ {
+  "instance": 39,
+  "voted": "ceiling light",
+  "n_gaussians": 69,
+  "p_voted": 0.07979641854763031,
+  "clip_top": [
+   [
+    "banner",
+    0.31
+   ],
+   [
+    "logo",
+    0.303
+   ],
+   [
+    "handrail",
+    0.114
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.39779213070869446,
+   0.03543140667898115,
+   0.1463349685072899
+  ]
+ },
+ {
+  "instance": 40,
+  "voted": "ceiling light",
+  "n_gaussians": 195,
+  "p_voted": 0.06627899408340454,
+  "clip_top": [
+   [
+    "banner",
+    0.266
+   ],
+   [
+    "lamp",
+    0.181
+   ],
+   [
+    "handrail",
+    0.176
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.0820050719154983,
+   -0.4576294031463751,
+   0.07739620593165149
+  ]
+ },
+ {
+  "instance": 41,
+  "voted": "ceiling light",
+  "n_gaussians": 74,
+  "p_voted": 0.4349086582660675,
+  "clip_top": [
+   [
+    "ceiling light",
+    0.435
+   ],
+   [
+    "handrail",
+    0.294
+   ],
+   [
+    "lamp",
+    0.206
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.15829465981270816,
+   -0.09175978449953569,
+   0.08947096231418687
+  ]
+ },
+ {
+  "instance": 42,
+  "voted": "ceiling light",
+  "n_gaussians": 23,
+  "p_voted": 0.15561647713184357,
+  "clip_top": [
+   [
+    "banner",
+    0.382
+   ],
+   [
+    "handrail",
+    0.203
+   ],
+   [
+    "ceiling light",
+    0.156
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.3938906205737073,
+   0.002539954629078831,
+   0.05769032061747883
+  ]
+ },
+ {
+  "instance": 43,
+  "voted": "ceiling light",
+  "n_gaussians": 10,
+  "p_voted": 0.004912699572741985,
+  "clip_top": [
+   [
+    "shelf",
+    0.404
+   ],
+   [
+    "banner",
+    0.124
+   ],
+   [
+    "logo",
+    0.117
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.050668907910585405,
+   -0.2125626713037491,
+   0.10673896297812462
+  ]
+ },
+ {
+  "instance": 44,
+  "voted": "ceiling light",
+  "n_gaussians": 874,
+  "p_voted": 0.6031128764152527,
+  "clip_top": [
+   [
+    "ceiling light",
+    0.603
+   ],
+   [
+    "banner",
+    0.151
+   ],
+   [
+    "logo",
+    0.089
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.2246808509179322,
+   -0.03503408590856752,
+   0.0810404532431495
+  ]
+ },
+ {
+  "instance": 45,
+  "voted": "ceiling light",
+  "n_gaussians": 297,
+  "p_voted": 0.32735565304756165,
+  "clip_top": [
+   [
+    "ceiling light",
+    0.327
+   ],
+   [
+    "logo",
+    0.246
+   ],
+   [
+    "banner",
+    0.146
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.43511373456567526,
+   0.030748019073923518,
+   0.08886669875521745
+  ]
+ },
+ {
+  "instance": 46,
+  "voted": "ceiling light",
+  "n_gaussians": 155,
+  "p_voted": 0.00492407800629735,
+  "clip_top": [
+   [
+    "counter",
+    0.198
+   ],
+   [
+    "shelf",
+    0.141
+   ],
+   [
+    "monitor",
+    0.124
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.26050834487827995,
+   -0.033292849755121603,
+   0.04720071605628445
+  ]
+ },
+ {
+  "instance": 47,
+  "voted": "ceiling light",
+  "n_gaussians": 63,
+  "p_voted": 0.5162646770477295,
+  "clip_top": [
+   [
+    "ceiling light",
+    0.516
+   ],
+   [
+    "lamp",
+    0.157
+   ],
+   [
+    "handrail",
+    0.136
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.8465013201274569,
+   0.13945361593412975,
+   0.07970848159184532
+  ]
+ },
+ {
+  "instance": 48,
+  "voted": "ceiling light",
+  "n_gaussians": 139,
+  "p_voted": 0.15561635792255402,
+  "clip_top": [
+   [
+    "banner",
+    0.382
+   ],
+   [
+    "handrail",
+    0.203
+   ],
+   [
+    "ceiling light",
+    0.156
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.33455585194106147,
+   -0.013949118102762368,
+   0.035598373132767064
+  ]
+ },
+ {
+  "instance": 49,
+  "voted": "ceiling light",
+  "n_gaussians": 5,
+  "p_voted": 0.004912699572741985,
+  "clip_top": [
+   [
+    "shelf",
+    0.404
+   ],
+   [
+    "banner",
+    0.124
+   ],
+   [
+    "logo",
+    0.117
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.04004244357347488,
+   -0.15770640075206757,
+   0.09009284675121307
+  ]
+ },
+ {
+  "instance": 50,
+  "voted": "ceiling light",
+  "n_gaussians": 21,
+  "p_voted": 0.0018116183346137404,
+  "clip_top": [
+   [
+    "column",
+    0.215
+   ],
+   [
+    "banner",
+    0.174
+   ],
+   [
+    "monitor",
+    0.088
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.09061438803161893,
+   -0.4218619721276419,
+   0.11320791145165761
+  ]
+ },
+ {
+  "instance": 51,
+  "voted": "ceiling light",
+  "n_gaussians": 27,
+  "p_voted": 0.006273695267736912,
+  "clip_top": [
+   [
+    "banner",
+    0.289
+   ],
+   [
+    "display screen",
+    0.215
+   ],
+   [
+    "monitor",
+    0.162
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.06543050968536625,
+   -0.45263376390492477,
+   0.12304388924881264
+  ]
+ },
+ {
+  "instance": 52,
+  "voted": "chair",
+  "n_gaussians": 1023,
+  "p_voted": 0.000624369306024164,
+  "clip_top": [
+   [
+    "monitor",
+    0.924
+   ],
+   [
+    "box",
+    0.026
+   ],
+   [
+    "counter",
+    0.025
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.21083072333396236,
+   -0.08064192108531988,
+   0.008294754071125048
+  ]
+ },
+ {
+  "instance": 53,
+  "voted": "chair",
+  "n_gaussians": 335,
+  "p_voted": 0.1880786418914795,
+  "clip_top": [
+   [
+    "couch",
+    0.795
+   ],
+   [
+    "chair",
+    0.188
+   ],
+   [
+    "bench",
+    0.015
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.05103014219941488,
+   -0.0709800225696457,
+   -0.007173458603558256
+  ]
+ },
+ {
+  "instance": 54,
+  "voted": "chair",
+  "n_gaussians": 548,
+  "p_voted": 0.011858951300382614,
+  "clip_top": [
+   [
+    "column",
+    0.228
+   ],
+   [
+    "pillar",
+    0.207
+   ],
+   [
+    "shelf",
+    0.175
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.2853535445836874,
+   0.2656791552901268,
+   -0.0007884011374979029
+  ]
+ },
+ {
+  "instance": 55,
+  "voted": "chair",
+  "n_gaussians": 182,
+  "p_voted": 0.8869982957839966,
+  "clip_top": [
+   [
+    "chair",
+    0.887
+   ],
+   [
+    "couch",
+    0.063
+   ],
+   [
+    "bench",
+    0.039
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.1550385179919201,
+   0.1589965263565818,
+   0.010192695888051006
+  ]
+ },
+ {
+  "instance": 56,
+  "voted": "chair",
+  "n_gaussians": 9,
+  "p_voted": 0.11996805667877197,
+  "clip_top": [
+   [
+    "couch",
+    0.861
+   ],
+   [
+    "chair",
+    0.12
+   ],
+   [
+    "bench",
+    0.018
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.18675203124682108,
+   0.30270403292444015,
+   0.006103606027964916
+  ]
+ },
+ {
+  "instance": 57,
+  "voted": "chair",
+  "n_gaussians": 23,
+  "p_voted": 0.0005363178206607699,
+  "clip_top": [
+   [
+    "monitor",
+    0.876
+   ],
+   [
+    "box",
+    0.05
+   ],
+   [
+    "counter",
+    0.048
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.05163607114683027,
+   0.08786162021367447,
+   0.07136952715075534
+  ]
+ },
+ {
+  "instance": 58,
+  "voted": "chair",
+  "n_gaussians": 5,
+  "p_voted": 0.0005363160744309425,
+  "clip_top": [
+   [
+    "monitor",
+    0.876
+   ],
+   [
+    "box",
+    0.05
+   ],
+   [
+    "counter",
+    0.048
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.061984582990407947,
+   0.12995228469371795,
+   0.07983928918838501
+  ]
+ },
+ {
+  "instance": 59,
+  "voted": "chair",
+  "n_gaussians": 33,
+  "p_voted": 0.8578894734382629,
+  "clip_top": [
+   [
+    "chair",
+    0.858
+   ],
+   [
+    "couch",
+    0.097
+   ],
+   [
+    "bench",
+    0.039
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.09648864942066597,
+   0.09199982136487961,
+   -0.008280035319992086
+  ]
+ },
+ {
+  "instance": 60,
+  "voted": "chair",
+  "n_gaussians": 208,
+  "p_voted": 0.08217249810695648,
+  "clip_top": [
+   [
+    "couch",
+    0.902
+   ],
+   [
+    "chair",
+    0.082
+   ],
+   [
+    "bench",
+    0.015
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.06597822297436114,
+   -0.016741583612726502,
+   9.51365775344689e-05
+  ]
+ },
+ {
+  "instance": 61,
+  "voted": "chair",
+  "n_gaussians": 21,
+  "p_voted": 0.4269694685935974,
+  "clip_top": [
+   [
+    "couch",
+    0.533
+   ],
+   [
+    "chair",
+    0.427
+   ],
+   [
+    "stool",
+    0.027
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.25362935804185416,
+   0.06314368989496004,
+   -0.00519391291752635
+  ]
+ },
+ {
+  "instance": 62,
+  "voted": "chair",
+  "n_gaussians": 29,
+  "p_voted": 0.06982913613319397,
+  "clip_top": [
+   [
+    "bench",
+    0.2
+   ],
+   [
+    "column",
+    0.173
+   ],
+   [
+    "pillar",
+    0.166
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.24057825269370242,
+   0.21124554297019696,
+   -0.002139915552859371
+  ]
+ },
+ {
+  "instance": 63,
+  "voted": "chair",
+  "n_gaussians": 35,
+  "p_voted": 0.9922168254852295,
+  "clip_top": [
+   [
+    "chair",
+    0.992
+   ],
+   [
+    "couch",
+    0.003
+   ],
+   [
+    "stool",
+    0.003
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.3288071015301873,
+   -0.011265929610304096,
+   -0.0022565833839026336
+  ]
+ },
+ {
+  "instance": 64,
+  "voted": "chair",
+  "n_gaussians": 52,
+  "p_voted": 0.0005363160744309425,
+  "clip_top": [
+   [
+    "monitor",
+    0.876
+   ],
+   [
+    "box",
+    0.05
+   ],
+   [
+    "counter",
+    0.048
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.08427001020083061,
+   0.2284736679150508,
+   0.10900677396700932
+  ]
+ },
+ {
+  "instance": 65,
+  "voted": "chair",
+  "n_gaussians": 4,
+  "p_voted": 0.9909631609916687,
+  "clip_top": [
+   [
+    "chair",
+    0.991
+   ],
+   [
+    "couch",
+    0.003
+   ],
+   [
+    "stool",
+    0.003
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.17253722250461578,
+   -0.020709089236333966,
+   -0.009838945465162396
+  ]
+ },
+ {
+  "instance": 66,
+  "voted": "chair",
+  "n_gaussians": 6,
+  "p_voted": 0.9805842638015747,
+  "clip_top": [
+   [
+    "chair",
+    0.981
+   ],
+   [
+    "floor",
+    0.007
+   ],
+   [
+    "stool",
+    0.006
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.4051780054966609,
+   0.011204844728733102,
+   -0.002873140930508574
+  ]
+ },
+ {
+  "instance": 67,
+  "voted": "chair",
+  "n_gaussians": 9,
+  "p_voted": 6.708290243295778e-07,
+  "clip_top": [
+   [
+    "logo",
+    0.939
+   ],
+   [
+    "banner",
+    0.03
+   ],
+   [
+    "sign",
+    0.025
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.07249213755130768,
+   0.2712087233861287,
+   0.013999617141154077
+  ]
+ },
+ {
+  "instance": 68,
+  "voted": "chair",
+  "n_gaussians": 5,
+  "p_voted": 0.9195950031280518,
+  "clip_top": [
+   [
+    "chair",
+    0.92
+   ],
+   [
+    "couch",
+    0.042
+   ],
+   [
+    "bench",
+    0.031
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.06899661123752594,
+   0.06910914778709412,
+   0.005497543420642614
+  ]
+ },
+ {
+  "instance": 69,
+  "voted": "chair",
+  "n_gaussians": 6,
+  "p_voted": 0.0005363160744309425,
+  "clip_top": [
+   [
+    "monitor",
+    0.876
+   ],
+   [
+    "box",
+    0.05
+   ],
+   [
+    "counter",
+    0.048
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.12424369777242343,
+   -0.021668824056784313,
+   0.042612956215937935
+  ]
+ },
+ {
+  "instance": 70,
+  "voted": "chair",
+  "n_gaussians": 5,
+  "p_voted": 0.0014298722380772233,
+  "clip_top": [
+   [
+    "box",
+    0.987
+   ],
+   [
+    "pillar",
+    0.003
+   ],
+   [
+    "trash can",
+    0.002
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.37631710767745974,
+   0.01738275494426489,
+   -0.008052721247076988
+  ]
+ },
+ {
+  "instance": 71,
+  "voted": "clock",
+  "n_gaussians": 8,
+  "p_voted": 0.015382167883217335,
+  "clip_top": [
+   [
+    "vent",
+    0.965
+   ],
+   [
+    "clock",
+    0.015
+   ],
+   [
+    "column",
+    0.005
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.5637029632925987,
+   0.12814629450440407,
+   0.06955955037847161
+  ]
+ },
+ {
+  "instance": 72,
+  "voted": "clock",
+  "n_gaussians": 38,
+  "p_voted": 0.015853438526391983,
+  "clip_top": [
+   [
+    "vent",
+    0.964
+   ],
+   [
+    "clock",
+    0.016
+   ],
+   [
+    "column",
+    0.005
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.6085034844122434,
+   0.15150973553720273,
+   0.07594390860513638
+  ]
+ },
+ {
+  "instance": 73,
+  "voted": "clock",
+  "n_gaussians": 5,
+  "p_voted": 0.002041923813521862,
+  "clip_top": [
+   [
+    "monitor",
+    0.203
+   ],
+   [
+    "vent",
+    0.147
+   ],
+   [
+    "logo",
+    0.115
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.015407045371830463,
+   0.1769485056400299,
+   0.046185878664255144
+  ]
+ },
+ {
+  "instance": 74,
+  "voted": "column",
+  "n_gaussians": 1990,
+  "p_voted": 0.2493244856595993,
+  "clip_top": [
+   [
+    "pillar",
+    0.747
+   ],
+   [
+    "column",
+    0.249
+   ],
+   [
+    "window",
+    0.002
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.033779235972433146,
+   0.3068748058486975,
+   0.03245425664296966
+  ]
+ },
+ {
+  "instance": 75,
+  "voted": "column",
+  "n_gaussians": 226,
+  "p_voted": 0.1718982607126236,
+  "clip_top": [
+   [
+    "pillar",
+    0.732
+   ],
+   [
+    "column",
+    0.172
+   ],
+   [
+    "window",
+    0.082
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.0925465402153372,
+   0.22956139754298274,
+   0.03543895598432403
+  ]
+ },
+ {
+  "instance": 76,
+  "voted": "column",
+  "n_gaussians": 1236,
+  "p_voted": 0.1718982607126236,
+  "clip_top": [
+   [
+    "pillar",
+    0.732
+   ],
+   [
+    "column",
+    0.172
+   ],
+   [
+    "window",
+    0.082
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.12815415114164352,
+   0.1765284687280655,
+   0.049777863547205925
+  ]
+ },
+ {
+  "instance": 77,
+  "voted": "column",
+  "n_gaussians": 106,
+  "p_voted": 0.1718980222940445,
+  "clip_top": [
+   [
+    "pillar",
+    0.732
+   ],
+   [
+    "column",
+    0.172
+   ],
+   [
+    "window",
+    0.082
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.1068893240993483,
+   0.19585718057657542,
+   0.05094760211936215
+  ]
+ },
+ {
+  "instance": 78,
+  "voted": "column",
+  "n_gaussians": 25,
+  "p_voted": 0.1718982607126236,
+  "clip_top": [
+   [
+    "pillar",
+    0.732
+   ],
+   [
+    "column",
+    0.172
+   ],
+   [
+    "window",
+    0.082
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.15333794116973876,
+   0.1004662635922432,
+   0.031087199747562407
+  ]
+ },
+ {
+  "instance": 79,
+  "voted": "couch",
+  "n_gaussians": 51483,
+  "p_voted": 0.9985268115997314,
+  "clip_top": [
+   [
+    "couch",
+    0.999
+   ],
+   [
+    "bench",
+    0.001
+   ],
+   [
+    "chair",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.2211243313944856,
+   0.03247801550255078,
+   -0.0002242673224146705
+  ]
+ },
+ {
+  "instance": 80,
+  "voted": "couch",
+  "n_gaussians": 15989,
+  "p_voted": 0.9978894591331482,
+  "clip_top": [
+   [
+    "couch",
+    0.998
+   ],
+   [
+    "chair",
+    0.001
+   ],
+   [
+    "bench",
+    0.001
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.17869715661236565,
+   0.22244976084031132,
+   0.0041712798550319
+  ]
+ },
+ {
+  "instance": 81,
+  "voted": "couch",
+  "n_gaussians": 344,
+  "p_voted": 0.9173884391784668,
+  "clip_top": [
+   [
+    "couch",
+    0.917
+   ],
+   [
+    "chair",
+    0.058
+   ],
+   [
+    "bench",
+    0.017
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.07904542367095532,
+   -0.031040059006660455,
+   -0.002923963048923052
+  ]
+ },
+ {
+  "instance": 82,
+  "voted": "couch",
+  "n_gaussians": 5,
+  "p_voted": 0.9639533162117004,
+  "clip_top": [
+   [
+    "couch",
+    0.964
+   ],
+   [
+    "chair",
+    0.019
+   ],
+   [
+    "bench",
+    0.013
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.1676395058631897,
+   0.41729623079299927,
+   -0.006269323732703924
+  ]
+ },
+ {
+  "instance": 83,
+  "voted": "couch",
+  "n_gaussians": 36,
+  "p_voted": 0.9997561573982239,
+  "clip_top": [
+   [
+    "couch",
+    1.0
+   ],
+   [
+    "bench",
+    0.0
+   ],
+   [
+    "chair",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.0036735737521667033,
+   0.34154754504561424,
+   -0.03312037605792284
+  ]
+ },
+ {
+  "instance": 84,
+  "voted": "couch",
+  "n_gaussians": 18,
+  "p_voted": 0.9789574146270752,
+  "clip_top": [
+   [
+    "couch",
+    0.979
+   ],
+   [
+    "chair",
+    0.017
+   ],
+   [
+    "bench",
+    0.003
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.06440021594365437,
+   0.41159715751806897,
+   0.05903296793500582
+  ]
+ },
+ {
+  "instance": 85,
+  "voted": "couch",
+  "n_gaussians": 1913,
+  "p_voted": 1.0794985882967012e-06,
+  "clip_top": [
+   [
+    "box",
+    1.0
+   ],
+   [
+    "shelf",
+    0.0
+   ],
+   [
+    "couch",
+    0.0
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.3742269748979046,
+   0.039609539299602384,
+   0.0014257264028661018
+  ]
+ },
+ {
+  "instance": 86,
+  "voted": "couch",
+  "n_gaussians": 5,
+  "p_voted": 2.6703204980549344e-08,
+  "clip_top": [
+   [
+    "box",
+    1.0
+   ],
+   [
+    "shelf",
+    0.0
+   ],
+   [
+    "cabinet",
+    0.0
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.3061432600021362,
+   0.05538904219865799,
+   0.020754244923591614
+  ]
+ },
+ {
+  "instance": 87,
+  "voted": "couch",
+  "n_gaussians": 899,
+  "p_voted": 0.9957277774810791,
+  "clip_top": [
+   [
+    "couch",
+    0.996
+   ],
+   [
+    "bench",
+    0.003
+   ],
+   [
+    "chair",
+    0.001
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.12273467037680368,
+   0.07431598465613143,
+   -0.0013295089494979404
+  ]
+ },
+ {
+  "instance": 88,
+  "voted": "couch",
+  "n_gaussians": 5,
+  "p_voted": 2.6703204980549344e-08,
+  "clip_top": [
+   [
+    "box",
+    1.0
+   ],
+   [
+    "shelf",
+    0.0
+   ],
+   [
+    "cabinet",
+    0.0
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.2741870999336243,
+   0.033515841141343115,
+   0.016194898635149002
+  ]
+ },
+ {
+  "instance": 89,
+  "voted": "couch",
+  "n_gaussians": 33,
+  "p_voted": 0.2174263745546341,
+  "clip_top": [
+   [
+    "chair",
+    0.771
+   ],
+   [
+    "couch",
+    0.217
+   ],
+   [
+    "stool",
+    0.005
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.344134018276677,
+   -0.01395564687184312,
+   -0.0007577031338135412
+  ]
+ },
+ {
+  "instance": 90,
+  "voted": "couch",
+  "n_gaussians": 48,
+  "p_voted": 0.7505413293838501,
+  "clip_top": [
+   [
+    "couch",
+    0.751
+   ],
+   [
+    "bench",
+    0.212
+   ],
+   [
+    "counter",
+    0.011
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.3006180040538311,
+   -0.14360593693951765,
+   -0.04887799282247821
+  ]
+ },
+ {
+  "instance": 91,
+  "voted": "curtain",
+  "n_gaussians": 92,
+  "p_voted": 0.016581373289227486,
+  "clip_top": [
+   [
+    "pillar",
+    0.369
+   ],
+   [
+    "wall",
+    0.361
+   ],
+   [
+    "column",
+    0.072
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.18540055871657704,
+   -0.09981525227751421,
+   0.008712491347662011
+  ]
+ },
+ {
+  "instance": 92,
+  "voted": "door",
+  "n_gaussians": 13260,
+  "p_voted": 0.9836355447769165,
+  "clip_top": [
+   [
+    "door",
+    0.984
+   ],
+   [
+    "glass door",
+    0.016
+   ],
+   [
+    "poster",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.25113383205189527,
+   -0.18791856838781487,
+   0.05068941853960708
+  ]
+ },
+ {
+  "instance": 93,
+  "voted": "door",
+  "n_gaussians": 1389,
+  "p_voted": 0.002711479552090168,
+  "clip_top": [
+   [
+    "column",
+    0.589
+   ],
+   [
+    "pillar",
+    0.406
+   ],
+   [
+    "door",
+    0.003
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.01963566470641642,
+   -0.4396702408927926,
+   0.02309634703523179
+  ]
+ },
+ {
+  "instance": 94,
+  "voted": "door",
+  "n_gaussians": 128,
+  "p_voted": 0.9015612006187439,
+  "clip_top": [
+   [
+    "door",
+    0.902
+   ],
+   [
+    "door handle",
+    0.056
+   ],
+   [
+    "column",
+    0.021
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.04111099550648341,
+   -0.2663237402836482,
+   0.024111908332016024
+  ]
+ },
+ {
+  "instance": 95,
+  "voted": "door",
+  "n_gaussians": 27,
+  "p_voted": 0.9978132247924805,
+  "clip_top": [
+   [
+    "door",
+    0.998
+   ],
+   [
+    "door handle",
+    0.001
+   ],
+   [
+    "glass door",
+    0.001
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.2727124172228354,
+   0.1579444706439972,
+   0.002596348454028851
+  ]
+ },
+ {
+  "instance": 96,
+  "voted": "door",
+  "n_gaussians": 6,
+  "p_voted": 0.8573620915412903,
+  "clip_top": [
+   [
+    "door",
+    0.857
+   ],
+   [
+    "door handle",
+    0.138
+   ],
+   [
+    "handrail",
+    0.003
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.15817620108524957,
+   -0.354695866505305,
+   0.0040164038800867274
+  ]
+ },
+ {
+  "instance": 97,
+  "voted": "door",
+  "n_gaussians": 4,
+  "p_voted": 0.872085690498352,
+  "clip_top": [
+   [
+    "door",
+    0.872
+   ],
+   [
+    "door handle",
+    0.124
+   ],
+   [
+    "handrail",
+    0.003
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.145534485578537,
+   -0.33033881336450577,
+   0.012752895592711866
+  ]
+ },
+ {
+  "instance": 98,
+  "voted": "door",
+  "n_gaussians": 2860,
+  "p_voted": 0.8766655921936035,
+  "clip_top": [
+   [
+    "door",
+    0.877
+   ],
+   [
+    "door handle",
+    0.12
+   ],
+   [
+    "handrail",
+    0.002
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.11025792342668113,
+   -0.23388129098600088,
+   0.0311104816016948
+  ]
+ },
+ {
+  "instance": 99,
+  "voted": "door",
+  "n_gaussians": 147,
+  "p_voted": 0.9876875281333923,
+  "clip_top": [
+   [
+    "door",
+    0.988
+   ],
+   [
+    "door handle",
+    0.011
+   ],
+   [
+    "glass door",
+    0.001
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.07617358995132706,
+   -0.007421562618807237,
+   0.01161690330226687
+  ]
+ },
+ {
+  "instance": 100,
+  "voted": "door",
+  "n_gaussians": 2203,
+  "p_voted": 0.9930053353309631,
+  "clip_top": [
+   [
+    "door",
+    0.993
+   ],
+   [
+    "door handle",
+    0.006
+   ],
+   [
+    "glass door",
+    0.001
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.11933592445068601,
+   -0.14112500940867956,
+   0.03478311255298979
+  ]
+ },
+ {
+  "instance": 101,
+  "voted": "door",
+  "n_gaussians": 8743,
+  "p_voted": 0.9175748825073242,
+  "clip_top": [
+   [
+    "door",
+    0.918
+   ],
+   [
+    "glass door",
+    0.069
+   ],
+   [
+    "elevator",
+    0.013
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.07441283160418409,
+   0.29638679299109927,
+   0.03476823462897997
+  ]
+ },
+ {
+  "instance": 102,
+  "voted": "door",
+  "n_gaussians": 44,
+  "p_voted": 0.19105298817157745,
+  "clip_top": [
+   [
+    "glass door",
+    0.78
+   ],
+   [
+    "door",
+    0.191
+   ],
+   [
+    "elevator",
+    0.02
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.1204164002768018,
+   0.2461766522716392,
+   0.0007863778103001096
+  ]
+ },
+ {
+  "instance": 103,
+  "voted": "door",
+  "n_gaussians": 4956,
+  "p_voted": 0.15975628793239594,
+  "clip_top": [
+   [
+    "glass door",
+    0.797
+   ],
+   [
+    "door",
+    0.16
+   ],
+   [
+    "elevator",
+    0.041
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.16555614423487688,
+   0.4055596533193754,
+   0.03486139330048566
+  ]
+ },
+ {
+  "instance": 104,
+  "voted": "door",
+  "n_gaussians": 4,
+  "p_voted": 0.6522722244262695,
+  "clip_top": [
+   [
+    "door",
+    0.652
+   ],
+   [
+    "door handle",
+    0.181
+   ],
+   [
+    "glass door",
+    0.166
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.034175694454461336,
+   0.18731505051255226,
+   -0.002697235111554619
+  ]
+ },
+ {
+  "instance": 105,
+  "voted": "door",
+  "n_gaussians": 8,
+  "p_voted": 0.6522722244262695,
+  "clip_top": [
+   [
+    "door",
+    0.652
+   ],
+   [
+    "door handle",
+    0.181
+   ],
+   [
+    "glass door",
+    0.166
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.027957824524492025,
+   0.21658395789563656,
+   -0.011563884698261973
+  ]
+ },
+ {
+  "instance": 106,
+  "voted": "door",
+  "n_gaussians": 18,
+  "p_voted": 0.6522722244262695,
+  "clip_top": [
+   [
+    "door",
+    0.652
+   ],
+   [
+    "door handle",
+    0.181
+   ],
+   [
+    "glass door",
+    0.166
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.027576246816251013,
+   0.20699658824337852,
+   0.06548128525416057
+  ]
+ },
+ {
+  "instance": 107,
+  "voted": "door",
+  "n_gaussians": 1221,
+  "p_voted": 0.901286244392395,
+  "clip_top": [
+   [
+    "door",
+    0.901
+   ],
+   [
+    "glass door",
+    0.088
+   ],
+   [
+    "bulletin board",
+    0.009
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.4051915170445954,
+   0.00512936865775707,
+   0.0037528418315020446
+  ]
+ },
+ {
+  "instance": 108,
+  "voted": "door",
+  "n_gaussians": 7751,
+  "p_voted": 0.931037187576294,
+  "clip_top": [
+   [
+    "door",
+    0.931
+   ],
+   [
+    "door handle",
+    0.031
+   ],
+   [
+    "glass door",
+    0.02
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.5238692745631439,
+   -0.02035370077114292,
+   0.023591606717587345
+  ]
+ },
+ {
+  "instance": 109,
+  "voted": "door",
+  "n_gaussians": 4767,
+  "p_voted": 0.6558082103729248,
+  "clip_top": [
+   [
+    "door",
+    0.656
+   ],
+   [
+    "door handle",
+    0.18
+   ],
+   [
+    "glass door",
+    0.163
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.47921188087736977,
+   0.12597322338184372,
+   0.04136527343293631
+  ]
+ },
+ {
+  "instance": 110,
+  "voted": "door",
+  "n_gaussians": 8038,
+  "p_voted": 0.9924606680870056,
+  "clip_top": [
+   [
+    "door",
+    0.992
+   ],
+   [
+    "door handle",
+    0.002
+   ],
+   [
+    "glass door",
+    0.001
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.6813151017729059,
+   0.02569736842943314,
+   0.02743698701134812
+  ]
+ },
+ {
+  "instance": 111,
+  "voted": "door",
+  "n_gaussians": 7291,
+  "p_voted": 0.9742838144302368,
+  "clip_top": [
+   [
+    "door",
+    0.974
+   ],
+   [
+    "door handle",
+    0.022
+   ],
+   [
+    "light switch",
+    0.001
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.6868826281488611,
+   0.17404008934285586,
+   0.030224557540535876
+  ]
+ },
+ {
+  "instance": 112,
+  "voted": "door",
+  "n_gaussians": 8,
+  "p_voted": 0.7976900935173035,
+  "clip_top": [
+   [
+    "door",
+    0.798
+   ],
+   [
+    "door handle",
+    0.198
+   ],
+   [
+    "light switch",
+    0.002
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.6842341125011444,
+   0.1609481293708086,
+   0.0744131151586771
+  ]
+ },
+ {
+  "instance": 113,
+  "voted": "door",
+  "n_gaussians": 4761,
+  "p_voted": 5.573464477492962e-06,
+  "clip_top": [
+   [
+    "column",
+    0.512
+   ],
+   [
+    "pillar",
+    0.487
+   ],
+   [
+    "vent",
+    0.0
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.8093270793323375,
+   0.2231284884211448,
+   0.03071001621930804
+  ]
+ },
+ {
+  "instance": 114,
+  "voted": "door",
+  "n_gaussians": 4,
+  "p_voted": 5.540568963624537e-06,
+  "clip_top": [
+   [
+    "column",
+    0.512
+   ],
+   [
+    "pillar",
+    0.487
+   ],
+   [
+    "vent",
+    0.0
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.8377230763435364,
+   0.23670797049999237,
+   -0.019630510825663805
+  ]
+ },
+ {
+  "instance": 115,
+  "voted": "door",
+  "n_gaussians": 131,
+  "p_voted": 0.9932998418807983,
+  "clip_top": [
+   [
+    "door",
+    0.993
+   ],
+   [
+    "glass door",
+    0.005
+   ],
+   [
+    "door handle",
+    0.001
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.16540050343610346,
+   0.07728739216690883,
+   0.003859926239726974
+  ]
+ },
+ {
+  "instance": 116,
+  "voted": "door",
+  "n_gaussians": 508,
+  "p_voted": 0.2550080418586731,
+  "clip_top": [
+   [
+    "glass door",
+    0.744
+   ],
+   [
+    "door",
+    0.255
+   ],
+   [
+    "window",
+    0.001
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.03422669786521844,
+   0.07823341770800857,
+   0.011297509697155247
+  ]
+ },
+ {
+  "instance": 117,
+  "voted": "door",
+  "n_gaussians": 71,
+  "p_voted": 0.9739185571670532,
+  "clip_top": [
+   [
+    "door",
+    0.974
+   ],
+   [
+    "door handle",
+    0.025
+   ],
+   [
+    "glass door",
+    0.001
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.28743710106527304,
+   0.19140212846473909,
+   0.0032607267326249046
+  ]
+ },
+ {
+  "instance": 118,
+  "voted": "door",
+  "n_gaussians": 5,
+  "p_voted": 0.9922465085983276,
+  "clip_top": [
+   [
+    "door",
+    0.992
+   ],
+   [
+    "door handle",
+    0.005
+   ],
+   [
+    "glass door",
+    0.002
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.022963109984993936,
+   -0.041364049166440965,
+   0.04337880425155163
+  ]
+ },
+ {
+  "instance": 119,
+  "voted": "door",
+  "n_gaussians": 114,
+  "p_voted": 0.08171620219945908,
+  "clip_top": [
+   [
+    "glass door",
+    0.915
+   ],
+   [
+    "door",
+    0.082
+   ],
+   [
+    "window",
+    0.003
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.009396168168454448,
+   -0.004366961484233718,
+   -0.0014234075857019522
+  ]
+ },
+ {
+  "instance": 120,
+  "voted": "door",
+  "n_gaussians": 53,
+  "p_voted": 0.9671338796615601,
+  "clip_top": [
+   [
+    "door",
+    0.967
+   ],
+   [
+    "glass door",
+    0.031
+   ],
+   [
+    "bulletin board",
+    0.002
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.24513445400966788,
+   -0.04841336924231277,
+   0.0010099950966420846
+  ]
+ },
+ {
+  "instance": 121,
+  "voted": "door",
+  "n_gaussians": 22,
+  "p_voted": 0.9575701951980591,
+  "clip_top": [
+   [
+    "door",
+    0.958
+   ],
+   [
+    "glass door",
+    0.037
+   ],
+   [
+    "bulletin board",
+    0.004
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.12469639154997739,
+   -0.08578925715251402,
+   0.0012038380717223679
+  ]
+ },
+ {
+  "instance": 122,
+  "voted": "door",
+  "n_gaussians": 10,
+  "p_voted": 0.9476140141487122,
+  "clip_top": [
+   [
+    "door",
+    0.948
+   ],
+   [
+    "glass door",
+    0.049
+   ],
+   [
+    "bulletin board",
+    0.002
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.20895249247550965,
+   -0.22144150584936143,
+   -0.009547687089070677
+  ]
+ },
+ {
+  "instance": 123,
+  "voted": "door",
+  "n_gaussians": 10,
+  "p_voted": 0.8327518105506897,
+  "clip_top": [
+   [
+    "door",
+    0.833
+   ],
+   [
+    "glass door",
+    0.14
+   ],
+   [
+    "bulletin board",
+    0.022
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.19911174327135087,
+   -0.06133164763450623,
+   0.03213855512440204
+  ]
+ },
+ {
+  "instance": 124,
+  "voted": "door",
+  "n_gaussians": 6,
+  "p_voted": 0.9472855925559998,
+  "clip_top": [
+   [
+    "door",
+    0.947
+   ],
+   [
+    "door handle",
+    0.051
+   ],
+   [
+    "glass door",
+    0.001
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.10187635074059169,
+   -0.012759554975976547,
+   0.005789961743478973
+  ]
+ },
+ {
+  "instance": 125,
+  "voted": "door",
+  "n_gaussians": 14,
+  "p_voted": 0.14913447201251984,
+  "clip_top": [
+   [
+    "glass door",
+    0.849
+   ],
+   [
+    "door",
+    0.149
+   ],
+   [
+    "elevator",
+    0.002
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.02986436736370836,
+   -0.20266832730599812,
+   0.0010647033268469386
+  ]
+ },
+ {
+  "instance": 126,
+  "voted": "door",
+  "n_gaussians": 5,
+  "p_voted": 0.9518996477127075,
+  "clip_top": [
+   [
+    "door",
+    0.952
+   ],
+   [
+    "glass door",
+    0.045
+   ],
+   [
+    "bulletin board",
+    0.002
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.059478393942117694,
+   -0.14359487295150758,
+   0.04459671601653099
+  ]
+ },
+ {
+  "instance": 127,
+  "voted": "door",
+  "n_gaussians": 478,
+  "p_voted": 0.8047463297843933,
+  "clip_top": [
+   [
+    "door",
+    0.805
+   ],
+   [
+    "glass door",
+    0.173
+   ],
+   [
+    "door handle",
+    0.02
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.031086812447756528,
+   -0.5285865426063537,
+   -0.0037641284759047265
+  ]
+ },
+ {
+  "instance": 128,
+  "voted": "door",
+  "n_gaussians": 799,
+  "p_voted": 0.7792097330093384,
+  "clip_top": [
+   [
+    "door",
+    0.779
+   ],
+   [
+    "glass door",
+    0.2
+   ],
+   [
+    "door handle",
+    0.019
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.03230494125322862,
+   -0.5407982244120015,
+   0.042695500658123525
+  ]
+ },
+ {
+  "instance": 129,
+  "voted": "door",
+  "n_gaussians": 6,
+  "p_voted": 0.9964912533760071,
+  "clip_top": [
+   [
+    "door",
+    0.996
+   ],
+   [
+    "glass door",
+    0.003
+   ],
+   [
+    "cabinet",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.3146909276644389,
+   -0.14298381904760996,
+   0.07136247803767522
+  ]
+ },
+ {
+  "instance": 130,
+  "voted": "door",
+  "n_gaussians": 8,
+  "p_voted": 0.9918918609619141,
+  "clip_top": [
+   [
+    "door",
+    0.992
+   ],
+   [
+    "glass door",
+    0.008
+   ],
+   [
+    "door handle",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.29613447561860085,
+   -0.22164592146873474,
+   -0.020207229536026716
+  ]
+ },
+ {
+  "instance": 131,
+  "voted": "exit sign",
+  "n_gaussians": 10,
+  "p_voted": 0.021505393087863922,
+  "clip_top": [
+   [
+    "door",
+    0.596
+   ],
+   [
+    "sign",
+    0.347
+   ],
+   [
+    "exit sign",
+    0.022
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.1444300502538681,
+   0.39683730006217954,
+   0.07813199684023857
+  ]
+ },
+ {
+  "instance": 132,
+  "voted": "exit sign",
+  "n_gaussians": 22,
+  "p_voted": 0.005679555237293243,
+  "clip_top": [
+   [
+    "fire alarm",
+    0.979
+   ],
+   [
+    "fire extinguisher",
+    0.007
+   ],
+   [
+    "exit sign",
+    0.006
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.5025001276623119,
+   -0.017410617575726726,
+   0.05886994471604174
+  ]
+ },
+ {
+  "instance": 133,
+  "voted": "exit sign",
+  "n_gaussians": 45,
+  "p_voted": 0.9995326995849609,
+  "clip_top": [
+   [
+    "exit sign",
+    1.0
+   ],
+   [
+    "sign",
+    0.0
+   ],
+   [
+    "logo",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.14952868946960995,
+   0.24051727567400252,
+   0.08125932642391749
+  ]
+ },
+ {
+  "instance": 134,
+  "voted": "exit sign",
+  "n_gaussians": 5,
+  "p_voted": 0.9997145533561707,
+  "clip_top": [
+   [
+    "exit sign",
+    1.0
+   ],
+   [
+    "sign",
+    0.0
+   ],
+   [
+    "logo",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.07744916975498199,
+   0.2036634087562561,
+   0.07365707606077194
+  ]
+ },
+ {
+  "instance": 135,
+  "voted": "exit sign",
+  "n_gaussians": 12,
+  "p_voted": 0.9998900890350342,
+  "clip_top": [
+   [
+    "exit sign",
+    1.0
+   ],
+   [
+    "sign",
+    0.0
+   ],
+   [
+    "logo",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.08820653396348159,
+   -0.08663858224948247,
+   0.09610477462410927
+  ]
+ },
+ {
+  "instance": 136,
+  "voted": "exit sign",
+  "n_gaussians": 4,
+  "p_voted": 0.07846374809741974,
+  "clip_top": [
+   [
+    "logo",
+    0.336
+   ],
+   [
+    "light switch",
+    0.205
+   ],
+   [
+    "box",
+    0.144
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.13687970489263535,
+   -0.06589684076607227,
+   0.11483935080468655
+  ]
+ },
+ {
+  "instance": 137,
+  "voted": "exit sign",
+  "n_gaussians": 601,
+  "p_voted": 0.9996750354766846,
+  "clip_top": [
+   [
+    "exit sign",
+    1.0
+   ],
+   [
+    "sign",
+    0.0
+   ],
+   [
+    "logo",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.09440505778302952,
+   0.25559321806138874,
+   0.08627263654251488
+  ]
+ },
+ {
+  "instance": 138,
+  "voted": "exit sign",
+  "n_gaussians": 18,
+  "p_voted": 0.9622660279273987,
+  "clip_top": [
+   [
+    "exit sign",
+    0.962
+   ],
+   [
+    "display screen",
+    0.013
+   ],
+   [
+    "sign",
+    0.006
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.024990737955603335,
+   0.022302783094346523,
+   0.0494722682568762
+  ]
+ },
+ {
+  "instance": 139,
+  "voted": "exit sign",
+  "n_gaussians": 9,
+  "p_voted": 0.004096190445125103,
+  "clip_top": [
+   [
+    "door",
+    0.284
+   ],
+   [
+    "logo",
+    0.284
+   ],
+   [
+    "light switch",
+    0.162
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.04861572177873717,
+   -0.25974472363789874,
+   0.0603350694808695
+  ]
+ },
+ {
+  "instance": 140,
+  "voted": "exit sign",
+  "n_gaussians": 9,
+  "p_voted": 0.021505393087863922,
+  "clip_top": [
+   [
+    "door",
+    0.596
+   ],
+   [
+    "sign",
+    0.347
+   ],
+   [
+    "exit sign",
+    0.022
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.1083056694931454,
+   0.309052308400472,
+   0.047079410403966904
+  ]
+ },
+ {
+  "instance": 141,
+  "voted": "exit sign",
+  "n_gaussians": 5,
+  "p_voted": 0.07806605100631714,
+  "clip_top": [
+   [
+    "logo",
+    0.335
+   ],
+   [
+    "light switch",
+    0.208
+   ],
+   [
+    "box",
+    0.144
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.11485892087221146,
+   -0.020973112806677817,
+   0.02700987234711647
+  ]
+ },
+ {
+  "instance": 142,
+  "voted": "exit sign",
+  "n_gaussians": 12,
+  "p_voted": 0.9969862103462219,
+  "clip_top": [
+   [
+    "exit sign",
+    0.997
+   ],
+   [
+    "vent",
+    0.002
+   ],
+   [
+    "ceiling light",
+    0.001
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.2880225678284963,
+   -0.025224467118581135,
+   0.052417828080554806
+  ]
+ },
+ {
+  "instance": 143,
+  "voted": "exit sign",
+  "n_gaussians": 10,
+  "p_voted": 0.0005554863018915057,
+  "clip_top": [
+   [
+    "fire alarm",
+    0.994
+   ],
+   [
+    "fire extinguisher",
+    0.003
+   ],
+   [
+    "vent",
+    0.001
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.5355296909809113,
+   -0.010692322067916394,
+   0.0707760650664568
+  ]
+ },
+ {
+  "instance": 144,
+  "voted": "exit sign",
+  "n_gaussians": 13,
+  "p_voted": 0.9997703433036804,
+  "clip_top": [
+   [
+    "exit sign",
+    1.0
+   ],
+   [
+    "sign",
+    0.0
+   ],
+   [
+    "ceiling light",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.33529083086894107,
+   -0.015079480022765122,
+   0.03886450454592705
+  ]
+ },
+ {
+  "instance": 145,
+  "voted": "exit sign",
+  "n_gaussians": 8,
+  "p_voted": 0.050305530428886414,
+  "clip_top": [
+   [
+    "fire alarm",
+    0.908
+   ],
+   [
+    "exit sign",
+    0.05
+   ],
+   [
+    "fire extinguisher",
+    0.029
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.18479879386723042,
+   -0.5359145104885101,
+   0.06514051835983992
+  ]
+ },
+ {
+  "instance": 146,
+  "voted": "exit sign",
+  "n_gaussians": 41,
+  "p_voted": 0.0020444735419005156,
+  "clip_top": [
+   [
+    "fire alarm",
+    0.532
+   ],
+   [
+    "fire extinguisher",
+    0.107
+   ],
+   [
+    "curtain",
+    0.063
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.9597752809524536,
+   0.1239779382944107,
+   0.060203013569116594
+  ]
+ },
+ {
+  "instance": 147,
+  "voted": "fire extinguisher",
+  "n_gaussians": 5,
+  "p_voted": 0.00468178978189826,
+  "clip_top": [
+   [
+    "fire alarm",
+    0.931
+   ],
+   [
+    "light switch",
+    0.06
+   ],
+   [
+    "fire extinguisher",
+    0.005
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.00839246055111289,
+   0.33977745175361634,
+   0.059150893986225125
+  ]
+ },
+ {
+  "instance": 148,
+  "voted": "fire extinguisher",
+  "n_gaussians": 17,
+  "p_voted": 0.0002625578490551561,
+  "clip_top": [
+   [
+    "light switch",
+    0.527
+   ],
+   [
+    "fire alarm",
+    0.472
+   ],
+   [
+    "fire extinguisher",
+    0.0
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.013134625247296165,
+   0.26744938247344074,
+   0.03633461432421908
+  ]
+ },
+ {
+  "instance": 149,
+  "voted": "floor",
+  "n_gaussians": 103555,
+  "p_voted": 0.9999774694442749,
+  "clip_top": [
+   [
+    "floor",
+    1.0
+   ],
+   [
+    "column",
+    0.0
+   ],
+   [
+    "pillar",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.056704312677717396,
+   0.01790082131643189,
+   -0.01942596617166835
+  ]
+ },
+ {
+  "instance": 150,
+  "voted": "glass door",
+  "n_gaussians": 20,
+  "p_voted": 0.9133592247962952,
+  "clip_top": [
+   [
+    "glass door",
+    0.913
+   ],
+   [
+    "door",
+    0.086
+   ],
+   [
+    "elevator",
+    0.001
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.1499517448246479,
+   0.30104767382144926,
+   0.012023594172205776
+  ]
+ },
+ {
+  "instance": 151,
+  "voted": "glass door",
+  "n_gaussians": 438,
+  "p_voted": 0.8432445526123047,
+  "clip_top": [
+   [
+    "glass door",
+    0.843
+   ],
+   [
+    "door",
+    0.156
+   ],
+   [
+    "elevator",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.11582290319533184,
+   0.29800595312282957,
+   0.07043984668522045
+  ]
+ },
+ {
+  "instance": 152,
+  "voted": "glass door",
+  "n_gaussians": 71,
+  "p_voted": 0.5277693271636963,
+  "clip_top": [
+   [
+    "glass door",
+    0.528
+   ],
+   [
+    "door",
+    0.403
+   ],
+   [
+    "door handle",
+    0.056
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.07756776751383491,
+   0.4234848614188208,
+   0.019082945408771975
+  ]
+ },
+ {
+  "instance": 153,
+  "voted": "glass door",
+  "n_gaussians": 2508,
+  "p_voted": 0.8731282949447632,
+  "clip_top": [
+   [
+    "glass door",
+    0.873
+   ],
+   [
+    "door",
+    0.126
+   ],
+   [
+    "elevator",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.09399072458726938,
+   0.2102845176840513,
+   0.03216180682278953
+  ]
+ },
+ {
+  "instance": 154,
+  "voted": "glass door",
+  "n_gaussians": 73,
+  "p_voted": 0.0003050989762414247,
+  "clip_top": [
+   [
+    "window",
+    0.992
+   ],
+   [
+    "cabinet",
+    0.004
+   ],
+   [
+    "shelf",
+    0.003
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.2968617902226644,
+   0.14351352018444505,
+   0.07934802683861289
+  ]
+ },
+ {
+  "instance": 155,
+  "voted": "glass door",
+  "n_gaussians": 66,
+  "p_voted": 0.8411871790885925,
+  "clip_top": [
+   [
+    "glass door",
+    0.841
+   ],
+   [
+    "door",
+    0.158
+   ],
+   [
+    "elevator",
+    0.001
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.04166609827767719,
+   0.0805564947200544,
+   0.006468169205508082
+  ]
+ },
+ {
+  "instance": 156,
+  "voted": "glass door",
+  "n_gaussians": 7,
+  "p_voted": 0.0010429415851831436,
+  "clip_top": [
+   [
+    "window",
+    0.918
+   ],
+   [
+    "display screen",
+    0.068
+   ],
+   [
+    "bulletin board",
+    0.007
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.2850582131317684,
+   0.054991211742162704,
+   0.08653274497815541
+  ]
+ },
+ {
+  "instance": 157,
+  "voted": "glass door",
+  "n_gaussians": 164,
+  "p_voted": 0.0010429415851831436,
+  "clip_top": [
+   [
+    "window",
+    0.918
+   ],
+   [
+    "display screen",
+    0.068
+   ],
+   [
+    "bulletin board",
+    0.007
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.25468143542236255,
+   0.050234653664944326,
+   0.07654363063172759
+  ]
+ },
+ {
+  "instance": 158,
+  "voted": "glass door",
+  "n_gaussians": 23,
+  "p_voted": 0.5473160743713379,
+  "clip_top": [
+   [
+    "glass door",
+    0.547
+   ],
+   [
+    "door",
+    0.399
+   ],
+   [
+    "door handle",
+    0.043
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.07722067638583806,
+   0.2964081777178723,
+   0.016283074312883873
+  ]
+ },
+ {
+  "instance": 159,
+  "voted": "glass door",
+  "n_gaussians": 31,
+  "p_voted": 0.8331359624862671,
+  "clip_top": [
+   [
+    "glass door",
+    0.833
+   ],
+   [
+    "door",
+    0.166
+   ],
+   [
+    "elevator",
+    0.001
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.010999515081845945,
+   -0.005800401487748229,
+   -0.001391334150074756
+  ]
+ },
+ {
+  "instance": 160,
+  "voted": "glass door",
+  "n_gaussians": 5,
+  "p_voted": 0.9192447066307068,
+  "clip_top": [
+   [
+    "glass door",
+    0.919
+   ],
+   [
+    "door",
+    0.08
+   ],
+   [
+    "elevator",
+    0.001
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.06615881472826005,
+   0.07073197960853576,
+   -0.0086067583411932
+  ]
+ },
+ {
+  "instance": 161,
+  "voted": "glass door",
+  "n_gaussians": 6,
+  "p_voted": 0.8825639486312866,
+  "clip_top": [
+   [
+    "glass door",
+    0.883
+   ],
+   [
+    "door",
+    0.116
+   ],
+   [
+    "elevator",
+    0.001
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.06663533424337705,
+   0.2546556244293849,
+   0.016504724510014057
+  ]
+ },
+ {
+  "instance": 162,
+  "voted": "handrail",
+  "n_gaussians": 286,
+  "p_voted": 0.13284006714820862,
+  "clip_top": [
+   [
+    "door handle",
+    0.847
+   ],
+   [
+    "handrail",
+    0.133
+   ],
+   [
+    "light switch",
+    0.011
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.10818005483353503,
+   -0.2328398487973942,
+   0.030414526875427717
+  ]
+ },
+ {
+  "instance": 163,
+  "voted": "handrail",
+  "n_gaussians": 38,
+  "p_voted": 0.5752710103988647,
+  "clip_top": [
+   [
+    "handrail",
+    0.575
+   ],
+   [
+    "door handle",
+    0.143
+   ],
+   [
+    "light switch",
+    0.052
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.6866421385815269,
+   0.18041014200762698,
+   0.030894330653705095
+  ]
+ },
+ {
+  "instance": 164,
+  "voted": "lamp",
+  "n_gaussians": 262,
+  "p_voted": 0.0005265641957521439,
+  "clip_top": [
+   [
+    "vent",
+    0.647
+   ],
+   [
+    "door",
+    0.092
+   ],
+   [
+    "pillar",
+    0.065
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.00499050338950121,
+   -0.3336212978218541,
+   0.02975328780259147
+  ]
+ },
+ {
+  "instance": 165,
+  "voted": "lamp",
+  "n_gaussians": 55,
+  "p_voted": 8.434674782620277e-06,
+  "clip_top": [
+   [
+    "door handle",
+    0.356
+   ],
+   [
+    "door",
+    0.351
+   ],
+   [
+    "light switch",
+    0.154
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.07144427354688998,
+   -0.02858146821597108,
+   0.05860379207189436
+  ]
+ },
+ {
+  "instance": 166,
+  "voted": "lamp",
+  "n_gaussians": 76,
+  "p_voted": 0.0005520209087990224,
+  "clip_top": [
+   [
+    "handrail",
+    0.266
+   ],
+   [
+    "light switch",
+    0.266
+   ],
+   [
+    "pillar",
+    0.138
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.01768571020741212,
+   0.181758997471709,
+   0.04998848165728544
+  ]
+ },
+ {
+  "instance": 167,
+  "voted": "lamp",
+  "n_gaussians": 1057,
+  "p_voted": 0.0005461210384964943,
+  "clip_top": [
+   [
+    "door",
+    0.217
+   ],
+   [
+    "vent",
+    0.194
+   ],
+   [
+    "window",
+    0.158
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.7763006132799428,
+   0.21296971525762465,
+   0.05766003646633842
+  ]
+ },
+ {
+  "instance": 168,
+  "voted": "lamp",
+  "n_gaussians": 19,
+  "p_voted": 0.00032805418595671654,
+  "clip_top": [
+   [
+    "vent",
+    0.793
+   ],
+   [
+    "pillar",
+    0.084
+   ],
+   [
+    "monitor",
+    0.017
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.0008897665646049733,
+   0.21771710483651413,
+   0.09420683783920188
+  ]
+ },
+ {
+  "instance": 169,
+  "voted": "lamp",
+  "n_gaussians": 168,
+  "p_voted": 0.00038851751014590263,
+  "clip_top": [
+   [
+    "banner",
+    0.184
+   ],
+   [
+    "column",
+    0.161
+   ],
+   [
+    "bench",
+    0.127
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.8575176792760049,
+   0.1509591232384405,
+   0.08182999953146904
+  ]
+ },
+ {
+  "instance": 170,
+  "voted": "lamp",
+  "n_gaussians": 82,
+  "p_voted": 0.0020749252289533615,
+  "clip_top": [
+   [
+    "ceiling light",
+    0.646
+   ],
+   [
+    "ceiling",
+    0.335
+   ],
+   [
+    "vent",
+    0.014
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.13455654144650553,
+   -0.15107400933416879,
+   0.08678567091502794
+  ]
+ },
+ {
+  "instance": 171,
+  "voted": "lamp",
+  "n_gaussians": 112,
+  "p_voted": 0.0019238826353102922,
+  "clip_top": [
+   [
+    "ceiling light",
+    0.835
+   ],
+   [
+    "ceiling",
+    0.16
+   ],
+   [
+    "vent",
+    0.003
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.07812526317373399,
+   -0.13764962714205506,
+   0.07296007262763157
+  ]
+ },
+ {
+  "instance": 172,
+  "voted": "lamp",
+  "n_gaussians": 12,
+  "p_voted": 0.8758033514022827,
+  "clip_top": [
+   [
+    "lamp",
+    0.876
+   ],
+   [
+    "ceiling light",
+    0.118
+   ],
+   [
+    "light switch",
+    0.004
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.14485150575637817,
+   0.2127595047156016,
+   0.07401202122370402
+  ]
+ },
+ {
+  "instance": 173,
+  "voted": "lamp",
+  "n_gaussians": 136,
+  "p_voted": 0.004918606020510197,
+  "clip_top": [
+   [
+    "handrail",
+    0.281
+   ],
+   [
+    "monitor",
+    0.116
+   ],
+   [
+    "column",
+    0.109
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.1539621148463134,
+   -0.13166749755759816,
+   0.099055609696514
+  ]
+ },
+ {
+  "instance": 174,
+  "voted": "lamp",
+  "n_gaussians": 5,
+  "p_voted": 0.1842164546251297,
+  "clip_top": [
+   [
+    "ceiling light",
+    0.424
+   ],
+   [
+    "fire alarm",
+    0.265
+   ],
+   [
+    "lamp",
+    0.184
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.0915158897638321,
+   0.19442201256752015,
+   0.07168124765157699
+  ]
+ },
+ {
+  "instance": 175,
+  "voted": "lamp",
+  "n_gaussians": 9,
+  "p_voted": 0.03229343146085739,
+  "clip_top": [
+   [
+    "vent",
+    0.224
+   ],
+   [
+    "ceiling light",
+    0.132
+   ],
+   [
+    "pillar",
+    0.117
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.055309457083543144,
+   0.19988594618108538,
+   0.08602719836764866
+  ]
+ },
+ {
+  "instance": 176,
+  "voted": "lamp",
+  "n_gaussians": 283,
+  "p_voted": 0.004918606020510197,
+  "clip_top": [
+   [
+    "handrail",
+    0.281
+   ],
+   [
+    "monitor",
+    0.116
+   ],
+   [
+    "column",
+    0.109
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.16428691482989588,
+   -0.09774514301636508,
+   0.08854995963868693
+  ]
+ },
+ {
+  "instance": 177,
+  "voted": "lamp",
+  "n_gaussians": 15,
+  "p_voted": 0.10779488831758499,
+  "clip_top": [
+   [
+    "fire alarm",
+    0.567
+   ],
+   [
+    "ceiling light",
+    0.222
+   ],
+   [
+    "lamp",
+    0.108
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.10816918479071723,
+   0.24979990389611986,
+   0.08907846526967154
+  ]
+ },
+ {
+  "instance": 178,
+  "voted": "lamp",
+  "n_gaussians": 890,
+  "p_voted": 0.017386935651302338,
+  "clip_top": [
+   [
+    "column",
+    0.319
+   ],
+   [
+    "glass door",
+    0.283
+   ],
+   [
+    "pillar",
+    0.164
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.21410237583849165,
+   0.17051508857144249,
+   0.031003994453284476
+  ]
+ },
+ {
+  "instance": 179,
+  "voted": "lamp",
+  "n_gaussians": 12,
+  "p_voted": 0.022232942283153534,
+  "clip_top": [
+   [
+    "ceiling light",
+    0.947
+   ],
+   [
+    "lamp",
+    0.022
+   ],
+   [
+    "fire alarm",
+    0.014
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.16453101858496666,
+   0.25560370087623596,
+   0.08841295602420966
+  ]
+ },
+ {
+  "instance": 180,
+  "voted": "lamp",
+  "n_gaussians": 5,
+  "p_voted": 0.004918606020510197,
+  "clip_top": [
+   [
+    "handrail",
+    0.281
+   ],
+   [
+    "monitor",
+    0.116
+   ],
+   [
+    "column",
+    0.109
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.1951720595359802,
+   -0.08845357149839402,
+   0.07987740635871887
+  ]
+ },
+ {
+  "instance": 181,
+  "voted": "lamp",
+  "n_gaussians": 31,
+  "p_voted": 0.001131817465648055,
+  "clip_top": [
+   [
+    "logo",
+    0.336
+   ],
+   [
+    "monitor",
+    0.138
+   ],
+   [
+    "shelf",
+    0.131
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.3261177559052744,
+   -0.014174652406044545,
+   0.035309608905546123
+  ]
+ },
+ {
+  "instance": 182,
+  "voted": "lamp",
+  "n_gaussians": 27,
+  "p_voted": 0.0005047814920544624,
+  "clip_top": [
+   [
+    "exit sign",
+    0.97
+   ],
+   [
+    "ceiling light",
+    0.02
+   ],
+   [
+    "ceiling",
+    0.005
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.4254019249368597,
+   0.012339779382778538,
+   0.02195396688249376
+  ]
+ },
+ {
+  "instance": 183,
+  "voted": "light switch",
+  "n_gaussians": 9,
+  "p_voted": 0.045511528849601746,
+  "clip_top": [
+   [
+    "column",
+    0.642
+   ],
+   [
+    "pillar",
+    0.243
+   ],
+   [
+    "light switch",
+    0.046
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.21124267081419626,
+   -0.24645830359723833,
+   0.009593649625053836
+  ]
+ },
+ {
+  "instance": 184,
+  "voted": "light switch",
+  "n_gaussians": 156,
+  "p_voted": 0.7264984250068665,
+  "clip_top": [
+   [
+    "light switch",
+    0.726
+   ],
+   [
+    "box",
+    0.193
+   ],
+   [
+    "shelf",
+    0.045
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.008891343418508769,
+   -0.39493552565574647,
+   0.043017820864915846
+  ]
+ },
+ {
+  "instance": 185,
+  "voted": "light switch",
+  "n_gaussians": 82,
+  "p_voted": 0.9996930360794067,
+  "clip_top": [
+   [
+    "light switch",
+    1.0
+   ],
+   [
+    "vent",
+    0.0
+   ],
+   [
+    "fire alarm",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.015535809062911491,
+   0.1768877737616238,
+   0.00704256144940461
+  ]
+ },
+ {
+  "instance": 186,
+  "voted": "light switch",
+  "n_gaussians": 17,
+  "p_voted": 0.336706280708313,
+  "clip_top": [
+   [
+    "light switch",
+    0.337
+   ],
+   [
+    "door",
+    0.317
+   ],
+   [
+    "door handle",
+    0.309
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.049705782357384175,
+   0.40884854863671694,
+   0.04421957889023949
+  ]
+ },
+ {
+  "instance": 187,
+  "voted": "light switch",
+  "n_gaussians": 5,
+  "p_voted": 0.35442954301834106,
+  "clip_top": [
+   [
+    "light switch",
+    0.354
+   ],
+   [
+    "door handle",
+    0.139
+   ],
+   [
+    "handrail",
+    0.127
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.06733390986919403,
+   0.3359172821044922,
+   0.023312094807624816
+  ]
+ },
+ {
+  "instance": 188,
+  "voted": "light switch",
+  "n_gaussians": 8,
+  "p_voted": 0.7381398677825928,
+  "clip_top": [
+   [
+    "light switch",
+    0.738
+   ],
+   [
+    "logo",
+    0.06
+   ],
+   [
+    "shelf",
+    0.044
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.07025580573827028,
+   0.29302455112338066,
+   0.011760829715058208
+  ]
+ },
+ {
+  "instance": 189,
+  "voted": "monitor",
+  "n_gaussians": 39,
+  "p_voted": 3.679892688523978e-05,
+  "clip_top": [
+   [
+    "fire alarm",
+    0.993
+   ],
+   [
+    "box",
+    0.003
+   ],
+   [
+    "light switch",
+    0.001
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.07749794710140961,
+   -0.031036982838159952,
+   0.014849403670105414
+  ]
+ },
+ {
+  "instance": 190,
+  "voted": "monitor",
+  "n_gaussians": 8,
+  "p_voted": 0.005197280086576939,
+  "clip_top": [
+   [
+    "shelf",
+    0.457
+   ],
+   [
+    "handrail",
+    0.342
+   ],
+   [
+    "counter",
+    0.094
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.13714403472840786,
+   -0.1396668218076229,
+   0.08511646464467049
+  ]
+ },
+ {
+  "instance": 191,
+  "voted": "monitor",
+  "n_gaussians": 4,
+  "p_voted": 3.679892688523978e-05,
+  "clip_top": [
+   [
+    "fire alarm",
+    0.993
+   ],
+   [
+    "box",
+    0.003
+   ],
+   [
+    "light switch",
+    0.001
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.10619603656232357,
+   -0.04436096362769604,
+   0.030454225838184357
+  ]
+ },
+ {
+  "instance": 192,
+  "voted": "plant",
+  "n_gaussians": 473,
+  "p_voted": 0.9869677424430847,
+  "clip_top": [
+   [
+    "plant",
+    0.987
+   ],
+   [
+    "pillar",
+    0.004
+   ],
+   [
+    "column",
+    0.003
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.21944964579016177,
+   -0.0778780708704617,
+   0.013817417770798247
+  ]
+ },
+ {
+  "instance": 193,
+  "voted": "plant",
+  "n_gaussians": 1609,
+  "p_voted": 0.6721702814102173,
+  "clip_top": [
+   [
+    "plant",
+    0.672
+   ],
+   [
+    "chair",
+    0.278
+   ],
+   [
+    "window",
+    0.019
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.20579000448255502,
+   0.28381386967211203,
+   0.01242793271293377
+  ]
+ },
+ {
+  "instance": 194,
+  "voted": "plant",
+  "n_gaussians": 13,
+  "p_voted": 0.00020046973077114671,
+  "clip_top": [
+   [
+    "person",
+    0.876
+   ],
+   [
+    "pillar",
+    0.039
+   ],
+   [
+    "backpack",
+    0.016
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.21830063809951147,
+   0.1124861774345239,
+   0.10171215360363324
+  ]
+ },
+ {
+  "instance": 195,
+  "voted": "plant",
+  "n_gaussians": 19,
+  "p_voted": 0.00020046973077114671,
+  "clip_top": [
+   [
+    "person",
+    0.876
+   ],
+   [
+    "pillar",
+    0.039
+   ],
+   [
+    "backpack",
+    0.016
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.23176746148812144,
+   0.05357421934604645,
+   0.07043246375887018
+  ]
+ },
+ {
+  "instance": 196,
+  "voted": "poster",
+  "n_gaussians": 2054,
+  "p_voted": 0.9890889525413513,
+  "clip_top": [
+   [
+    "poster",
+    0.989
+   ],
+   [
+    "bulletin board",
+    0.005
+   ],
+   [
+    "display screen",
+    0.003
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.15847783152257885,
+   -0.2205655284595947,
+   0.061123300110395684
+  ]
+ },
+ {
+  "instance": 197,
+  "voted": "poster",
+  "n_gaussians": 41,
+  "p_voted": 0.0056086755357682705,
+  "clip_top": [
+   [
+    "window",
+    0.95
+   ],
+   [
+    "banner",
+    0.015
+   ],
+   [
+    "glass door",
+    0.01
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.2608568508450578,
+   0.019583981756756946,
+   0.0749258577096753
+  ]
+ },
+ {
+  "instance": 198,
+  "voted": "poster",
+  "n_gaussians": 647,
+  "p_voted": 0.25073549151420593,
+  "clip_top": [
+   [
+    "bulletin board",
+    0.749
+   ],
+   [
+    "poster",
+    0.251
+   ],
+   [
+    "shelf",
+    0.0
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.06500346675611936,
+   -0.18020371275095196,
+   0.056818003228006814
+  ]
+ },
+ {
+  "instance": 199,
+  "voted": "poster",
+  "n_gaussians": 232,
+  "p_voted": 7.185403205767216e-07,
+  "clip_top": [
+   [
+    "window",
+    0.999
+   ],
+   [
+    "glass door",
+    0.001
+   ],
+   [
+    "vent",
+    0.0
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.31163828650064634,
+   0.16360366752926717,
+   0.05356074956229381
+  ]
+ },
+ {
+  "instance": 200,
+  "voted": "poster",
+  "n_gaussians": 42,
+  "p_voted": 0.004037042148411274,
+  "clip_top": [
+   [
+    "window",
+    0.721
+   ],
+   [
+    "bulletin board",
+    0.177
+   ],
+   [
+    "display screen",
+    0.089
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.058826793428687824,
+   0.047668827342845145,
+   0.04455942598481973
+  ]
+ },
+ {
+  "instance": 201,
+  "voted": "poster",
+  "n_gaussians": 324,
+  "p_voted": 0.3724784553050995,
+  "clip_top": [
+   [
+    "bulletin board",
+    0.536
+   ],
+   [
+    "poster",
+    0.372
+   ],
+   [
+    "display screen",
+    0.048
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.02838080634594013,
+   0.13475398684817333,
+   0.06207672282363529
+  ]
+ },
+ {
+  "instance": 202,
+  "voted": "poster",
+  "n_gaussians": 1657,
+  "p_voted": 0.5538496375083923,
+  "clip_top": [
+   [
+    "poster",
+    0.554
+   ],
+   [
+    "glass door",
+    0.098
+   ],
+   [
+    "monitor",
+    0.084
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.458629254013934,
+   -0.03984743074335633,
+   0.05656829608939372
+  ]
+ },
+ {
+  "instance": 203,
+  "voted": "poster",
+  "n_gaussians": 38,
+  "p_voted": 0.004037042148411274,
+  "clip_top": [
+   [
+    "window",
+    0.721
+   ],
+   [
+    "bulletin board",
+    0.177
+   ],
+   [
+    "display screen",
+    0.089
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.03219075493612572,
+   0.0368616046187909,
+   0.051909800226751124
+  ]
+ },
+ {
+  "instance": 204,
+  "voted": "poster",
+  "n_gaussians": 107,
+  "p_voted": 0.8115425705909729,
+  "clip_top": [
+   [
+    "poster",
+    0.812
+   ],
+   [
+    "bulletin board",
+    0.157
+   ],
+   [
+    "display screen",
+    0.018
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.2933680741029365,
+   0.1725598849425806,
+   0.006913065633988965
+  ]
+ },
+ {
+  "instance": 205,
+  "voted": "poster",
+  "n_gaussians": 25,
+  "p_voted": 4.072724948400719e-07,
+  "clip_top": [
+   [
+    "window",
+    0.999
+   ],
+   [
+    "glass door",
+    0.0
+   ],
+   [
+    "vent",
+    0.0
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.39618711709976195,
+   0.27993932843208313,
+   0.07650894582271577
+  ]
+ },
+ {
+  "instance": 206,
+  "voted": "poster",
+  "n_gaussians": 5,
+  "p_voted": 0.0056086755357682705,
+  "clip_top": [
+   [
+    "window",
+    0.95
+   ],
+   [
+    "banner",
+    0.015
+   ],
+   [
+    "glass door",
+    0.01
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.1132376179099083,
+   -0.05671362951397896,
+   0.011712856870144606
+  ]
+ },
+ {
+  "instance": 207,
+  "voted": "poster",
+  "n_gaussians": 25,
+  "p_voted": 0.004037042148411274,
+  "clip_top": [
+   [
+    "window",
+    0.721
+   ],
+   [
+    "bulletin board",
+    0.177
+   ],
+   [
+    "display screen",
+    0.089
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.04406057104468346,
+   0.047631167024374005,
+   0.08470972746610642
+  ]
+ },
+ {
+  "instance": 208,
+  "voted": "poster",
+  "n_gaussians": 4,
+  "p_voted": 0.27211326360702515,
+  "clip_top": [
+   [
+    "bulletin board",
+    0.727
+   ],
+   [
+    "poster",
+    0.272
+   ],
+   [
+    "sign",
+    0.0
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.08348358981311321,
+   -0.03630063124001026,
+   0.022522155661135912
+  ]
+ },
+ {
+  "instance": 209,
+  "voted": "poster",
+  "n_gaussians": 24,
+  "p_voted": 0.591002881526947,
+  "clip_top": [
+   [
+    "poster",
+    0.591
+   ],
+   [
+    "bulletin board",
+    0.387
+   ],
+   [
+    "wall",
+    0.008
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.08126398921012878,
+   0.20733348714808622,
+   0.009556811245905314
+  ]
+ },
+ {
+  "instance": 210,
+  "voted": "poster",
+  "n_gaussians": 21,
+  "p_voted": 0.013348845764994621,
+  "clip_top": [
+   [
+    "bulletin board",
+    0.915
+   ],
+   [
+    "box",
+    0.045
+   ],
+   [
+    "poster",
+    0.013
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.8965635157766796,
+   0.1183807495094481,
+   0.028892206294195994
+  ]
+ },
+ {
+  "instance": 211,
+  "voted": "poster",
+  "n_gaussians": 5,
+  "p_voted": 0.24402903020381927,
+  "clip_top": [
+   [
+    "bulletin board",
+    0.745
+   ],
+   [
+    "poster",
+    0.244
+   ],
+   [
+    "display screen",
+    0.008
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.024921257235109805,
+   -0.2648790955543518,
+   0.07843936383724212
+  ]
+ },
+ {
+  "instance": 212,
+  "voted": "poster",
+  "n_gaussians": 12,
+  "p_voted": 0.2809843420982361,
+  "clip_top": [
+   [
+    "bulletin board",
+    0.708
+   ],
+   [
+    "poster",
+    0.281
+   ],
+   [
+    "display screen",
+    0.008
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.010372873861342669,
+   -0.22338295876979827,
+   0.07150392681360244
+  ]
+ },
+ {
+  "instance": 213,
+  "voted": "radiator",
+  "n_gaussians": 12,
+  "p_voted": 0.00029305132920853794,
+  "clip_top": [
+   [
+    "monitor",
+    0.37
+   ],
+   [
+    "box",
+    0.354
+   ],
+   [
+    "window",
+    0.06
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.1357568030556043,
+   -0.21837604666749635,
+   0.07697511247048776
+  ]
+ },
+ {
+  "instance": 214,
+  "voted": "reception desk",
+  "n_gaussians": 77,
+  "p_voted": 3.1088020477909595e-05,
+  "clip_top": [
+   [
+    "box",
+    0.857
+   ],
+   [
+    "wall",
+    0.043
+   ],
+   [
+    "vent",
+    0.034
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.16898816765902877,
+   -0.09204298799688165,
+   0.009104442454620519
+  ]
+ },
+ {
+  "instance": 215,
+  "voted": "reception desk",
+  "n_gaussians": 479,
+  "p_voted": 4.775324136119252e-09,
+  "clip_top": [
+   [
+    "box",
+    1.0
+   ],
+   [
+    "shelf",
+    0.0
+   ],
+   [
+    "couch",
+    0.0
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.3739672207749934,
+   0.07201371418767123,
+   -0.008351823736472485
+  ]
+ },
+ {
+  "instance": 216,
+  "voted": "reception desk",
+  "n_gaussians": 19,
+  "p_voted": 9.450409343969568e-09,
+  "clip_top": [
+   [
+    "box",
+    1.0
+   ],
+   [
+    "shelf",
+    0.0
+   ],
+   [
+    "pillar",
+    0.0
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.32649872648088557,
+   0.07064261640373029,
+   0.009963900365523602
+  ]
+ },
+ {
+  "instance": 217,
+  "voted": "reception desk",
+  "n_gaussians": 4,
+  "p_voted": 2.6740736291941403e-09,
+  "clip_top": [
+   [
+    "box",
+    1.0
+   ],
+   [
+    "couch",
+    0.0
+   ],
+   [
+    "shelf",
+    0.0
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.43769270181655884,
+   0.09064346365630627,
+   -0.01142619107849896
+  ]
+ },
+ {
+  "instance": 218,
+  "voted": "recycling bin",
+  "n_gaussians": 23,
+  "p_voted": 1.7588274658919545e-06,
+  "clip_top": [
+   [
+    "box",
+    1.0
+   ],
+   [
+    "floor",
+    0.0
+   ],
+   [
+    "recycling bin",
+    0.0
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.3118030713952106,
+   0.019725223355319187,
+   0.011035594441320585
+  ]
+ },
+ {
+  "instance": 219,
+  "voted": "recycling bin",
+  "n_gaussians": 9,
+  "p_voted": 1.7588274658919545e-06,
+  "clip_top": [
+   [
+    "box",
+    1.0
+   ],
+   [
+    "floor",
+    0.0
+   ],
+   [
+    "recycling bin",
+    0.0
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.36538393961058724,
+   0.06239033076498243,
+   0.001327953508330716
+  ]
+ },
+ {
+  "instance": 220,
+  "voted": "recycling bin",
+  "n_gaussians": 31,
+  "p_voted": 1.7588274658919545e-06,
+  "clip_top": [
+   [
+    "box",
+    1.0
+   ],
+   [
+    "floor",
+    0.0
+   ],
+   [
+    "recycling bin",
+    0.0
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.44502287814694064,
+   0.12114267459800167,
+   0.03144617589010346
+  ]
+ },
+ {
+  "instance": 221,
+  "voted": "recycling bin",
+  "n_gaussians": 16,
+  "p_voted": 1.7588274658919545e-06,
+  "clip_top": [
+   [
+    "box",
+    1.0
+   ],
+   [
+    "floor",
+    0.0
+   ],
+   [
+    "recycling bin",
+    0.0
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.393033585765145,
+   0.10878506776961414,
+   0.029589879411188038
+  ]
+ },
+ {
+  "instance": 222,
+  "voted": "recycling bin",
+  "n_gaussians": 9,
+  "p_voted": 1.7588274658919545e-06,
+  "clip_top": [
+   [
+    "box",
+    1.0
+   ],
+   [
+    "floor",
+    0.0
+   ],
+   [
+    "recycling bin",
+    0.0
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.23939746452702415,
+   -0.04045173070496983,
+   -0.0027756712219242116
+  ]
+ },
+ {
+  "instance": 223,
+  "voted": "recycling bin",
+  "n_gaussians": 7,
+  "p_voted": 1.7588274658919545e-06,
+  "clip_top": [
+   [
+    "box",
+    1.0
+   ],
+   [
+    "floor",
+    0.0
+   ],
+   [
+    "recycling bin",
+    0.0
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.36881160736083984,
+   0.08442170811550957,
+   0.013908092863857746
+  ]
+ },
+ {
+  "instance": 224,
+  "voted": "shelf",
+  "n_gaussians": 14,
+  "p_voted": 0.0003376736131031066,
+  "clip_top": [
+   [
+    "cabinet",
+    0.782
+   ],
+   [
+    "monitor",
+    0.054
+   ],
+   [
+    "column",
+    0.04
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.045784229678767066,
+   -0.2536123586552484,
+   0.013891244556621782
+  ]
+ },
+ {
+  "instance": 225,
+  "voted": "shelf",
+  "n_gaussians": 41,
+  "p_voted": 0.0002830160374287516,
+  "clip_top": [
+   [
+    "cabinet",
+    0.849
+   ],
+   [
+    "monitor",
+    0.038
+   ],
+   [
+    "column",
+    0.026
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.044208332896232605,
+   -0.06996791755280844,
+   -0.005012686494965016
+  ]
+ },
+ {
+  "instance": 226,
+  "voted": "shelf",
+  "n_gaussians": 346,
+  "p_voted": 0.00032631377689540386,
+  "clip_top": [
+   [
+    "cabinet",
+    0.851
+   ],
+   [
+    "monitor",
+    0.04
+   ],
+   [
+    "vending machine",
+    0.025
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.007648154609621718,
+   -0.29366595852069366,
+   0.010540519228342395
+  ]
+ },
+ {
+  "instance": 227,
+  "voted": "shelf",
+  "n_gaussians": 6,
+  "p_voted": 0.00029870268190279603,
+  "clip_top": [
+   [
+    "cabinet",
+    0.852
+   ],
+   [
+    "monitor",
+    0.039
+   ],
+   [
+    "column",
+    0.023
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.05355194956064224,
+   0.060304151847958565,
+   -0.007531411945819855
+  ]
+ },
+ {
+  "instance": 228,
+  "voted": "shelf",
+  "n_gaussians": 5,
+  "p_voted": 0.0003136719751637429,
+  "clip_top": [
+   [
+    "cabinet",
+    0.801
+   ],
+   [
+    "monitor",
+    0.058
+   ],
+   [
+    "column",
+    0.033
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.05576342642307282,
+   0.09811735600233078,
+   -0.006041520088911056
+  ]
+ },
+ {
+  "instance": 229,
+  "voted": "sign",
+  "n_gaussians": 74,
+  "p_voted": 0.4154873788356781,
+  "clip_top": [
+   [
+    "sign",
+    0.415
+   ],
+   [
+    "door",
+    0.315
+   ],
+   [
+    "glass door",
+    0.113
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.11085868690242158,
+   0.31317050786728556,
+   0.05347954569027779
+  ]
+ },
+ {
+  "instance": 230,
+  "voted": "stool",
+  "n_gaussians": 41,
+  "p_voted": 0.009733675047755241,
+  "clip_top": [
+   [
+    "couch",
+    0.867
+   ],
+   [
+    "chair",
+    0.075
+   ],
+   [
+    "bench",
+    0.045
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.30053364576362984,
+   0.2526626397923725,
+   4.697689628966789e-05
+  ]
+ },
+ {
+  "instance": 231,
+  "voted": "stool",
+  "n_gaussians": 25,
+  "p_voted": 0.0021271377336233854,
+  "clip_top": [
+   [
+    "couch",
+    0.971
+   ],
+   [
+    "floor",
+    0.013
+   ],
+   [
+    "chair",
+    0.011
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.045664374530315396,
+   -0.07463331669569015,
+   -0.0037654958479106425
+  ]
+ },
+ {
+  "instance": 232,
+  "voted": "stool",
+  "n_gaussians": 13,
+  "p_voted": 0.00015560419706162065,
+  "clip_top": [
+   [
+    "couch",
+    0.999
+   ],
+   [
+    "chair",
+    0.001
+   ],
+   [
+    "bench",
+    0.0
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.23100144473405984,
+   0.293047159910202,
+   0.010376711949132957
+  ]
+ },
+ {
+  "instance": 233,
+  "voted": "stool",
+  "n_gaussians": 34,
+  "p_voted": 0.0004632546624634415,
+  "clip_top": [
+   [
+    "couch",
+    0.989
+   ],
+   [
+    "bench",
+    0.005
+   ],
+   [
+    "shelf",
+    0.002
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.0665674957939807,
+   -0.02660616218824597,
+   -0.0020870617747063723
+  ]
+ },
+ {
+  "instance": 234,
+  "voted": "trash can",
+  "n_gaussians": 2791,
+  "p_voted": 0.9160510301589966,
+  "clip_top": [
+   [
+    "trash can",
+    0.916
+   ],
+   [
+    "column",
+    0.043
+   ],
+   [
+    "pillar",
+    0.04
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.25172974337244236,
+   -0.1398586667143376,
+   0.004432648860302617
+  ]
+ },
+ {
+  "instance": 235,
+  "voted": "trash can",
+  "n_gaussians": 7,
+  "p_voted": 0.9980402588844299,
+  "clip_top": [
+   [
+    "trash can",
+    0.998
+   ],
+   [
+    "recycling bin",
+    0.001
+   ],
+   [
+    "stool",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.24206678995064326,
+   -0.043147409068686624,
+   -0.005091271379829517
+  ]
+ },
+ {
+  "instance": 236,
+  "voted": "trash can",
+  "n_gaussians": 9,
+  "p_voted": 0.04298661649227142,
+  "clip_top": [
+   [
+    "floor",
+    0.356
+   ],
+   [
+    "pillar",
+    0.289
+   ],
+   [
+    "column",
+    0.265
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.9032038384013705,
+   0.17152356604735056,
+   -0.0023884392705642516
+  ]
+ },
+ {
+  "instance": 237,
+  "voted": "trash can",
+  "n_gaussians": 107,
+  "p_voted": 0.9975796341896057,
+  "clip_top": [
+   [
+    "trash can",
+    0.998
+   ],
+   [
+    "recycling bin",
+    0.001
+   ],
+   [
+    "stool",
+    0.001
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.3811685364937114,
+   0.009612601420137092,
+   -0.002794674457669384
+  ]
+ },
+ {
+  "instance": 238,
+  "voted": "trash can",
+  "n_gaussians": 24,
+  "p_voted": 0.05718659237027168,
+  "clip_top": [
+   [
+    "pillar",
+    0.519
+   ],
+   [
+    "column",
+    0.284
+   ],
+   [
+    "floor",
+    0.072
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.8631584048271179,
+   0.1633508950471878,
+   -0.005938357159417744
+  ]
+ },
+ {
+  "instance": 239,
+  "voted": "trash can",
+  "n_gaussians": 50,
+  "p_voted": 0.3794306218624115,
+  "clip_top": [
+   [
+    "pillar",
+    0.399
+   ],
+   [
+    "trash can",
+    0.379
+   ],
+   [
+    "column",
+    0.186
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.7776256108283996,
+   0.12890417441725732,
+   -0.002384873809933197
+  ]
+ },
+ {
+  "instance": 240,
+  "voted": "tv",
+  "n_gaussians": 1812,
+  "p_voted": 2.7995156415272504e-07,
+  "clip_top": [
+   [
+    "fire alarm",
+    0.989
+   ],
+   [
+    "box",
+    0.008
+   ],
+   [
+    "fire extinguisher",
+    0.001
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.2689271516222117,
+   -0.03472757681262426,
+   0.043757329612442455
+  ]
+ },
+ {
+  "instance": 241,
+  "voted": "tv",
+  "n_gaussians": 95,
+  "p_voted": 7.919051313365344e-06,
+  "clip_top": [
+   [
+    "fire alarm",
+    0.981
+   ],
+   [
+    "window",
+    0.006
+   ],
+   [
+    "box",
+    0.005
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.09210940944521051,
+   -0.058195786727102176,
+   0.020030713571529638
+  ]
+ },
+ {
+  "instance": 242,
+  "voted": "tv",
+  "n_gaussians": 10,
+  "p_voted": 1.8084601833834313e-06,
+  "clip_top": [
+   [
+    "fire alarm",
+    0.98
+   ],
+   [
+    "fire extinguisher",
+    0.007
+   ],
+   [
+    "vending machine",
+    0.007
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.08313671201467514,
+   -0.029553246311843397,
+   0.012185067124664783
+  ]
+ },
+ {
+  "instance": 243,
+  "voted": "tv",
+  "n_gaussians": 75,
+  "p_voted": 3.848030246444978e-06,
+  "clip_top": [
+   [
+    "fire alarm",
+    0.961
+   ],
+   [
+    "vending machine",
+    0.015
+   ],
+   [
+    "fire extinguisher",
+    0.008
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.1358094271272421,
+   -0.022677511209622025,
+   0.008403702333453111
+  ]
+ },
+ {
+  "instance": 244,
+  "voted": "tv",
+  "n_gaussians": 9,
+  "p_voted": 7.403201038869156e-07,
+  "clip_top": [
+   [
+    "fire alarm",
+    0.992
+   ],
+   [
+    "fire extinguisher",
+    0.005
+   ],
+   [
+    "box",
+    0.002
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.11645390838384628,
+   -0.05198869191937976,
+   0.014188983788092932
+  ]
+ },
+ {
+  "instance": 245,
+  "voted": "tv",
+  "n_gaussians": 44,
+  "p_voted": 5.421539299277356e-06,
+  "clip_top": [
+   [
+    "door handle",
+    0.94
+   ],
+   [
+    "door",
+    0.034
+   ],
+   [
+    "pillar",
+    0.006
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.006417084061963992,
+   0.1523834951221943,
+   0.047097386453639374
+  ]
+ },
+ {
+  "instance": 246,
+  "voted": "tv",
+  "n_gaussians": 2185,
+  "p_voted": 1.51790700329002e-05,
+  "clip_top": [
+   [
+    "elevator",
+    0.92
+   ],
+   [
+    "door",
+    0.038
+   ],
+   [
+    "door handle",
+    0.015
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.7318863312403361,
+   0.06816042214632034,
+   0.02357255555689335
+  ]
+ },
+ {
+  "instance": 247,
+  "voted": "tv",
+  "n_gaussians": 4,
+  "p_voted": 4.356642421043944e-06,
+  "clip_top": [
+   [
+    "glass door",
+    0.715
+   ],
+   [
+    "monitor",
+    0.149
+   ],
+   [
+    "display screen",
+    0.105
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.26966357231140137,
+   0.049681032076478004,
+   0.05176793783903122
+  ]
+ },
+ {
+  "instance": 248,
+  "voted": "tv",
+  "n_gaussians": 6,
+  "p_voted": 3.848030246444978e-06,
+  "clip_top": [
+   [
+    "fire alarm",
+    0.961
+   ],
+   [
+    "vending machine",
+    0.015
+   ],
+   [
+    "fire extinguisher",
+    0.008
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.33664141595363617,
+   -0.012676328886300325,
+   0.0012410470614364992
+  ]
+ },
+ {
+  "instance": 249,
+  "voted": "tv",
+  "n_gaussians": 5,
+  "p_voted": 1.51790700329002e-05,
+  "clip_top": [
+   [
+    "elevator",
+    0.92
+   ],
+   [
+    "door",
+    0.038
+   ],
+   [
+    "door handle",
+    0.015
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   0.677319347858429,
+   0.06299677044153214,
+   0.009506898187100887
+  ]
+ },
+ {
+  "instance": 250,
+  "voted": "vending machine",
+  "n_gaussians": 5418,
+  "p_voted": 0.002054311567917466,
+  "clip_top": [
+   [
+    "cabinet",
+    0.795
+   ],
+   [
+    "box",
+    0.17
+   ],
+   [
+    "monitor",
+    0.018
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.028372986352490283,
+   -0.21833517476883504,
+   0.008624210549242728
+  ]
+ },
+ {
+  "instance": 251,
+  "voted": "vending machine",
+  "n_gaussians": 13,
+  "p_voted": 0.003246818669140339,
+  "clip_top": [
+   [
+    "cabinet",
+    0.577
+   ],
+   [
+    "box",
+    0.345
+   ],
+   [
+    "monitor",
+    0.028
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.1638340548827098,
+   -0.08209139395218629,
+   0.007249571544189866
+  ]
+ },
+ {
+  "instance": 252,
+  "voted": "vending machine",
+  "n_gaussians": 5,
+  "p_voted": 0.003246818669140339,
+  "clip_top": [
+   [
+    "cabinet",
+    0.577
+   ],
+   [
+    "box",
+    0.345
+   ],
+   [
+    "monitor",
+    0.028
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.046118438988924024,
+   -0.181905072927475,
+   0.046204093098640445
+  ]
+ },
+ {
+  "instance": 253,
+  "voted": "vending machine",
+  "n_gaussians": 4,
+  "p_voted": 0.003246818669140339,
+  "clip_top": [
+   [
+    "cabinet",
+    0.577
+   ],
+   [
+    "box",
+    0.345
+   ],
+   [
+    "monitor",
+    0.028
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.057484774850308895,
+   -0.18467837199568748,
+   -0.010007048957049847
+  ]
+ },
+ {
+  "instance": 254,
+  "voted": "vent",
+  "n_gaussians": 1729,
+  "p_voted": 0.9999502897262573,
+  "clip_top": [
+   [
+    "vent",
+    1.0
+   ],
+   [
+    "door",
+    0.0
+   ],
+   [
+    "box",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.7920006705587116,
+   0.2246531974606074,
+   0.0005314602313627087
+  ]
+ },
+ {
+  "instance": 255,
+  "voted": "wall",
+  "n_gaussians": 75999,
+  "p_voted": 0.9426713585853577,
+  "clip_top": [
+   [
+    "wall",
+    0.943
+   ],
+   [
+    "door",
+    0.031
+   ],
+   [
+    "vent",
+    0.006
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.1363919093989817,
+   0.06174309662610251,
+   0.03413139934439814
+  ]
+ },
+ {
+  "instance": 256,
+  "voted": "wall",
+  "n_gaussians": 1420,
+  "p_voted": 0.04167572781443596,
+  "clip_top": [
+   [
+    "column",
+    0.271
+   ],
+   [
+    "pillar",
+    0.187
+   ],
+   [
+    "shelf",
+    0.172
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.10958519218373669,
+   -0.27523288622712405,
+   0.019586728309965867
+  ]
+ },
+ {
+  "instance": 257,
+  "voted": "wall",
+  "n_gaussians": 8870,
+  "p_voted": 0.9310064315795898,
+  "clip_top": [
+   [
+    "wall",
+    0.931
+   ],
+   [
+    "door",
+    0.041
+   ],
+   [
+    "floor",
+    0.016
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.39443236000738446,
+   -0.06092514412939398,
+   0.020774287159808683
+  ]
+ },
+ {
+  "instance": 258,
+  "voted": "wall",
+  "n_gaussians": 960,
+  "p_voted": 0.6826565265655518,
+  "clip_top": [
+   [
+    "wall",
+    0.683
+   ],
+   [
+    "bulletin board",
+    0.162
+   ],
+   [
+    "shelf",
+    0.057
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.8573169460592344,
+   0.12322084493646326,
+   0.008483807666897512
+  ]
+ },
+ {
+  "instance": 259,
+  "voted": "wall",
+  "n_gaussians": 21,
+  "p_voted": 0.048209551721811295,
+  "clip_top": [
+   [
+    "couch",
+    0.638
+   ],
+   [
+    "window",
+    0.286
+   ],
+   [
+    "wall",
+    0.048
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.3951771883737473,
+   0.283861490942183,
+   0.07241255559381984
+  ]
+ },
+ {
+  "instance": 260,
+  "voted": "window",
+  "n_gaussians": 5029,
+  "p_voted": 0.009673602879047394,
+  "clip_top": [
+   [
+    "poster",
+    0.81
+   ],
+   [
+    "bulletin board",
+    0.077
+   ],
+   [
+    "display screen",
+    0.062
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.2530321813606376,
+   -0.2053466504191549,
+   0.050768423192830585
+  ]
+ },
+ {
+  "instance": 261,
+  "voted": "window",
+  "n_gaussians": 17110,
+  "p_voted": 0.9845841526985168,
+  "clip_top": [
+   [
+    "window",
+    0.985
+   ],
+   [
+    "glass door",
+    0.007
+   ],
+   [
+    "shelf",
+    0.003
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.28768926990373933,
+   0.07842524691954303,
+   0.05332246876428903
+  ]
+ },
+ {
+  "instance": 262,
+  "voted": "window",
+  "n_gaussians": 37650,
+  "p_voted": 0.9583904147148132,
+  "clip_top": [
+   [
+    "window",
+    0.958
+   ],
+   [
+    "glass door",
+    0.027
+   ],
+   [
+    "display screen",
+    0.009
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.24639460579038147,
+   0.2786611220307887,
+   0.03312965466281916
+  ]
+ },
+ {
+  "instance": 263,
+  "voted": "window",
+  "n_gaussians": 16259,
+  "p_voted": 0.977408766746521,
+  "clip_top": [
+   [
+    "window",
+    0.977
+   ],
+   [
+    "glass door",
+    0.021
+   ],
+   [
+    "door",
+    0.001
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.019748148525634533,
+   0.16120038092675268,
+   0.054071137306139175
+  ]
+ },
+ {
+  "instance": 264,
+  "voted": "window",
+  "n_gaussians": 23,
+  "p_voted": 0.968980073928833,
+  "clip_top": [
+   [
+    "window",
+    0.969
+   ],
+   [
+    "display screen",
+    0.011
+   ],
+   [
+    "monitor",
+    0.005
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.077052000100198,
+   -0.0350367768627146,
+   0.009257905124484198
+  ]
+ },
+ {
+  "instance": 265,
+  "voted": "window",
+  "n_gaussians": 44,
+  "p_voted": 0.968980073928833,
+  "clip_top": [
+   [
+    "window",
+    0.969
+   ],
+   [
+    "display screen",
+    0.011
+   ],
+   [
+    "monitor",
+    0.005
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.1191638418557969,
+   -0.04776811997660182,
+   0.015284861173396084
+  ]
+ },
+ {
+  "instance": 266,
+  "voted": "window",
+  "n_gaussians": 8,
+  "p_voted": 0.08376710116863251,
+  "clip_top": [
+   [
+    "glass door",
+    0.691
+   ],
+   [
+    "door",
+    0.199
+   ],
+   [
+    "window",
+    0.084
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.08598004095256329,
+   0.3652983084321022,
+   0.03303073067218065
+  ]
+ },
+ {
+  "instance": 267,
+  "voted": "window",
+  "n_gaussians": 795,
+  "p_voted": 0.06837361305952072,
+  "clip_top": [
+   [
+    "glass door",
+    0.617
+   ],
+   [
+    "door",
+    0.29
+   ],
+   [
+    "window",
+    0.068
+   ]
+  ],
+  "disagree": true,
+  "centroid": [
+   -0.08886334867704482,
+   0.43065426221915654,
+   0.03164913905112328
+  ]
+ },
+ {
+  "instance": 268,
+  "voted": "window",
+  "n_gaussians": 137,
+  "p_voted": 0.0877315104007721,
+  "clip_top": [
+   [
+    "banner",
+    0.198
+   ],
+   [
+    "handrail",
+    0.19
+   ],
+   [
+    "poster",
+    0.152
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.4557694307644002,
+   -0.039564355208545274,
+   0.047155216472209806
+  ]
+ },
+ {
+  "instance": 269,
+  "voted": "window",
+  "n_gaussians": 6,
+  "p_voted": 0.9967572093009949,
+  "clip_top": [
+   [
+    "window",
+    0.997
+   ],
+   [
+    "glass door",
+    0.001
+   ],
+   [
+    "vent",
+    0.001
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.3001021097103755,
+   -0.013006083744888505,
+   0.08088116347789764
+  ]
+ },
+ {
+  "instance": 270,
+  "voted": "window",
+  "n_gaussians": 59,
+  "p_voted": 0.8942809104919434,
+  "clip_top": [
+   [
+    "window",
+    0.894
+   ],
+   [
+    "display screen",
+    0.061
+   ],
+   [
+    "bulletin board",
+    0.038
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.03176297147963512,
+   0.049991499222183634,
+   0.044039340153083965
+  ]
+ },
+ {
+  "instance": 271,
+  "voted": "window",
+  "n_gaussians": 48,
+  "p_voted": 0.968980073928833,
+  "clip_top": [
+   [
+    "window",
+    0.969
+   ],
+   [
+    "display screen",
+    0.011
+   ],
+   [
+    "monitor",
+    0.005
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.06423782984105249,
+   -0.01739965978777036,
+   0.017551874101627618
+  ]
+ },
+ {
+  "instance": 272,
+  "voted": "window",
+  "n_gaussians": 5,
+  "p_voted": 0.835330605506897,
+  "clip_top": [
+   [
+    "window",
+    0.835
+   ],
+   [
+    "display screen",
+    0.085
+   ],
+   [
+    "bulletin board",
+    0.049
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.17465965449810028,
+   0.041334082186222074,
+   0.02665628828108311
+  ]
+ },
+ {
+  "instance": 273,
+  "voted": "window",
+  "n_gaussians": 50,
+  "p_voted": 0.9554328918457031,
+  "clip_top": [
+   [
+    "window",
+    0.955
+   ],
+   [
+    "display screen",
+    0.017
+   ],
+   [
+    "bulletin board",
+    0.016
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.048648278787732126,
+   0.09825895816087722,
+   0.06164057515561581
+  ]
+ },
+ {
+  "instance": 274,
+  "voted": "window",
+  "n_gaussians": 1018,
+  "p_voted": 0.987034261226654,
+  "clip_top": [
+   [
+    "window",
+    0.987
+   ],
+   [
+    "display screen",
+    0.008
+   ],
+   [
+    "monitor",
+    0.002
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.15262726283121983,
+   0.1445367913806997,
+   0.02623891082920453
+  ]
+ },
+ {
+  "instance": 275,
+  "voted": "window",
+  "n_gaussians": 69,
+  "p_voted": 0.38717079162597656,
+  "clip_top": [
+   [
+    "window",
+    0.387
+   ],
+   [
+    "handrail",
+    0.377
+   ],
+   [
+    "wall",
+    0.048
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   0.37012585401535036,
+   -0.05971299260854721,
+   0.20752445757389068
+  ]
+ },
+ {
+  "instance": 276,
+  "voted": "window",
+  "n_gaussians": 792,
+  "p_voted": 0.0455932691693306,
+  "clip_top": [
+   [
+    "door",
+    0.49
+   ],
+   [
+    "glass door",
+    0.441
+   ],
+   [
+    "window",
+    0.046
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.07526594985054842,
+   0.29188841556016853,
+   0.011564317586559549
+  ]
+ },
+ {
+  "instance": 277,
+  "voted": "window",
+  "n_gaussians": 43,
+  "p_voted": 0.8489608764648438,
+  "clip_top": [
+   [
+    "window",
+    0.849
+   ],
+   [
+    "display screen",
+    0.128
+   ],
+   [
+    "monitor",
+    0.009
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.22934250235557557,
+   0.15972504417101543,
+   0.05694059232870738
+  ]
+ },
+ {
+  "instance": 278,
+  "voted": "window",
+  "n_gaussians": 8,
+  "p_voted": 0.9821558594703674,
+  "clip_top": [
+   [
+    "window",
+    0.982
+   ],
+   [
+    "glass door",
+    0.017
+   ],
+   [
+    "vent",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.13591940701007843,
+   0.08581584505736828,
+   0.015326938824728131
+  ]
+ },
+ {
+  "instance": 279,
+  "voted": "window",
+  "n_gaussians": 317,
+  "p_voted": 0.9670257568359375,
+  "clip_top": [
+   [
+    "window",
+    0.967
+   ],
+   [
+    "monitor",
+    0.016
+   ],
+   [
+    "display screen",
+    0.01
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.20622345060110092,
+   0.23020539432764053,
+   0.09411561861634254
+  ]
+ },
+ {
+  "instance": 280,
+  "voted": "window",
+  "n_gaussians": 4,
+  "p_voted": 0.9983185529708862,
+  "clip_top": [
+   [
+    "window",
+    0.998
+   ],
+   [
+    "glass door",
+    0.002
+   ],
+   [
+    "door",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.2759346291422844,
+   0.10549682006239891,
+   0.027917479164898396
+  ]
+ },
+ {
+  "instance": 281,
+  "voted": "window",
+  "n_gaussians": 31,
+  "p_voted": 0.9967623949050903,
+  "clip_top": [
+   [
+    "window",
+    0.997
+   ],
+   [
+    "display screen",
+    0.001
+   ],
+   [
+    "bulletin board",
+    0.001
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.10909252445543965,
+   0.06452484224592486,
+   0.018562468129300302
+  ]
+ },
+ {
+  "instance": 282,
+  "voted": "window",
+  "n_gaussians": 6,
+  "p_voted": 0.9979251623153687,
+  "clip_top": [
+   [
+    "window",
+    0.998
+   ],
+   [
+    "shelf",
+    0.001
+   ],
+   [
+    "cabinet",
+    0.0
+   ]
+  ],
+  "disagree": false,
+  "centroid": [
+   -0.22405713548262915,
+   0.10258297249674797,
+   0.06273298834760983
+  ]
+ }
+]
