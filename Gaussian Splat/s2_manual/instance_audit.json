@@ -1,0 +1,2549 @@
+[
+ {
+  "instance": 0,
+  "label": "backpack",
+  "was": null,
+  "n_gaussians": 1439,
+  "map_label": "backpack",
+  "frame": 377,
+  "det_2d": "backpack(18134), wall(2030), couch(1895)"
+ },
+ {
+  "instance": 1,
+  "label": "banner",
+  "was": null,
+  "n_gaussians": 57,
+  "map_label": "banner",
+  "frame": 127,
+  "det_2d": "banner(355), door(25), ceiling(15)"
+ },
+ {
+  "instance": 2,
+  "label": "banner",
+  "was": null,
+  "n_gaussians": 459,
+  "map_label": "banner",
+  "frame": 127,
+  "det_2d": "banner(10800), ceiling(515), door(183)"
+ },
+ {
+  "instance": 3,
+  "label": "banner",
+  "was": null,
+  "n_gaussians": 110,
+  "map_label": "banner",
+  "frame": 54,
+  "det_2d": "banner(356), door(4), sign(4)"
+ },
+ {
+  "instance": 4,
+  "label": "banner",
+  "was": null,
+  "n_gaussians": 87,
+  "map_label": "banner",
+  "frame": 81,
+  "det_2d": "banner(789), sign(510), ceiling(123)"
+ },
+ {
+  "instance": 5,
+  "label": "banner",
+  "was": null,
+  "n_gaussians": 9,
+  "map_label": "banner",
+  "frame": 360,
+  "det_2d": "banner(6), window(6), glass door(2)"
+ },
+ {
+  "instance": 6,
+  "label": "banner",
+  "was": null,
+  "n_gaussians": 35,
+  "map_label": "banner",
+  "frame": 80,
+  "det_2d": "banner(213), ceiling(80), door(74)"
+ },
+ {
+  "instance": 7,
+  "label": "banner",
+  "was": null,
+  "n_gaussians": 8,
+  "map_label": "banner",
+  "frame": 62,
+  "det_2d": "window(64), banner(56), poster(46)"
+ },
+ {
+  "instance": 8,
+  "label": "bench",
+  "was": null,
+  "n_gaussians": 2345,
+  "map_label": "bench",
+  "frame": 29,
+  "det_2d": "bench(37587), couch(37523), chair(10569)"
+ },
+ {
+  "instance": 9,
+  "label": "bench",
+  "was": null,
+  "n_gaussians": 1396,
+  "map_label": "bench",
+  "frame": 384,
+  "det_2d": "bench(13660), couch(5073), stool(1321)"
+ },
+ {
+  "instance": 10,
+  "label": "bookshelf",
+  "was": null,
+  "n_gaussians": 232,
+  "map_label": "bookshelf",
+  "frame": 354,
+  "det_2d": "wall(3877), bookshelf(1696), window(317)"
+ },
+ {
+  "instance": 11,
+  "label": "bookshelf",
+  "was": null,
+  "n_gaussians": 1198,
+  "map_label": "bookshelf",
+  "frame": 360,
+  "det_2d": "window(8928), bookshelf(7986), cabinet(5879)"
+ },
+ {
+  "instance": 12,
+  "label": "bookshelf",
+  "was": null,
+  "n_gaussians": 7,
+  "map_label": "bookshelf",
+  "frame": 357,
+  "det_2d": "wall(20), bookshelf(9), window(3)"
+ },
+ {
+  "instance": 154,
+  "label": "bookshelf",
+  "was": "glass door",
+  "n_gaussians": 73,
+  "map_label": "bookshelf",
+  "frame": 356,
+  "det_2d": "cabinet(143), window(140), glass door(138)"
+ },
+ {
+  "instance": 156,
+  "label": "bookshelf",
+  "was": "glass door",
+  "n_gaussians": 7,
+  "map_label": "bookshelf",
+  "frame": 359,
+  "det_2d": "glass door(43), window(15), wall(1)"
+ },
+ {
+  "instance": 157,
+  "label": "bookshelf",
+  "was": "glass door",
+  "n_gaussians": 164,
+  "map_label": "bookshelf",
+  "frame": 358,
+  "det_2d": "glass door(234), window(90), wall(19)"
+ },
+ {
+  "instance": 197,
+  "label": "bookshelf",
+  "was": "poster",
+  "n_gaussians": 41,
+  "map_label": "bookshelf",
+  "frame": 290,
+  "det_2d": "poster(175), wall(74), tv(22)"
+ },
+ {
+  "instance": 199,
+  "label": "bookshelf",
+  "was": "poster",
+  "n_gaussians": 232,
+  "map_label": "bookshelf",
+  "frame": 370,
+  "det_2d": "wall(963), poster(734), window(189)"
+ },
+ {
+  "instance": 200,
+  "label": "bookshelf",
+  "was": "poster",
+  "n_gaussians": 42,
+  "map_label": "bookshelf",
+  "frame": 32,
+  "det_2d": "window(731), poster(671), glass door(486)"
+ },
+ {
+  "instance": 201,
+  "label": "bookshelf",
+  "was": "poster",
+  "n_gaussians": 324,
+  "map_label": "bookshelf",
+  "frame": 62,
+  "det_2d": "poster(1345), window(390), bulletin board(274)"
+ },
+ {
+  "instance": 203,
+  "label": "bookshelf",
+  "was": "poster",
+  "n_gaussians": 38,
+  "map_label": "bookshelf",
+  "frame": 32,
+  "det_2d": "poster(378), wall(206), glass door(189)"
+ },
+ {
+  "instance": 205,
+  "label": "bookshelf",
+  "was": "poster",
+  "n_gaussians": 25,
+  "map_label": "bookshelf",
+  "frame": 369,
+  "det_2d": "wall(144), poster(81), window(13)"
+ },
+ {
+  "instance": 206,
+  "label": "bookshelf",
+  "was": "poster",
+  "n_gaussians": 5,
+  "map_label": "bookshelf",
+  "frame": 290,
+  "det_2d": "poster(123), wall(20), tv(11)"
+ },
+ {
+  "instance": 207,
+  "label": "bookshelf",
+  "was": "poster",
+  "n_gaussians": 25,
+  "map_label": "bookshelf",
+  "frame": 32,
+  "det_2d": "poster(255), glass door(203), window(115)"
+ },
+ {
+  "instance": 13,
+  "label": "box",
+  "was": null,
+  "n_gaussians": 81,
+  "map_label": "box",
+  "frame": 146,
+  "det_2d": "box(769), tv(261), wall(204)"
+ },
+ {
+  "instance": 14,
+  "label": "box",
+  "was": null,
+  "n_gaussians": 1977,
+  "map_label": "box",
+  "frame": 219,
+  "det_2d": "box(145773), couch(20111), recycling bin(12592)"
+ },
+ {
+  "instance": 15,
+  "label": "box",
+  "was": null,
+  "n_gaussians": 229,
+  "map_label": "box",
+  "frame": 216,
+  "det_2d": "box(452), door(104), recycling bin(69)"
+ },
+ {
+  "instance": 16,
+  "label": "box",
+  "was": null,
+  "n_gaussians": 23,
+  "map_label": "box",
+  "frame": 214,
+  "det_2d": "box(59), couch(21)"
+ },
+ {
+  "instance": 17,
+  "label": "box",
+  "was": null,
+  "n_gaussians": 4,
+  "map_label": "box",
+  "frame": 217,
+  "det_2d": "box(14), recycling bin(4)"
+ },
+ {
+  "instance": 18,
+  "label": "box",
+  "was": null,
+  "n_gaussians": 6,
+  "map_label": "box",
+  "frame": 217,
+  "det_2d": "box(284), couch(50), wall(17)"
+ },
+ {
+  "instance": 19,
+  "label": "box",
+  "was": null,
+  "n_gaussians": 14,
+  "map_label": "box",
+  "frame": 206,
+  "det_2d": "box(242), floor(62), chair(13)"
+ },
+ {
+  "instance": 20,
+  "label": "box",
+  "was": null,
+  "n_gaussians": 4,
+  "map_label": "box",
+  "frame": 179,
+  "det_2d": "window(4), box(4)"
+ },
+ {
+  "instance": 21,
+  "label": "box",
+  "was": null,
+  "n_gaussians": 14,
+  "map_label": "box",
+  "frame": 216,
+  "det_2d": "box(15), door(4)"
+ },
+ {
+  "instance": 85,
+  "label": "box",
+  "was": "couch",
+  "n_gaussians": 1913,
+  "map_label": "box",
+  "frame": 275,
+  "det_2d": "couch(82488), box(15680), reception desk(14203)"
+ },
+ {
+  "instance": 86,
+  "label": "box",
+  "was": "couch",
+  "n_gaussians": 5,
+  "map_label": "box",
+  "frame": 277,
+  "det_2d": "couch(24), reception desk(1), box(1)"
+ },
+ {
+  "instance": 87,
+  "label": "box",
+  "was": "couch",
+  "n_gaussians": 899,
+  "map_label": "box",
+  "frame": 352,
+  "det_2d": "couch(9429), wall(2529), door(566)"
+ },
+ {
+  "instance": 214,
+  "label": "box",
+  "was": "reception desk",
+  "n_gaussians": 77,
+  "map_label": "box",
+  "frame": 148,
+  "det_2d": "reception desk(1701), curtain(1541), couch(681)"
+ },
+ {
+  "instance": 215,
+  "label": "box",
+  "was": "reception desk",
+  "n_gaussians": 479,
+  "map_label": "box",
+  "frame": 271,
+  "det_2d": "reception desk(18024), box(14957), couch(7217)"
+ },
+ {
+  "instance": 216,
+  "label": "box",
+  "was": "reception desk",
+  "n_gaussians": 19,
+  "map_label": "box",
+  "frame": 268,
+  "det_2d": "reception desk(108), couch(43), box(20)"
+ },
+ {
+  "instance": 217,
+  "label": "box",
+  "was": "reception desk",
+  "n_gaussians": 4,
+  "map_label": "box",
+  "frame": 264,
+  "det_2d": "box(20), reception desk(10), couch(4)"
+ },
+ {
+  "instance": 218,
+  "label": "box",
+  "was": "recycling bin",
+  "n_gaussians": 23,
+  "map_label": "box",
+  "frame": 219,
+  "det_2d": "box(548), recycling bin(265), couch(15)"
+ },
+ {
+  "instance": 219,
+  "label": "box",
+  "was": "recycling bin",
+  "n_gaussians": 9,
+  "map_label": "box",
+  "frame": 219,
+  "det_2d": "box(65), recycling bin(35), couch(4)"
+ },
+ {
+  "instance": 220,
+  "label": "box",
+  "was": "recycling bin",
+  "n_gaussians": 31,
+  "map_label": "box",
+  "frame": 217,
+  "det_2d": "door(247), box(99), recycling bin(82)"
+ },
+ {
+  "instance": 221,
+  "label": "box",
+  "was": "recycling bin",
+  "n_gaussians": 16,
+  "map_label": "box",
+  "frame": 218,
+  "det_2d": "recycling bin(212), box(170), couch(2)"
+ },
+ {
+  "instance": 222,
+  "label": "box",
+  "was": "recycling bin",
+  "n_gaussians": 9,
+  "map_label": "box",
+  "frame": 218,
+  "det_2d": "recycling bin(1034), box(292), floor(251)"
+ },
+ {
+  "instance": 223,
+  "label": "box",
+  "was": "recycling bin",
+  "n_gaussians": 7,
+  "map_label": "box",
+  "frame": 218,
+  "det_2d": "recycling bin(15), box(8), reception desk(3)"
+ },
+ {
+  "instance": 22,
+  "label": "bulletin board",
+  "was": null,
+  "n_gaussians": 1605,
+  "map_label": "bulletin board",
+  "frame": 57,
+  "det_2d": "bulletin board(23814), poster(17941), window(2953)"
+ },
+ {
+  "instance": 23,
+  "label": "bulletin board",
+  "was": null,
+  "n_gaussians": 32,
+  "map_label": "bulletin board",
+  "frame": 56,
+  "det_2d": "bulletin board(398), wall(204), column(7)"
+ },
+ {
+  "instance": 24,
+  "label": "bulletin board",
+  "was": null,
+  "n_gaussians": 14,
+  "map_label": "bulletin board",
+  "frame": 56,
+  "det_2d": "bulletin board(28), window(9), ceiling(4)"
+ },
+ {
+  "instance": 25,
+  "label": "cabinet",
+  "was": null,
+  "n_gaussians": 1008,
+  "map_label": "cabinet",
+  "frame": 130,
+  "det_2d": "cabinet(47398), vending machine(12377), floor(6101)"
+ },
+ {
+  "instance": 26,
+  "label": "cabinet",
+  "was": null,
+  "n_gaussians": 36,
+  "map_label": "cabinet",
+  "frame": 286,
+  "det_2d": "cabinet(633), door(185), shelf(177)"
+ },
+ {
+  "instance": 27,
+  "label": "cabinet",
+  "was": null,
+  "n_gaussians": 33,
+  "map_label": "cabinet",
+  "frame": 126,
+  "det_2d": "cabinet(313), shelf(38), chair(37)"
+ },
+ {
+  "instance": 28,
+  "label": "cabinet",
+  "was": null,
+  "n_gaussians": 17,
+  "map_label": "cabinet",
+  "frame": 106,
+  "det_2d": "wall(21), cabinet(20), shelf(11)"
+ },
+ {
+  "instance": 29,
+  "label": "cabinet",
+  "was": null,
+  "n_gaussians": 102,
+  "map_label": "cabinet",
+  "frame": 114,
+  "det_2d": "cabinet(378), wall(173), shelf(59)"
+ },
+ {
+  "instance": 30,
+  "label": "cabinet",
+  "was": null,
+  "n_gaussians": 26,
+  "map_label": "cabinet",
+  "frame": 341,
+  "det_2d": "cabinet(743), floor(695), door(405)"
+ },
+ {
+  "instance": 31,
+  "label": "cabinet",
+  "was": null,
+  "n_gaussians": 6,
+  "map_label": "cabinet",
+  "frame": 106,
+  "det_2d": "cabinet(6)"
+ },
+ {
+  "instance": 224,
+  "label": "cabinet",
+  "was": "shelf",
+  "n_gaussians": 14,
+  "map_label": "cabinet",
+  "frame": 112,
+  "det_2d": "shelf(39), wall(35), cabinet(13)"
+ },
+ {
+  "instance": 225,
+  "label": "cabinet",
+  "was": "shelf",
+  "n_gaussians": 41,
+  "map_label": "cabinet",
+  "frame": 127,
+  "det_2d": "wall(185), shelf(180), cabinet(83)"
+ },
+ {
+  "instance": 226,
+  "label": "cabinet",
+  "was": "shelf",
+  "n_gaussians": 346,
+  "map_label": "cabinet",
+  "frame": 108,
+  "det_2d": "shelf(106)"
+ },
+ {
+  "instance": 227,
+  "label": "cabinet",
+  "was": "shelf",
+  "n_gaussians": 6,
+  "map_label": "cabinet",
+  "frame": 108,
+  "det_2d": "shelf(75), floor(60), wall(21)"
+ },
+ {
+  "instance": 228,
+  "label": "cabinet",
+  "was": "shelf",
+  "n_gaussians": 5,
+  "map_label": "cabinet",
+  "frame": 108,
+  "det_2d": "shelf(21), wall(15), cabinet(7)"
+ },
+ {
+  "instance": 250,
+  "label": "cabinet",
+  "was": "vending machine",
+  "n_gaussians": 5418,
+  "map_label": "cabinet",
+  "frame": 324,
+  "det_2d": "vending machine(361522), cabinet(227912), wall(2796)"
+ },
+ {
+  "instance": 251,
+  "label": "cabinet",
+  "was": "vending machine",
+  "n_gaussians": 13,
+  "map_label": "cabinet",
+  "frame": 325,
+  "det_2d": "vending machine(48), couch(4), chair(2)"
+ },
+ {
+  "instance": 252,
+  "label": "cabinet",
+  "was": "vending machine",
+  "n_gaussians": 5,
+  "map_label": "cabinet",
+  "frame": 324,
+  "det_2d": "wall(20), vending machine(16), poster(1)"
+ },
+ {
+  "instance": 253,
+  "label": "cabinet",
+  "was": "vending machine",
+  "n_gaussians": 4,
+  "map_label": "cabinet",
+  "frame": 325,
+  "det_2d": "vending machine(17), floor(5), wall(4)"
+ },
+ {
+  "instance": 32,
+  "label": "ceiling",
+  "was": null,
+  "n_gaussians": 56136,
+  "map_label": "ceiling",
+  "frame": 309,
+  "det_2d": "ceiling(1964150), wall(54614), door(6950)"
+ },
+ {
+  "instance": 33,
+  "label": "ceiling",
+  "was": null,
+  "n_gaussians": 419,
+  "map_label": "ceiling",
+  "frame": 6,
+  "det_2d": "ceiling(37244), wall(3733), couch(732)"
+ },
+ {
+  "instance": 34,
+  "label": "ceiling",
+  "was": null,
+  "n_gaussians": 1012,
+  "map_label": "ceiling",
+  "frame": 38,
+  "det_2d": "ceiling(116)"
+ },
+ {
+  "instance": 35,
+  "label": "ceiling",
+  "was": null,
+  "n_gaussians": 30,
+  "map_label": "ceiling",
+  "frame": 9,
+  "det_2d": "ceiling(569)"
+ },
+ {
+  "instance": 36,
+  "label": "ceiling",
+  "was": null,
+  "n_gaussians": 1606,
+  "map_label": "ceiling",
+  "frame": 107,
+  "det_2d": "ceiling(15532), wall(1184), door(247)"
+ },
+ {
+  "instance": 37,
+  "label": "ceiling light",
+  "was": null,
+  "n_gaussians": 5,
+  "map_label": "ceiling light",
+  "frame": 126,
+  "det_2d": "ceiling light(73), ceiling(66)"
+ },
+ {
+  "instance": 38,
+  "label": "ceiling light",
+  "was": null,
+  "n_gaussians": 526,
+  "map_label": "ceiling light",
+  "frame": 138,
+  "det_2d": "ceiling light(6690), ceiling(4232)"
+ },
+ {
+  "instance": 39,
+  "label": "ceiling light",
+  "was": null,
+  "n_gaussians": 69,
+  "map_label": "ceiling light",
+  "frame": 208,
+  "det_2d": "ceiling light(447), ceiling(17), wall(13)"
+ },
+ {
+  "instance": 40,
+  "label": "ceiling light",
+  "was": null,
+  "n_gaussians": 195,
+  "map_label": "ceiling light",
+  "frame": 315,
+  "det_2d": "ceiling light(656), ceiling(565)"
+ },
+ {
+  "instance": 41,
+  "label": "ceiling light",
+  "was": null,
+  "n_gaussians": 74,
+  "map_label": "ceiling light",
+  "frame": 3,
+  "det_2d": "ceiling light(872), ceiling(68), lamp(23)"
+ },
+ {
+  "instance": 42,
+  "label": "ceiling light",
+  "was": null,
+  "n_gaussians": 23,
+  "map_label": "ceiling light",
+  "frame": 220,
+  "det_2d": "ceiling light(78), ceiling(31)"
+ },
+ {
+  "instance": 43,
+  "label": "ceiling light",
+  "was": null,
+  "n_gaussians": 10,
+  "map_label": "ceiling light",
+  "frame": 126,
+  "det_2d": "ceiling light(767), ceiling(322), wall(2)"
+ },
+ {
+  "instance": 44,
+  "label": "ceiling light",
+  "was": null,
+  "n_gaussians": 874,
+  "map_label": "ceiling light",
+  "frame": 206,
+  "det_2d": "ceiling light(1304), ceiling(526)"
+ },
+ {
+  "instance": 45,
+  "label": "ceiling light",
+  "was": null,
+  "n_gaussians": 297,
+  "map_label": "ceiling light",
+  "frame": 266,
+  "det_2d": "ceiling light(1798), lamp(1353), ceiling(863)"
+ },
+ {
+  "instance": 46,
+  "label": "ceiling light",
+  "was": null,
+  "n_gaussians": 155,
+  "map_label": "ceiling light",
+  "frame": 214,
+  "det_2d": "ceiling light(995), ceiling(172)"
+ },
+ {
+  "instance": 47,
+  "label": "ceiling light",
+  "was": null,
+  "n_gaussians": 63,
+  "map_label": "ceiling light",
+  "frame": 244,
+  "det_2d": "ceiling light(479), ceiling(90), lamp(78)"
+ },
+ {
+  "instance": 48,
+  "label": "ceiling light",
+  "was": null,
+  "n_gaussians": 139,
+  "map_label": "ceiling light",
+  "frame": 220,
+  "det_2d": "ceiling light(567), ceiling(184), lamp(42)"
+ },
+ {
+  "instance": 49,
+  "label": "ceiling light",
+  "was": null,
+  "n_gaussians": 5,
+  "map_label": "ceiling light",
+  "frame": 125,
+  "det_2d": "ceiling light(235), ceiling(134)"
+ },
+ {
+  "instance": 50,
+  "label": "ceiling light",
+  "was": null,
+  "n_gaussians": 21,
+  "map_label": "ceiling light",
+  "frame": 306,
+  "det_2d": "ceiling light(300), ceiling(83)"
+ },
+ {
+  "instance": 51,
+  "label": "ceiling light",
+  "was": null,
+  "n_gaussians": 27,
+  "map_label": "ceiling light",
+  "frame": 307,
+  "det_2d": "ceiling light(311), ceiling(200)"
+ },
+ {
+  "instance": 52,
+  "label": "chair",
+  "was": null,
+  "n_gaussians": 1023,
+  "map_label": "chair",
+  "frame": 178,
+  "det_2d": "chair(28182), couch(1851), curtain(932)"
+ },
+ {
+  "instance": 53,
+  "label": "chair",
+  "was": null,
+  "n_gaussians": 335,
+  "map_label": "chair",
+  "frame": 290,
+  "det_2d": "chair(6014), couch(2427), floor(1849)"
+ },
+ {
+  "instance": 54,
+  "label": "chair",
+  "was": null,
+  "n_gaussians": 548,
+  "map_label": "chair",
+  "frame": 382,
+  "det_2d": "chair(761), stool(132), couch(45)"
+ },
+ {
+  "instance": 55,
+  "label": "chair",
+  "was": null,
+  "n_gaussians": 182,
+  "map_label": "chair",
+  "frame": 354,
+  "det_2d": "couch(3412), chair(1787), wall(188)"
+ },
+ {
+  "instance": 56,
+  "label": "chair",
+  "was": null,
+  "n_gaussians": 9,
+  "map_label": "chair",
+  "frame": 339,
+  "det_2d": "couch(17), chair(15)"
+ },
+ {
+  "instance": 57,
+  "label": "chair",
+  "was": null,
+  "n_gaussians": 23,
+  "map_label": "chair",
+  "frame": 178,
+  "det_2d": "chair(54), ceiling(5)"
+ },
+ {
+  "instance": 58,
+  "label": "chair",
+  "was": null,
+  "n_gaussians": 5,
+  "map_label": "chair",
+  "frame": 178,
+  "det_2d": "chair(67), wall(6)"
+ },
+ {
+  "instance": 59,
+  "label": "chair",
+  "was": null,
+  "n_gaussians": 33,
+  "map_label": "chair",
+  "frame": 354,
+  "det_2d": "couch(369), chair(193), floor(103)"
+ },
+ {
+  "instance": 60,
+  "label": "chair",
+  "was": null,
+  "n_gaussians": 208,
+  "map_label": "chair",
+  "frame": 336,
+  "det_2d": "chair(1800), couch(413), floor(310)"
+ },
+ {
+  "instance": 61,
+  "label": "chair",
+  "was": null,
+  "n_gaussians": 21,
+  "map_label": "chair",
+  "frame": 13,
+  "det_2d": "floor(30), couch(24), chair(22)"
+ },
+ {
+  "instance": 62,
+  "label": "chair",
+  "was": null,
+  "n_gaussians": 29,
+  "map_label": "chair",
+  "frame": 381,
+  "det_2d": "floor(240), chair(173), couch(16)"
+ },
+ {
+  "instance": 63,
+  "label": "chair",
+  "was": null,
+  "n_gaussians": 35,
+  "map_label": "chair",
+  "frame": 278,
+  "det_2d": "chair(170), floor(79), door(63)"
+ },
+ {
+  "instance": 64,
+  "label": "chair",
+  "was": null,
+  "n_gaussians": 52,
+  "map_label": "chair",
+  "frame": 178,
+  "det_2d": "chair(30)"
+ },
+ {
+  "instance": 65,
+  "label": "chair",
+  "was": null,
+  "n_gaussians": 4,
+  "map_label": "chair",
+  "frame": 211,
+  "det_2d": "floor(35), chair(7)"
+ },
+ {
+  "instance": 66,
+  "label": "chair",
+  "was": null,
+  "n_gaussians": 6,
+  "map_label": "chair",
+  "frame": 276,
+  "det_2d": "chair(26), door(7), trash can(7)"
+ },
+ {
+  "instance": 68,
+  "label": "chair",
+  "was": null,
+  "n_gaussians": 5,
+  "map_label": "chair",
+  "frame": 354,
+  "det_2d": "couch(81), wall(63), chair(35)"
+ },
+ {
+  "instance": 69,
+  "label": "chair",
+  "was": null,
+  "n_gaussians": 6,
+  "map_label": "chair",
+  "frame": 178,
+  "det_2d": "ceiling(16), chair(11), poster(5)"
+ },
+ {
+  "instance": 70,
+  "label": "chair",
+  "was": null,
+  "n_gaussians": 5,
+  "map_label": "chair",
+  "frame": 272,
+  "det_2d": "chair(5), floor(3), trash can(1)"
+ },
+ {
+  "instance": 71,
+  "label": "clock",
+  "was": null,
+  "n_gaussians": 8,
+  "map_label": "clock",
+  "frame": 218,
+  "det_2d": "clock(34), ceiling(26), door(2)"
+ },
+ {
+  "instance": 72,
+  "label": "clock",
+  "was": null,
+  "n_gaussians": 38,
+  "map_label": "clock",
+  "frame": 218,
+  "det_2d": "clock(80), ceiling(52)"
+ },
+ {
+  "instance": 73,
+  "label": "clock",
+  "was": null,
+  "n_gaussians": 5,
+  "map_label": "clock",
+  "frame": 68,
+  "det_2d": "wall(45), clock(31)"
+ },
+ {
+  "instance": 74,
+  "label": "column",
+  "was": null,
+  "n_gaussians": 1990,
+  "map_label": "column",
+  "frame": 78,
+  "det_2d": "column(5292), window(3384), door(627)"
+ },
+ {
+  "instance": 75,
+  "label": "column",
+  "was": null,
+  "n_gaussians": 226,
+  "map_label": "column",
+  "frame": 38,
+  "det_2d": "column(383), wall(44), door(10)"
+ },
+ {
+  "instance": 76,
+  "label": "column",
+  "was": null,
+  "n_gaussians": 1236,
+  "map_label": "column",
+  "frame": 329,
+  "det_2d": "glass door(163), column(4)"
+ },
+ {
+  "instance": 77,
+  "label": "column",
+  "was": null,
+  "n_gaussians": 106,
+  "map_label": "column",
+  "frame": 38,
+  "det_2d": "column(149), glass door(13), door(13)"
+ },
+ {
+  "instance": 78,
+  "label": "column",
+  "was": null,
+  "n_gaussians": 25,
+  "map_label": "column",
+  "frame": 335,
+  "det_2d": "window(87), column(57)"
+ },
+ {
+  "instance": 79,
+  "label": "couch",
+  "was": null,
+  "n_gaussians": 51483,
+  "map_label": "couch",
+  "frame": 366,
+  "det_2d": "couch(2615217), bench(216317), chair(111161)"
+ },
+ {
+  "instance": 80,
+  "label": "couch",
+  "was": null,
+  "n_gaussians": 15989,
+  "map_label": "couch",
+  "frame": 53,
+  "det_2d": "couch(748057), stool(22829), bench(16432)"
+ },
+ {
+  "instance": 81,
+  "label": "couch",
+  "was": null,
+  "n_gaussians": 344,
+  "map_label": "couch",
+  "frame": 286,
+  "det_2d": "couch(3087), chair(113), poster(37)"
+ },
+ {
+  "instance": 82,
+  "label": "couch",
+  "was": null,
+  "n_gaussians": 5,
+  "map_label": "couch",
+  "frame": 382,
+  "det_2d": "couch(18), floor(10)"
+ },
+ {
+  "instance": 83,
+  "label": "couch",
+  "was": null,
+  "n_gaussians": 36,
+  "map_label": "couch",
+  "frame": 53,
+  "det_2d": "couch(35), floor(1)"
+ },
+ {
+  "instance": 84,
+  "label": "couch",
+  "was": null,
+  "n_gaussians": 18,
+  "map_label": "couch",
+  "frame": 85,
+  "det_2d": "door(602), couch(89)"
+ },
+ {
+  "instance": 88,
+  "label": "couch",
+  "was": null,
+  "n_gaussians": 5,
+  "map_label": "couch",
+  "frame": 277,
+  "det_2d": "couch(21), box(1)"
+ },
+ {
+  "instance": 89,
+  "label": "couch",
+  "was": null,
+  "n_gaussians": 33,
+  "map_label": "couch",
+  "frame": 280,
+  "det_2d": "couch(543), trash can(59), floor(23)"
+ },
+ {
+  "instance": 90,
+  "label": "couch",
+  "was": null,
+  "n_gaussians": 48,
+  "map_label": "couch",
+  "frame": 5,
+  "det_2d": "couch(113), vending machine(3), floor(2)"
+ },
+ {
+  "instance": 230,
+  "label": "couch",
+  "was": "stool",
+  "n_gaussians": 41,
+  "map_label": "couch",
+  "frame": 378,
+  "det_2d": "stool(82), couch(17), chair(7)"
+ },
+ {
+  "instance": 231,
+  "label": "couch",
+  "was": "stool",
+  "n_gaussians": 25,
+  "map_label": "couch",
+  "frame": 332,
+  "det_2d": "stool(38), chair(9), couch(2)"
+ },
+ {
+  "instance": 232,
+  "label": "couch",
+  "was": "stool",
+  "n_gaussians": 13,
+  "map_label": "couch",
+  "frame": 37,
+  "det_2d": "stool(22), couch(22), window(4)"
+ },
+ {
+  "instance": 233,
+  "label": "couch",
+  "was": "stool",
+  "n_gaussians": 34,
+  "map_label": "couch",
+  "frame": 336,
+  "det_2d": "stool(149), chair(73), couch(12)"
+ },
+ {
+  "instance": 91,
+  "label": "curtain",
+  "was": null,
+  "n_gaussians": 92,
+  "map_label": "curtain",
+  "frame": 150,
+  "det_2d": "curtain(1973), bulletin board(786), reception desk(765)"
+ },
+ {
+  "instance": 92,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 13260,
+  "map_label": "door",
+  "frame": 163,
+  "det_2d": "door(608367), wall(125733), window(40603)"
+ },
+ {
+  "instance": 93,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 1389,
+  "map_label": "door",
+  "frame": 316,
+  "det_2d": "door(47730), floor(954), ceiling(582)"
+ },
+ {
+  "instance": 94,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 128,
+  "map_label": "door",
+  "frame": 288,
+  "det_2d": "door(2119), floor(1179), cabinet(370)"
+ },
+ {
+  "instance": 95,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 27,
+  "map_label": "door",
+  "frame": 8,
+  "det_2d": "door(1723), couch(215), floor(95)"
+ },
+ {
+  "instance": 96,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 6,
+  "map_label": "door",
+  "frame": 130,
+  "det_2d": "door(66), wall(13), ceiling(3)"
+ },
+ {
+  "instance": 97,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 4,
+  "map_label": "door",
+  "frame": 309,
+  "det_2d": "door(47), wall(8)"
+ },
+ {
+  "instance": 98,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 2860,
+  "map_label": "door",
+  "frame": 137,
+  "det_2d": "door(160474), wall(39449), handrail(2491)"
+ },
+ {
+  "instance": 99,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 147,
+  "map_label": "door",
+  "frame": 13,
+  "det_2d": "door(3856), wall(1629), couch(460)"
+ },
+ {
+  "instance": 100,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 2203,
+  "map_label": "door",
+  "frame": 288,
+  "det_2d": "door(2989), ceiling(650), banner(230)"
+ },
+ {
+  "instance": 101,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 8743,
+  "map_label": "door",
+  "frame": 94,
+  "det_2d": "door(93813), glass door(6231), wall(725)"
+ },
+ {
+  "instance": 102,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 44,
+  "map_label": "door",
+  "frame": 38,
+  "det_2d": "door(336), couch(92), glass door(83)"
+ },
+ {
+  "instance": 103,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 4956,
+  "map_label": "door",
+  "frame": 86,
+  "det_2d": "door(62638), couch(103), ceiling(40)"
+ },
+ {
+  "instance": 104,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 4,
+  "map_label": "door",
+  "frame": 107,
+  "det_2d": "wall(32), door(7)"
+ },
+ {
+  "instance": 105,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 8,
+  "map_label": "door",
+  "frame": 264,
+  "det_2d": "door(43), floor(5)"
+ },
+ {
+  "instance": 106,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 18,
+  "map_label": "door",
+  "frame": 264,
+  "det_2d": "door(60), window(12), wall(5)"
+ },
+ {
+  "instance": 107,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 1221,
+  "map_label": "door",
+  "frame": 277,
+  "det_2d": "door(35890), floor(6309), ceiling(5186)"
+ },
+ {
+  "instance": 108,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 7751,
+  "map_label": "door",
+  "frame": 268,
+  "det_2d": "door(65022), floor(255), wall(91)"
+ },
+ {
+  "instance": 109,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 4767,
+  "map_label": "door",
+  "frame": 265,
+  "det_2d": "door(61437), floor(520), exit sign(285)"
+ },
+ {
+  "instance": 110,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 8038,
+  "map_label": "door",
+  "frame": 238,
+  "det_2d": "door(65083), lamp(362), wall(134)"
+ },
+ {
+  "instance": 111,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 7291,
+  "map_label": "door",
+  "frame": 233,
+  "det_2d": "door(63297), handrail(471), floor(346)"
+ },
+ {
+  "instance": 112,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 8,
+  "map_label": "door",
+  "frame": 233,
+  "det_2d": "door(176)"
+ },
+ {
+  "instance": 113,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 4761,
+  "map_label": "door",
+  "frame": 242,
+  "det_2d": "door(10076), radiator(1978), floor(107)"
+ },
+ {
+  "instance": 114,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 4,
+  "map_label": "door",
+  "frame": 242,
+  "det_2d": "door(7), floor(2)"
+ },
+ {
+  "instance": 115,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 131,
+  "map_label": "door",
+  "frame": 10,
+  "det_2d": "door(1738), couch(801), wall(219)"
+ },
+ {
+  "instance": 116,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 508,
+  "map_label": "door",
+  "frame": 121,
+  "det_2d": "door(7040), glass door(1302), wall(993)"
+ },
+ {
+  "instance": 117,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 71,
+  "map_label": "door",
+  "frame": 6,
+  "det_2d": "door(7192), ceiling(648), floor(221)"
+ },
+ {
+  "instance": 118,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 5,
+  "map_label": "door",
+  "frame": 179,
+  "det_2d": "door(226), ceiling(150), window(74)"
+ },
+ {
+  "instance": 119,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 114,
+  "map_label": "door",
+  "frame": 341,
+  "det_2d": "door(2567), floor(1550), glass door(792)"
+ },
+ {
+  "instance": 120,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 53,
+  "map_label": "door",
+  "frame": 219,
+  "det_2d": "door(3173), floor(2010), ceiling(719)"
+ },
+ {
+  "instance": 121,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 22,
+  "map_label": "door",
+  "frame": 290,
+  "det_2d": "door(2581), floor(1239), ceiling(405)"
+ },
+ {
+  "instance": 122,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 10,
+  "map_label": "door",
+  "frame": 147,
+  "det_2d": "door(130)"
+ },
+ {
+  "instance": 123,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 10,
+  "map_label": "door",
+  "frame": 281,
+  "det_2d": "ceiling(279), door(178), lamp(2)"
+ },
+ {
+  "instance": 124,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 6,
+  "map_label": "door",
+  "frame": 13,
+  "det_2d": "door(24), couch(7)"
+ },
+ {
+  "instance": 125,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 14,
+  "map_label": "door",
+  "frame": 329,
+  "det_2d": "door(1538), glass door(847), ceiling(155)"
+ },
+ {
+  "instance": 126,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 5,
+  "map_label": "door",
+  "frame": 295,
+  "det_2d": "wall(147), door(109), ceiling(89)"
+ },
+ {
+  "instance": 127,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 478,
+  "map_label": "door",
+  "frame": 312,
+  "det_2d": "door(193)"
+ },
+ {
+  "instance": 128,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 799,
+  "map_label": "door",
+  "frame": 312,
+  "det_2d": "door(501), ceiling(23), display screen(2)"
+ },
+ {
+  "instance": 129,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 6,
+  "map_label": "door",
+  "frame": 158,
+  "det_2d": "door(23)"
+ },
+ {
+  "instance": 130,
+  "label": "door",
+  "was": null,
+  "n_gaussians": 8,
+  "map_label": "door",
+  "frame": 158,
+  "det_2d": "door(56), wall(8)"
+ },
+ {
+  "instance": 164,
+  "label": "door handle",
+  "was": "lamp",
+  "n_gaussians": 262,
+  "map_label": "door handle",
+  "frame": 306,
+  "det_2d": "lamp(65), ceiling(1)"
+ },
+ {
+  "instance": 131,
+  "label": "exit sign",
+  "was": null,
+  "n_gaussians": 10,
+  "map_label": "exit sign",
+  "frame": 82,
+  "det_2d": "exit sign(20)"
+ },
+ {
+  "instance": 133,
+  "label": "exit sign",
+  "was": null,
+  "n_gaussians": 45,
+  "map_label": "exit sign",
+  "frame": 36,
+  "det_2d": "exit sign(116), ceiling(1)"
+ },
+ {
+  "instance": 134,
+  "label": "exit sign",
+  "was": null,
+  "n_gaussians": 5,
+  "map_label": "exit sign",
+  "frame": 351,
+  "det_2d": "exit sign(69), wall(15), lamp(1)"
+ },
+ {
+  "instance": 135,
+  "label": "exit sign",
+  "was": null,
+  "n_gaussians": 12,
+  "map_label": "exit sign",
+  "frame": 282,
+  "det_2d": "exit sign(927), ceiling(546)"
+ },
+ {
+  "instance": 136,
+  "label": "exit sign",
+  "was": null,
+  "n_gaussians": 4,
+  "map_label": "exit sign",
+  "frame": 28,
+  "det_2d": "exit sign(36), ceiling(21)"
+ },
+ {
+  "instance": 137,
+  "label": "exit sign",
+  "was": null,
+  "n_gaussians": 601,
+  "map_label": "exit sign",
+  "frame": 351,
+  "det_2d": "exit sign(917), lamp(4), glass door(1)"
+ },
+ {
+  "instance": 138,
+  "label": "exit sign",
+  "was": null,
+  "n_gaussians": 18,
+  "map_label": "exit sign",
+  "frame": 327,
+  "det_2d": "exit sign(90), wall(34), lamp(2)"
+ },
+ {
+  "instance": 139,
+  "label": "exit sign",
+  "was": null,
+  "n_gaussians": 9,
+  "map_label": "exit sign",
+  "frame": 288,
+  "det_2d": "wall(34), exit sign(31)"
+ },
+ {
+  "instance": 140,
+  "label": "exit sign",
+  "was": null,
+  "n_gaussians": 9,
+  "map_label": "exit sign",
+  "frame": 82,
+  "det_2d": "exit sign(116), clock(10), sign(4)"
+ },
+ {
+  "instance": 141,
+  "label": "exit sign",
+  "was": null,
+  "n_gaussians": 5,
+  "map_label": "exit sign",
+  "frame": 27,
+  "det_2d": "ceiling(177), exit sign(69), wall(34)"
+ },
+ {
+  "instance": 142,
+  "label": "exit sign",
+  "was": null,
+  "n_gaussians": 12,
+  "map_label": "exit sign",
+  "frame": 270,
+  "det_2d": "exit sign(17), ceiling(10)"
+ },
+ {
+  "instance": 144,
+  "label": "exit sign",
+  "was": null,
+  "n_gaussians": 13,
+  "map_label": "exit sign",
+  "frame": 274,
+  "det_2d": "exit sign(26), ceiling(12)"
+ },
+ {
+  "instance": 132,
+  "label": "fire alarm",
+  "was": "exit sign",
+  "n_gaussians": 22,
+  "map_label": "fire alarm",
+  "frame": 269,
+  "det_2d": "exit sign(55), poster(43), wall(14)"
+ },
+ {
+  "instance": 143,
+  "label": "fire alarm",
+  "was": "exit sign",
+  "n_gaussians": 10,
+  "map_label": "fire alarm",
+  "frame": 218,
+  "det_2d": "exit sign(59), ceiling(28), door(10)"
+ },
+ {
+  "instance": 145,
+  "label": "fire alarm",
+  "was": "exit sign",
+  "n_gaussians": 8,
+  "map_label": "fire alarm",
+  "frame": 121,
+  "det_2d": "exit sign(44), ceiling(37), door(13)"
+ },
+ {
+  "instance": 146,
+  "label": "fire alarm",
+  "was": "exit sign",
+  "n_gaussians": 41,
+  "map_label": "fire alarm",
+  "frame": 250,
+  "det_2d": "exit sign(27), ceiling(17), wall(10)"
+ },
+ {
+  "instance": 189,
+  "label": "fire alarm",
+  "was": "monitor",
+  "n_gaussians": 39,
+  "map_label": "fire alarm",
+  "frame": 282,
+  "det_2d": "monitor(236), wall(133), tv(48)"
+ },
+ {
+  "instance": 191,
+  "label": "fire alarm",
+  "was": "monitor",
+  "n_gaussians": 4,
+  "map_label": "fire alarm",
+  "frame": 283,
+  "det_2d": "tv(9), monitor(8), wall(8)"
+ },
+ {
+  "instance": 240,
+  "label": "fire alarm",
+  "was": "tv",
+  "n_gaussians": 1812,
+  "map_label": "fire alarm",
+  "frame": 361,
+  "det_2d": "tv(29513), monitor(3851), wall(1992)"
+ },
+ {
+  "instance": 241,
+  "label": "fire alarm",
+  "was": "tv",
+  "n_gaussians": 95,
+  "map_label": "fire alarm",
+  "frame": 287,
+  "det_2d": "tv(516), couch(149), wall(76)"
+ },
+ {
+  "instance": 242,
+  "label": "fire alarm",
+  "was": "tv",
+  "n_gaussians": 10,
+  "map_label": "fire alarm",
+  "frame": 281,
+  "det_2d": "monitor(25), wall(20), tv(14)"
+ },
+ {
+  "instance": 243,
+  "label": "fire alarm",
+  "was": "tv",
+  "n_gaussians": 75,
+  "map_label": "fire alarm",
+  "frame": 279,
+  "det_2d": "couch(12), tv(10), wall(10)"
+ },
+ {
+  "instance": 244,
+  "label": "fire alarm",
+  "was": "tv",
+  "n_gaussians": 9,
+  "map_label": "fire alarm",
+  "frame": 283,
+  "det_2d": "tv(84), wall(66), poster(13)"
+ },
+ {
+  "instance": 248,
+  "label": "fire alarm",
+  "was": "tv",
+  "n_gaussians": 6,
+  "map_label": "fire alarm",
+  "frame": 280,
+  "det_2d": "tv(70), couch(15), floor(8)"
+ },
+ {
+  "instance": 147,
+  "label": "fire extinguisher",
+  "was": null,
+  "n_gaussians": 5,
+  "map_label": "fire extinguisher",
+  "frame": 78,
+  "det_2d": "wall(112), fire extinguisher(89)"
+ },
+ {
+  "instance": 148,
+  "label": "fire extinguisher",
+  "was": null,
+  "n_gaussians": 17,
+  "map_label": "fire extinguisher",
+  "frame": 77,
+  "det_2d": "wall(366), fire extinguisher(203), window(10)"
+ },
+ {
+  "instance": 149,
+  "label": "floor",
+  "was": null,
+  "n_gaussians": 103555,
+  "map_label": "floor",
+  "frame": 360,
+  "det_2d": "floor(19435072), couch(31947), wall(16215)"
+ },
+ {
+  "instance": 150,
+  "label": "glass door",
+  "was": null,
+  "n_gaussians": 20,
+  "map_label": "glass door",
+  "frame": 330,
+  "det_2d": "glass door(41), door(18), couch(1)"
+ },
+ {
+  "instance": 151,
+  "label": "glass door",
+  "was": null,
+  "n_gaussians": 438,
+  "map_label": "glass door",
+  "frame": 340,
+  "det_2d": "glass door(2133), door(1566)"
+ },
+ {
+  "instance": 152,
+  "label": "glass door",
+  "was": null,
+  "n_gaussians": 71,
+  "map_label": "glass door",
+  "frame": 90,
+  "det_2d": "glass door(550), window(99), door(32)"
+ },
+ {
+  "instance": 153,
+  "label": "glass door",
+  "was": null,
+  "n_gaussians": 2508,
+  "map_label": "glass door",
+  "frame": 340,
+  "det_2d": "glass door(10110), door(6956), wall(376)"
+ },
+ {
+  "instance": 155,
+  "label": "glass door",
+  "was": null,
+  "n_gaussians": 66,
+  "map_label": "glass door",
+  "frame": 341,
+  "det_2d": "glass door(723), door(351), wall(134)"
+ },
+ {
+  "instance": 158,
+  "label": "glass door",
+  "was": null,
+  "n_gaussians": 23,
+  "map_label": "glass door",
+  "frame": 90,
+  "det_2d": "glass door(190), window(152), door(9)"
+ },
+ {
+  "instance": 159,
+  "label": "glass door",
+  "was": null,
+  "n_gaussians": 31,
+  "map_label": "glass door",
+  "frame": 341,
+  "det_2d": "floor(775), glass door(329), door(206)"
+ },
+ {
+  "instance": 160,
+  "label": "glass door",
+  "was": null,
+  "n_gaussians": 5,
+  "map_label": "glass door",
+  "frame": 330,
+  "det_2d": "glass door(7), door(3), chair(1)"
+ },
+ {
+  "instance": 161,
+  "label": "glass door",
+  "was": null,
+  "n_gaussians": 6,
+  "map_label": "glass door",
+  "frame": 87,
+  "det_2d": "door(36), glass door(11), wall(1)"
+ },
+ {
+  "instance": 162,
+  "label": "handrail",
+  "was": null,
+  "n_gaussians": 286,
+  "map_label": "handrail",
+  "frame": 137,
+  "det_2d": "handrail(5644), door(3642), wall(2057)"
+ },
+ {
+  "instance": 163,
+  "label": "handrail",
+  "was": null,
+  "n_gaussians": 38,
+  "map_label": "handrail",
+  "frame": 233,
+  "det_2d": "door(797), handrail(518)"
+ },
+ {
+  "instance": 246,
+  "label": "handrail",
+  "was": "tv",
+  "n_gaussians": 2185,
+  "map_label": "handrail",
+  "frame": 243,
+  "det_2d": "tv(119), wall(28)"
+ },
+ {
+  "instance": 249,
+  "label": "handrail",
+  "was": "tv",
+  "n_gaussians": 5,
+  "map_label": "handrail",
+  "frame": 242,
+  "det_2d": "tv(14)"
+ },
+ {
+  "instance": 165,
+  "label": "lamp",
+  "was": null,
+  "n_gaussians": 55,
+  "map_label": "lamp",
+  "frame": 331,
+  "det_2d": "lamp(589), window(34), wall(30)"
+ },
+ {
+  "instance": 166,
+  "label": "lamp",
+  "was": null,
+  "n_gaussians": 76,
+  "map_label": "lamp",
+  "frame": 107,
+  "det_2d": "wall(1737), lamp(1702), window(60)"
+ },
+ {
+  "instance": 167,
+  "label": "lamp",
+  "was": null,
+  "n_gaussians": 1057,
+  "map_label": "lamp",
+  "frame": 246,
+  "det_2d": "lamp(422), door(8), ceiling light(1)"
+ },
+ {
+  "instance": 168,
+  "label": "lamp",
+  "was": null,
+  "n_gaussians": 19,
+  "map_label": "lamp",
+  "frame": 340,
+  "det_2d": "lamp(784), wall(444), window(37)"
+ },
+ {
+  "instance": 169,
+  "label": "lamp",
+  "was": null,
+  "n_gaussians": 168,
+  "map_label": "lamp",
+  "frame": 246,
+  "det_2d": "lamp(796), ceiling(623), ceiling light(177)"
+ },
+ {
+  "instance": 170,
+  "label": "lamp",
+  "was": null,
+  "n_gaussians": 82,
+  "map_label": "lamp",
+  "frame": 292,
+  "det_2d": "lamp(3331), ceiling(1419), wall(3)"
+ },
+ {
+  "instance": 171,
+  "label": "lamp",
+  "was": null,
+  "n_gaussians": 112,
+  "map_label": "lamp",
+  "frame": 290,
+  "det_2d": "lamp(2055), ceiling(199), wall(126)"
+ },
+ {
+  "instance": 172,
+  "label": "lamp",
+  "was": null,
+  "n_gaussians": 12,
+  "map_label": "lamp",
+  "frame": 40,
+  "det_2d": "lamp(32)"
+ },
+ {
+  "instance": 173,
+  "label": "lamp",
+  "was": null,
+  "n_gaussians": 136,
+  "map_label": "lamp",
+  "frame": 13,
+  "det_2d": "ceiling light(340), lamp(292), ceiling(30)"
+ },
+ {
+  "instance": 174,
+  "label": "lamp",
+  "was": null,
+  "n_gaussians": 5,
+  "map_label": "lamp",
+  "frame": 350,
+  "det_2d": "lamp(6)"
+ },
+ {
+  "instance": 175,
+  "label": "lamp",
+  "was": null,
+  "n_gaussians": 9,
+  "map_label": "lamp",
+  "frame": 32,
+  "det_2d": "lamp(143), wall(135)"
+ },
+ {
+  "instance": 176,
+  "label": "lamp",
+  "was": null,
+  "n_gaussians": 283,
+  "map_label": "lamp",
+  "frame": 14,
+  "det_2d": "ceiling light(2130), lamp(1087), ceiling(438)"
+ },
+ {
+  "instance": 177,
+  "label": "lamp",
+  "was": null,
+  "n_gaussians": 15,
+  "map_label": "lamp",
+  "frame": 337,
+  "det_2d": "lamp(106)"
+ },
+ {
+  "instance": 178,
+  "label": "lamp",
+  "was": null,
+  "n_gaussians": 890,
+  "map_label": "lamp",
+  "frame": 45,
+  "det_2d": "ceiling(349), lamp(15)"
+ },
+ {
+  "instance": 179,
+  "label": "lamp",
+  "was": null,
+  "n_gaussians": 12,
+  "map_label": "lamp",
+  "frame": 36,
+  "det_2d": "lamp(79)"
+ },
+ {
+  "instance": 180,
+  "label": "lamp",
+  "was": null,
+  "n_gaussians": 5,
+  "map_label": "lamp",
+  "frame": 291,
+  "det_2d": "ceiling(35), ceiling light(6), lamp(4)"
+ },
+ {
+  "instance": 181,
+  "label": "lamp",
+  "was": null,
+  "n_gaussians": 31,
+  "map_label": "lamp",
+  "frame": 278,
+  "det_2d": "lamp(366), ceiling(160), ceiling light(2)"
+ },
+ {
+  "instance": 182,
+  "label": "lamp",
+  "was": null,
+  "n_gaussians": 27,
+  "map_label": "lamp",
+  "frame": 273,
+  "det_2d": "ceiling(232), lamp(107), exit sign(30)"
+ },
+ {
+  "instance": 183,
+  "label": "light switch",
+  "was": null,
+  "n_gaussians": 9,
+  "map_label": "light switch",
+  "frame": 159,
+  "det_2d": "wall(152), light switch(145)"
+ },
+ {
+  "instance": 184,
+  "label": "light switch",
+  "was": null,
+  "n_gaussians": 156,
+  "map_label": "light switch",
+  "frame": 314,
+  "det_2d": "light switch(124), ceiling(36), lamp(17)"
+ },
+ {
+  "instance": 185,
+  "label": "light switch",
+  "was": null,
+  "n_gaussians": 82,
+  "map_label": "light switch",
+  "frame": 70,
+  "det_2d": "light switch(2266), wall(1125)"
+ },
+ {
+  "instance": 186,
+  "label": "light switch",
+  "was": null,
+  "n_gaussians": 17,
+  "map_label": "light switch",
+  "frame": 85,
+  "det_2d": "door(111), light switch(85)"
+ },
+ {
+  "instance": 187,
+  "label": "light switch",
+  "was": null,
+  "n_gaussians": 5,
+  "map_label": "light switch",
+  "frame": 94,
+  "det_2d": "light switch(33), door(13), glass door(1)"
+ },
+ {
+  "instance": 188,
+  "label": "light switch",
+  "was": null,
+  "n_gaussians": 8,
+  "map_label": "light switch",
+  "frame": 90,
+  "det_2d": "light switch(41), window(4), glass door(1)"
+ },
+ {
+  "instance": 67,
+  "label": "logo",
+  "was": "chair",
+  "n_gaussians": 9,
+  "map_label": "logo",
+  "frame": 86,
+  "det_2d": "chair(17), window(1)"
+ },
+ {
+  "instance": 190,
+  "label": "monitor",
+  "was": null,
+  "n_gaussians": 8,
+  "map_label": "monitor",
+  "frame": 18,
+  "det_2d": "ceiling(89), monitor(67), wall(60)"
+ },
+ {
+  "instance": 192,
+  "label": "plant",
+  "was": null,
+  "n_gaussians": 473,
+  "map_label": "plant",
+  "frame": 19,
+  "det_2d": "plant(8018), reception desk(1869), wall(1354)"
+ },
+ {
+  "instance": 193,
+  "label": "plant",
+  "was": null,
+  "n_gaussians": 1609,
+  "map_label": "plant",
+  "frame": 383,
+  "det_2d": "plant(10441), window(1280), couch(325)"
+ },
+ {
+  "instance": 194,
+  "label": "plant",
+  "was": null,
+  "n_gaussians": 13,
+  "map_label": "plant",
+  "frame": 178,
+  "det_2d": "plant(7)"
+ },
+ {
+  "instance": 195,
+  "label": "plant",
+  "was": null,
+  "n_gaussians": 19,
+  "map_label": "plant",
+  "frame": 178,
+  "det_2d": "wall(30), plant(19), window(16)"
+ },
+ {
+  "instance": 196,
+  "label": "poster",
+  "was": null,
+  "n_gaussians": 2054,
+  "map_label": "poster",
+  "frame": 24,
+  "det_2d": "poster(151854), wall(27522), radiator(5371)"
+ },
+ {
+  "instance": 198,
+  "label": "poster",
+  "was": null,
+  "n_gaussians": 647,
+  "map_label": "poster",
+  "frame": 23,
+  "det_2d": "poster(16536), wall(7235), ceiling(462)"
+ },
+ {
+  "instance": 202,
+  "label": "poster",
+  "was": null,
+  "n_gaussians": 1657,
+  "map_label": "poster",
+  "frame": 221,
+  "det_2d": "poster(33755), window(1283), wall(756)"
+ },
+ {
+  "instance": 204,
+  "label": "poster",
+  "was": null,
+  "n_gaussians": 107,
+  "map_label": "poster",
+  "frame": 7,
+  "det_2d": "poster(3179), wall(1903), ceiling(1746)"
+ },
+ {
+  "instance": 208,
+  "label": "poster",
+  "was": null,
+  "n_gaussians": 4,
+  "map_label": "poster",
+  "frame": 325,
+  "det_2d": "poster(107), couch(42), bench(8)"
+ },
+ {
+  "instance": 209,
+  "label": "poster",
+  "was": null,
+  "n_gaussians": 24,
+  "map_label": "poster",
+  "frame": 109,
+  "det_2d": "wall(100), poster(96), couch(1)"
+ },
+ {
+  "instance": 210,
+  "label": "poster",
+  "was": null,
+  "n_gaussians": 21,
+  "map_label": "poster",
+  "frame": 246,
+  "det_2d": "poster(44), ceiling(20), banner(20)"
+ },
+ {
+  "instance": 211,
+  "label": "poster",
+  "was": null,
+  "n_gaussians": 5,
+  "map_label": "poster",
+  "frame": 16,
+  "det_2d": "poster(9), wall(8), ceiling(2)"
+ },
+ {
+  "instance": 212,
+  "label": "poster",
+  "was": null,
+  "n_gaussians": 12,
+  "map_label": "poster",
+  "frame": 129,
+  "det_2d": "ceiling(11), wall(8), poster(4)"
+ },
+ {
+  "instance": 247,
+  "label": "poster",
+  "was": "tv",
+  "n_gaussians": 4,
+  "map_label": "poster",
+  "frame": 363,
+  "det_2d": "window(4), tv(3)"
+ },
+ {
+  "instance": 213,
+  "label": "radiator",
+  "was": null,
+  "n_gaussians": 12,
+  "map_label": "radiator",
+  "frame": 26,
+  "det_2d": "radiator(63), poster(40), wall(2)"
+ },
+ {
+  "instance": 229,
+  "label": "sign",
+  "was": null,
+  "n_gaussians": 74,
+  "map_label": "sign",
+  "frame": 82,
+  "det_2d": "sign(854), clock(206), ceiling(127)"
+ },
+ {
+  "instance": 245,
+  "label": "sign",
+  "was": "tv",
+  "n_gaussians": 44,
+  "map_label": "sign",
+  "frame": 349,
+  "det_2d": "wall(287), tv(172), window(49)"
+ },
+ {
+  "instance": 234,
+  "label": "trash can",
+  "was": null,
+  "n_gaussians": 2791,
+  "map_label": "trash can",
+  "frame": 159,
+  "det_2d": "trash can(148298), recycling bin(19039), wall(1580)"
+ },
+ {
+  "instance": 235,
+  "label": "trash can",
+  "was": null,
+  "n_gaussians": 7,
+  "map_label": "trash can",
+  "frame": 219,
+  "det_2d": "floor(120), trash can(59), recycling bin(29)"
+ },
+ {
+  "instance": 236,
+  "label": "trash can",
+  "was": null,
+  "n_gaussians": 9,
+  "map_label": "trash can",
+  "frame": 245,
+  "det_2d": "trash can(83), floor(1)"
+ },
+ {
+  "instance": 237,
+  "label": "trash can",
+  "was": null,
+  "n_gaussians": 107,
+  "map_label": "trash can",
+  "frame": 279,
+  "det_2d": "trash can(731), chair(560), floor(367)"
+ },
+ {
+  "instance": 238,
+  "label": "trash can",
+  "was": null,
+  "n_gaussians": 24,
+  "map_label": "trash can",
+  "frame": 252,
+  "det_2d": "trash can(95), floor(84)"
+ },
+ {
+  "instance": 239,
+  "label": "trash can",
+  "was": null,
+  "n_gaussians": 50,
+  "map_label": "trash can",
+  "frame": 252,
+  "det_2d": "trash can(361), floor(284)"
+ },
+ {
+  "instance": 254,
+  "label": "vent",
+  "was": null,
+  "n_gaussians": 1729,
+  "map_label": "vent",
+  "frame": 252,
+  "det_2d": "vent(4904), radiator(2034), door(413)"
+ },
+ {
+  "instance": 255,
+  "label": "wall",
+  "was": null,
+  "n_gaussians": 75999,
+  "map_label": "wall",
+  "frame": 167,
+  "det_2d": "wall(5908242), door(382433), window(79814)"
+ },
+ {
+  "instance": 256,
+  "label": "wall",
+  "was": null,
+  "n_gaussians": 1420,
+  "map_label": "wall",
+  "frame": 309,
+  "det_2d": "wall(10868), door(1311), ceiling(208)"
+ },
+ {
+  "instance": 257,
+  "label": "wall",
+  "was": null,
+  "n_gaussians": 8870,
+  "map_label": "wall",
+  "frame": 273,
+  "det_2d": "wall(247864), ceiling(682), floor(390)"
+ },
+ {
+  "instance": 258,
+  "label": "wall",
+  "was": null,
+  "n_gaussians": 960,
+  "map_label": "wall",
+  "frame": 250,
+  "det_2d": "wall(14563), ceiling(1789), banner(182)"
+ },
+ {
+  "instance": 259,
+  "label": "wall",
+  "was": null,
+  "n_gaussians": 21,
+  "map_label": "wall",
+  "frame": 368,
+  "det_2d": "wall(118), poster(23), display screen(19)"
+ },
+ {
+  "instance": 260,
+  "label": "window",
+  "was": null,
+  "n_gaussians": 5029,
+  "map_label": "window",
+  "frame": 158,
+  "det_2d": "window(181299), door(32205), poster(29464)"
+ },
+ {
+  "instance": 261,
+  "label": "window",
+  "was": null,
+  "n_gaussians": 17110,
+  "map_label": "window",
+  "frame": 363,
+  "det_2d": "window(293368), glass door(39242), wall(26000)"
+ },
+ {
+  "instance": 262,
+  "label": "window",
+  "was": null,
+  "n_gaussians": 37650,
+  "map_label": "window",
+  "frame": 383,
+  "det_2d": "window(153421), ceiling(854), couch(379)"
+ },
+ {
+  "instance": 263,
+  "label": "window",
+  "was": null,
+  "n_gaussians": 16259,
+  "map_label": "window",
+  "frame": 63,
+  "det_2d": "window(449569), wall(110858), poster(36792)"
+ },
+ {
+  "instance": 264,
+  "label": "window",
+  "was": null,
+  "n_gaussians": 23,
+  "map_label": "window",
+  "frame": 288,
+  "det_2d": "window(241), poster(228), wall(129)"
+ },
+ {
+  "instance": 265,
+  "label": "window",
+  "was": null,
+  "n_gaussians": 44,
+  "map_label": "window",
+  "frame": 288,
+  "det_2d": "window(1615), poster(1055), wall(861)"
+ },
+ {
+  "instance": 266,
+  "label": "window",
+  "was": null,
+  "n_gaussians": 8,
+  "map_label": "window",
+  "frame": 90,
+  "det_2d": "window(464), couch(9)"
+ },
+ {
+  "instance": 267,
+  "label": "window",
+  "was": null,
+  "n_gaussians": 795,
+  "map_label": "window",
+  "frame": 93,
+  "det_2d": "window(33967), glass door(381), door(275)"
+ },
+ {
+  "instance": 268,
+  "label": "window",
+  "was": null,
+  "n_gaussians": 137,
+  "map_label": "window",
+  "frame": 272,
+  "det_2d": "poster(1322), window(1023), wall(150)"
+ },
+ {
+  "instance": 269,
+  "label": "window",
+  "was": null,
+  "n_gaussians": 6,
+  "map_label": "window",
+  "frame": 3,
+  "det_2d": "window(56), wall(46)"
+ },
+ {
+  "instance": 270,
+  "label": "window",
+  "was": null,
+  "n_gaussians": 59,
+  "map_label": "window",
+  "frame": 30,
+  "det_2d": "window(539), wall(380), ceiling(110)"
+ },
+ {
+  "instance": 271,
+  "label": "window",
+  "was": null,
+  "n_gaussians": 48,
+  "map_label": "window",
+  "frame": 335,
+  "det_2d": "window(835), poster(73), wall(72)"
+ },
+ {
+  "instance": 272,
+  "label": "window",
+  "was": null,
+  "n_gaussians": 5,
+  "map_label": "window",
+  "frame": 361,
+  "det_2d": "window(393), glass door(177), ceiling(110)"
+ },
+ {
+  "instance": 273,
+  "label": "window",
+  "was": null,
+  "n_gaussians": 50,
+  "map_label": "window",
+  "frame": 32,
+  "det_2d": "window(1507), wall(516), ceiling(317)"
+ },
+ {
+  "instance": 274,
+  "label": "window",
+  "was": null,
+  "n_gaussians": 1018,
+  "map_label": "window",
+  "frame": 354,
+  "det_2d": "window(6009), wall(992), couch(255)"
+ },
+ {
+  "instance": 275,
+  "label": "window",
+  "was": null,
+  "n_gaussians": 69,
+  "map_label": "window",
+  "frame": 103,
+  "det_2d": "window(133), wall(74), ceiling(7)"
+ },
+ {
+  "instance": 276,
+  "label": "window",
+  "was": null,
+  "n_gaussians": 792,
+  "map_label": "window",
+  "frame": 88,
+  "det_2d": "window(10669), glass door(265), door(126)"
+ },
+ {
+  "instance": 277,
+  "label": "window",
+  "was": null,
+  "n_gaussians": 43,
+  "map_label": "window",
+  "frame": 41,
+  "det_2d": "window(191), ceiling(1)"
+ },
+ {
+  "instance": 278,
+  "label": "window",
+  "was": null,
+  "n_gaussians": 8,
+  "map_label": "window",
+  "frame": 32,
+  "det_2d": "window(882), wall(308)"
+ },
+ {
+  "instance": 279,
+  "label": "window",
+  "was": null,
+  "n_gaussians": 317,
+  "map_label": "window",
+  "frame": 335,
+  "det_2d": "window(333), ceiling(211)"
+ },
+ {
+  "instance": 280,
+  "label": "window",
+  "was": null,
+  "n_gaussians": 4,
+  "map_label": "window",
+  "frame": 368,
+  "det_2d": "window(543), wall(321), poster(67)"
+ },
+ {
+  "instance": 281,
+  "label": "window",
+  "was": null,
+  "n_gaussians": 31,
+  "map_label": "window",
+  "frame": 31,
+  "det_2d": "window(1263), wall(453), glass door(211)"
+ },
+ {
+  "instance": 282,
+  "label": "window",
+  "was": null,
+  "n_gaussians": 6,
+  "map_label": "window",
+  "frame": 352,
+  "det_2d": "window(84), cabinet(25), glass door(20)"
+ }
+]

@@ -1,0 +1,3252 @@
+{
+ "class_names": [
+  "backpack",
+  "banner",
+  "bench",
+  "bookshelf",
+  "box",
+  "bulletin board",
+  "cabinet",
+  "ceiling",
+  "ceiling light",
+  "chair",
+  "clock",
+  "column",
+  "couch",
+  "counter",
+  "curtain",
+  "desk",
+  "display screen",
+  "door",
+  "door handle",
+  "elevator",
+  "exit sign",
+  "fire alarm",
+  "fire extinguisher",
+  "floor",
+  "glass door",
+  "handrail",
+  "lamp",
+  "light switch",
+  "logo",
+  "monitor",
+  "person",
+  "pillar",
+  "plant",
+  "poster",
+  "radiator",
+  "reception desk",
+  "recycling bin",
+  "shelf",
+  "sign",
+  "stairs",
+  "stool",
+  "table",
+  "trash can",
+  "tv",
+  "vending machine",
+  "vent",
+  "wall",
+  "water fountain",
+  "window"
+ ],
+ "variant": "dataset_planar_step2",
+ "objects": [
+  {
+   "instance": 0,
+   "class_name": "backpack",
+   "class_id": 0,
+   "n_gaussians": 1439,
+   "centroid_splat": [
+    -0.3021312199200794,
+    0.236158223763393,
+    0.02097507971368588
+   ]
+  },
+  {
+   "instance": 1,
+   "class_name": "banner",
+   "class_id": 1,
+   "n_gaussians": 57,
+   "centroid_splat": [
+    0.14100750114606775,
+    -0.20674292484055395,
+    0.07547098705949991
+   ]
+  },
+  {
+   "instance": 2,
+   "class_name": "banner",
+   "class_id": 1,
+   "n_gaussians": 459,
+   "centroid_splat": [
+    0.10629135265182225,
+    -0.1429875441086598,
+    0.05477985327060406
+   ]
+  },
+  {
+   "instance": 3,
+   "class_name": "banner",
+   "class_id": 1,
+   "n_gaussians": 110,
+   "centroid_splat": [
+    -0.12849703945574306,
+    0.29911285922640846,
+    0.05483902449763957
+   ]
+  },
+  {
+   "instance": 4,
+   "class_name": "banner",
+   "class_id": 1,
+   "n_gaussians": 87,
+   "centroid_splat": [
+    -0.07118600185798563,
+    0.33099930247534876,
+    0.0584241087022035
+   ]
+  },
+  {
+   "instance": 5,
+   "class_name": "banner",
+   "class_id": 1,
+   "n_gaussians": 9,
+   "centroid_splat": [
+    -0.29546933703952366,
+    0.04415168199274275,
+    0.08098034974601534
+   ]
+  },
+  {
+   "instance": 6,
+   "class_name": "banner",
+   "class_id": 1,
+   "n_gaussians": 35,
+   "centroid_splat": [
+    -0.06341167017817498,
+    0.23666464941842216,
+    0.025587131029793195
+   ]
+  },
+  {
+   "instance": 7,
+   "class_name": "banner",
+   "class_id": 1,
+   "n_gaussians": 8,
+   "centroid_splat": [
+    0.010820828145369887,
+    0.22963784635066986,
+    0.07838137168437243
+   ]
+  },
+  {
+   "instance": 8,
+   "class_name": "bench",
+   "class_id": 2,
+   "n_gaussians": 2345,
+   "centroid_splat": [
+    -0.13534556869307213,
+    -0.05237533225439248,
+    -0.005261430667445471
+   ]
+  },
+  {
+   "instance": 9,
+   "class_name": "bench",
+   "class_id": 2,
+   "n_gaussians": 1396,
+   "centroid_splat": [
+    -0.2219422964261508,
+    0.29763403291406193,
+    -0.002846861924997003
+   ]
+  },
+  {
+   "instance": 10,
+   "class_name": "bookshelf",
+   "class_id": 3,
+   "n_gaussians": 232,
+   "centroid_splat": [
+    -0.2608164141018843,
+    0.025659521834940874,
+    0.06920759407161124
+   ]
+  },
+  {
+   "instance": 11,
+   "class_name": "bookshelf",
+   "class_id": 3,
+   "n_gaussians": 1198,
+   "centroid_splat": [
+    -0.30397758095432786,
+    0.1476745793012945,
+    0.0679522858104377
+   ]
+  },
+  {
+   "instance": 12,
+   "class_name": "bookshelf",
+   "class_id": 3,
+   "n_gaussians": 7,
+   "centroid_splat": [
+    -0.3556159479277475,
+    0.15277558352266038,
+    0.10634205171040126
+   ]
+  },
+  {
+   "instance": 13,
+   "class_name": "box",
+   "class_id": 4,
+   "n_gaussians": 81,
+   "centroid_splat": [
+    -0.2783300659538787,
+    -0.052394015461574364,
+    0.05411148278249635
+   ]
+  },
+  {
+   "instance": 14,
+   "class_name": "box",
+   "class_id": 4,
+   "n_gaussians": 1977,
+   "centroid_splat": [
+    0.33481944247144757,
+    0.04091908332459512,
+    -0.0005424262226841617
+   ]
+  },
+  {
+   "instance": 15,
+   "class_name": "box",
+   "class_id": 4,
+   "n_gaussians": 229,
+   "centroid_splat": [
+    0.4487605455375853,
+    0.11822374754008792,
+    0.02656093548451151
+   ]
+  },
+  {
+   "instance": 16,
+   "class_name": "box",
+   "class_id": 4,
+   "n_gaussians": 23,
+   "centroid_splat": [
+    0.2563425089631762,
+    0.02492976720843996,
+    0.021814879961311817
+   ]
+  },
+  {
+   "instance": 17,
+   "class_name": "box",
+   "class_id": 4,
+   "n_gaussians": 4,
+   "centroid_splat": [
+    0.4012265279889107,
+    0.11243290267884731,
+    0.03612400405108929
+   ]
+  },
+  {
+   "instance": 18,
+   "class_name": "box",
+   "class_id": 4,
+   "n_gaussians": 6,
+   "centroid_splat": [
+    0.2302137166261673,
+    -0.029879354871809483,
+    0.002756968062991897
+   ]
+  },
+  {
+   "instance": 19,
+   "class_name": "box",
+   "class_id": 4,
+   "n_gaussians": 14,
+   "centroid_splat": [
+    0.17743344285658427,
+    -0.020187465607055595,
+    -0.008445394591295294
+   ]
+  },
+  {
+   "instance": 20,
+   "class_name": "box",
+   "class_id": 4,
+   "n_gaussians": 4,
+   "centroid_splat": [
+    -0.10189167596399784,
+    -0.07955729030072689,
+    0.02016338985413313
+   ]
+  },
+  {
+   "instance": 21,
+   "class_name": "box",
+   "class_id": 4,
+   "n_gaussians": 14,
+   "centroid_splat": [
+    0.6444998582204183,
+    0.1762110268076261,
+    -0.0052525746820416925
+   ]
+  },
+  {
+   "instance": 22,
+   "class_name": "bulletin board",
+   "class_id": 5,
+   "n_gaussians": 1605,
+   "centroid_splat": [
+    0.025813163161935024,
+    0.12692667220480852,
+    0.07527264807152902
+   ]
+  },
+  {
+   "instance": 23,
+   "class_name": "bulletin board",
+   "class_id": 5,
+   "n_gaussians": 32,
+   "centroid_splat": [
+    -0.15875891037285328,
+    0.10720892995595932,
+    0.026652415341231972
+   ]
+  },
+  {
+   "instance": 24,
+   "class_name": "bulletin board",
+   "class_id": 5,
+   "n_gaussians": 14,
+   "centroid_splat": [
+    -0.04177948047540018,
+    0.1026957498065063,
+    0.06616494591747012
+   ]
+  },
+  {
+   "instance": 25,
+   "class_name": "cabinet",
+   "class_id": 6,
+   "n_gaussians": 1008,
+   "centroid_splat": [
+    -0.03552479897583877,
+    -0.21928789888645386,
+    0.01022627667993725
+   ]
+  },
+  {
+   "instance": 26,
+   "class_name": "cabinet",
+   "class_id": 6,
+   "n_gaussians": 36,
+   "centroid_splat": [
+    0.11668518144223425,
+    -0.13952887348002857,
+    0.0028108402022755602
+   ]
+  },
+  {
+   "instance": 27,
+   "class_name": "cabinet",
+   "class_id": 6,
+   "n_gaussians": 33,
+   "centroid_splat": [
+    -0.04117708472591458,
+    -0.07100000367923216,
+    -0.00597681527759767
+   ]
+  },
+  {
+   "instance": 28,
+   "class_name": "cabinet",
+   "class_id": 6,
+   "n_gaussians": 17,
+   "centroid_splat": [
+    -0.0581578391001505,
+    -0.00038957281675025383,
+    0.0066210578319014
+   ]
+  },
+  {
+   "instance": 29,
+   "class_name": "cabinet",
+   "class_id": 6,
+   "n_gaussians": 102,
+   "centroid_splat": [
+    -0.05217909502486388,
+    0.09605123762351771,
+    -0.0016077790197641662
+   ]
+  },
+  {
+   "instance": 30,
+   "class_name": "cabinet",
+   "class_id": 6,
+   "n_gaussians": 26,
+   "centroid_splat": [
+    -0.012068139442887444,
+    -0.010405832325012363,
+    -0.00176670224562678
+   ]
+  },
+  {
+   "instance": 31,
+   "class_name": "cabinet",
+   "class_id": 6,
+   "n_gaussians": 6,
+   "centroid_splat": [
+    -0.055976773922642074,
+    0.06163212594886621,
+    -0.009584612833956877
+   ]
+  },
+  {
+   "instance": 32,
+   "class_name": "ceiling",
+   "class_id": 7,
+   "n_gaussians": 56136,
+   "centroid_splat": [
+    0.22846221080831058,
+    -0.1099790812036587,
+    0.0705406236150068
+   ]
+  },
+  {
+   "instance": 33,
+   "class_name": "ceiling",
+   "class_id": 7,
+   "n_gaussians": 419,
+   "centroid_splat": [
+    -0.2913683501727273,
+    0.18813801353627985,
+    0.009729807354781652
+   ]
+  },
+  {
+   "instance": 34,
+   "class_name": "ceiling",
+   "class_id": 7,
+   "n_gaussians": 1012,
+   "centroid_splat": [
+    -0.15569965177919806,
+    0.2427479821007426,
+    0.09574150221376884
+   ]
+  },
+  {
+   "instance": 35,
+   "class_name": "ceiling",
+   "class_id": 7,
+   "n_gaussians": 30,
+   "centroid_splat": [
+    0.26959777962077747,
+    -0.24770844253626736,
+    0.19782739064910196
+   ]
+  },
+  {
+   "instance": 36,
+   "class_name": "ceiling",
+   "class_id": 7,
+   "n_gaussians": 1606,
+   "centroid_splat": [
+    -0.07196073706648154,
+    0.21964033055520488,
+    0.018126898001924248
+   ]
+  },
+  {
+   "instance": 37,
+   "class_name": "ceiling light",
+   "class_id": 8,
+   "n_gaussians": 5,
+   "centroid_splat": [
+    0.005576460203155875,
+    -0.11525367796421052,
+    0.07077598422765732
+   ]
+  },
+  {
+   "instance": 38,
+   "class_name": "ceiling light",
+   "class_id": 8,
+   "n_gaussians": 526,
+   "centroid_splat": [
+    0.06255017012131936,
+    -0.33291351319016177,
+    0.08443256358798214
+   ]
+  },
+  {
+   "instance": 39,
+   "class_name": "ceiling light",
+   "class_id": 8,
+   "n_gaussians": 69,
+   "centroid_splat": [
+    0.39779213070869446,
+    0.03543140667898115,
+    0.1463349685072899
+   ]
+  },
+  {
+   "instance": 40,
+   "class_name": "ceiling light",
+   "class_id": 8,
+   "n_gaussians": 195,
+   "centroid_splat": [
+    0.0820050719154983,
+    -0.4576294031463751,
+    0.07739620593165149
+   ]
+  },
+  {
+   "instance": 41,
+   "class_name": "ceiling light",
+   "class_id": 8,
+   "n_gaussians": 74,
+   "centroid_splat": [
+    -0.15829465981270816,
+    -0.09175978449953569,
+    0.08947096231418687
+   ]
+  },
+  {
+   "instance": 42,
+   "class_name": "ceiling light",
+   "class_id": 8,
+   "n_gaussians": 23,
+   "centroid_splat": [
+    0.3938906205737073,
+    0.002539954629078831,
+    0.05769032061747883
+   ]
+  },
+  {
+   "instance": 43,
+   "class_name": "ceiling light",
+   "class_id": 8,
+   "n_gaussians": 10,
+   "centroid_splat": [
+    0.050668907910585405,
+    -0.2125626713037491,
+    0.10673896297812462
+   ]
+  },
+  {
+   "instance": 44,
+   "class_name": "ceiling light",
+   "class_id": 8,
+   "n_gaussians": 874,
+   "centroid_splat": [
+    0.2246808509179322,
+    -0.03503408590856752,
+    0.0810404532431495
+   ]
+  },
+  {
+   "instance": 45,
+   "class_name": "ceiling light",
+   "class_id": 8,
+   "n_gaussians": 297,
+   "centroid_splat": [
+    0.43511373456567526,
+    0.030748019073923518,
+    0.08886669875521745
+   ]
+  },
+  {
+   "instance": 46,
+   "class_name": "ceiling light",
+   "class_id": 8,
+   "n_gaussians": 155,
+   "centroid_splat": [
+    0.26050834487827995,
+    -0.033292849755121603,
+    0.04720071605628445
+   ]
+  },
+  {
+   "instance": 47,
+   "class_name": "ceiling light",
+   "class_id": 8,
+   "n_gaussians": 63,
+   "centroid_splat": [
+    0.8465013201274569,
+    0.13945361593412975,
+    0.07970848159184532
+   ]
+  },
+  {
+   "instance": 48,
+   "class_name": "ceiling light",
+   "class_id": 8,
+   "n_gaussians": 139,
+   "centroid_splat": [
+    0.33455585194106147,
+    -0.013949118102762368,
+    0.035598373132767064
+   ]
+  },
+  {
+   "instance": 49,
+   "class_name": "ceiling light",
+   "class_id": 8,
+   "n_gaussians": 5,
+   "centroid_splat": [
+    0.04004244357347488,
+    -0.15770640075206757,
+    0.09009284675121307
+   ]
+  },
+  {
+   "instance": 50,
+   "class_name": "ceiling light",
+   "class_id": 8,
+   "n_gaussians": 21,
+   "centroid_splat": [
+    0.09061438803161893,
+    -0.4218619721276419,
+    0.11320791145165761
+   ]
+  },
+  {
+   "instance": 51,
+   "class_name": "ceiling light",
+   "class_id": 8,
+   "n_gaussians": 27,
+   "centroid_splat": [
+    0.06543050968536625,
+    -0.45263376390492477,
+    0.12304388924881264
+   ]
+  },
+  {
+   "instance": 52,
+   "class_name": "chair",
+   "class_id": 9,
+   "n_gaussians": 1023,
+   "centroid_splat": [
+    -0.21083072333396236,
+    -0.08064192108531988,
+    0.008294754071125048
+   ]
+  },
+  {
+   "instance": 53,
+   "class_name": "chair",
+   "class_id": 9,
+   "n_gaussians": 335,
+   "centroid_splat": [
+    -0.05103014219941488,
+    -0.0709800225696457,
+    -0.007173458603558256
+   ]
+  },
+  {
+   "instance": 54,
+   "class_name": "chair",
+   "class_id": 9,
+   "n_gaussians": 548,
+   "centroid_splat": [
+    -0.2853535445836874,
+    0.2656791552901268,
+    -0.0007884011374979029
+   ]
+  },
+  {
+   "instance": 55,
+   "class_name": "chair",
+   "class_id": 9,
+   "n_gaussians": 182,
+   "centroid_splat": [
+    -0.1550385179919201,
+    0.1589965263565818,
+    0.010192695888051006
+   ]
+  },
+  {
+   "instance": 56,
+   "class_name": "chair",
+   "class_id": 9,
+   "n_gaussians": 9,
+   "centroid_splat": [
+    -0.18675203124682108,
+    0.30270403292444015,
+    0.006103606027964916
+   ]
+  },
+  {
+   "instance": 57,
+   "class_name": "chair",
+   "class_id": 9,
+   "n_gaussians": 23,
+   "centroid_splat": [
+    -0.05163607114683027,
+    0.08786162021367447,
+    0.07136952715075534
+   ]
+  },
+  {
+   "instance": 58,
+   "class_name": "chair",
+   "class_id": 9,
+   "n_gaussians": 5,
+   "centroid_splat": [
+    -0.061984582990407947,
+    0.12995228469371795,
+    0.07983928918838501
+   ]
+  },
+  {
+   "instance": 59,
+   "class_name": "chair",
+   "class_id": 9,
+   "n_gaussians": 33,
+   "centroid_splat": [
+    -0.09648864942066597,
+    0.09199982136487961,
+    -0.008280035319992086
+   ]
+  },
+  {
+   "instance": 60,
+   "class_name": "chair",
+   "class_id": 9,
+   "n_gaussians": 208,
+   "centroid_splat": [
+    -0.06597822297436114,
+    -0.016741583612726502,
+    9.51365775344689e-05
+   ]
+  },
+  {
+   "instance": 61,
+   "class_name": "chair",
+   "class_id": 9,
+   "n_gaussians": 21,
+   "centroid_splat": [
+    -0.25362935804185416,
+    0.06314368989496004,
+    -0.00519391291752635
+   ]
+  },
+  {
+   "instance": 62,
+   "class_name": "chair",
+   "class_id": 9,
+   "n_gaussians": 29,
+   "centroid_splat": [
+    -0.24057825269370242,
+    0.21124554297019696,
+    -0.002139915552859371
+   ]
+  },
+  {
+   "instance": 63,
+   "class_name": "chair",
+   "class_id": 9,
+   "n_gaussians": 35,
+   "centroid_splat": [
+    0.3288071015301873,
+    -0.011265929610304096,
+    -0.0022565833839026336
+   ]
+  },
+  {
+   "instance": 64,
+   "class_name": "chair",
+   "class_id": 9,
+   "n_gaussians": 52,
+   "centroid_splat": [
+    -0.08427001020083061,
+    0.2284736679150508,
+    0.10900677396700932
+   ]
+  },
+  {
+   "instance": 65,
+   "class_name": "chair",
+   "class_id": 9,
+   "n_gaussians": 4,
+   "centroid_splat": [
+    0.17253722250461578,
+    -0.020709089236333966,
+    -0.009838945465162396
+   ]
+  },
+  {
+   "instance": 66,
+   "class_name": "chair",
+   "class_id": 9,
+   "n_gaussians": 6,
+   "centroid_splat": [
+    0.4051780054966609,
+    0.011204844728733102,
+    -0.002873140930508574
+   ]
+  },
+  {
+   "instance": 67,
+   "class_name": "logo",
+   "class_id": 28,
+   "n_gaussians": 9,
+   "centroid_splat": [
+    -0.07249213755130768,
+    0.2712087233861287,
+    0.013999617141154077
+   ],
+   "class_name_voted": "chair"
+  },
+  {
+   "instance": 68,
+   "class_name": "chair",
+   "class_id": 9,
+   "n_gaussians": 5,
+   "centroid_splat": [
+    -0.06899661123752594,
+    0.06910914778709412,
+    0.005497543420642614
+   ]
+  },
+  {
+   "instance": 69,
+   "class_name": "chair",
+   "class_id": 9,
+   "n_gaussians": 6,
+   "centroid_splat": [
+    -0.12424369777242343,
+    -0.021668824056784313,
+    0.042612956215937935
+   ]
+  },
+  {
+   "instance": 70,
+   "class_name": "chair",
+   "class_id": 9,
+   "n_gaussians": 5,
+   "centroid_splat": [
+    0.37631710767745974,
+    0.01738275494426489,
+    -0.008052721247076988
+   ]
+  },
+  {
+   "instance": 71,
+   "class_name": "clock",
+   "class_id": 10,
+   "n_gaussians": 8,
+   "centroid_splat": [
+    0.5637029632925987,
+    0.12814629450440407,
+    0.06955955037847161
+   ]
+  },
+  {
+   "instance": 72,
+   "class_name": "clock",
+   "class_id": 10,
+   "n_gaussians": 38,
+   "centroid_splat": [
+    0.6085034844122434,
+    0.15150973553720273,
+    0.07594390860513638
+   ]
+  },
+  {
+   "instance": 73,
+   "class_name": "clock",
+   "class_id": 10,
+   "n_gaussians": 5,
+   "centroid_splat": [
+    0.015407045371830463,
+    0.1769485056400299,
+    0.046185878664255144
+   ]
+  },
+  {
+   "instance": 74,
+   "class_name": "column",
+   "class_id": 11,
+   "n_gaussians": 1990,
+   "centroid_splat": [
+    -0.033779235972433146,
+    0.3068748058486975,
+    0.03245425664296966
+   ]
+  },
+  {
+   "instance": 75,
+   "class_name": "column",
+   "class_id": 11,
+   "n_gaussians": 226,
+   "centroid_splat": [
+    -0.0925465402153372,
+    0.22956139754298274,
+    0.03543895598432403
+   ]
+  },
+  {
+   "instance": 76,
+   "class_name": "column",
+   "class_id": 11,
+   "n_gaussians": 1236,
+   "centroid_splat": [
+    -0.12815415114164352,
+    0.1765284687280655,
+    0.049777863547205925
+   ]
+  },
+  {
+   "instance": 77,
+   "class_name": "column",
+   "class_id": 11,
+   "n_gaussians": 106,
+   "centroid_splat": [
+    -0.1068893240993483,
+    0.19585718057657542,
+    0.05094760211936215
+   ]
+  },
+  {
+   "instance": 78,
+   "class_name": "column",
+   "class_id": 11,
+   "n_gaussians": 25,
+   "centroid_splat": [
+    -0.15333794116973876,
+    0.1004662635922432,
+    0.031087199747562407
+   ]
+  },
+  {
+   "instance": 79,
+   "class_name": "couch",
+   "class_id": 12,
+   "n_gaussians": 51483,
+   "centroid_splat": [
+    -0.2211243313944856,
+    0.03247801550255078,
+    -0.0002242673224146705
+   ]
+  },
+  {
+   "instance": 80,
+   "class_name": "couch",
+   "class_id": 12,
+   "n_gaussians": 15989,
+   "centroid_splat": [
+    -0.17869715661236565,
+    0.22244976084031132,
+    0.0041712798550319
+   ]
+  },
+  {
+   "instance": 81,
+   "class_name": "couch",
+   "class_id": 12,
+   "n_gaussians": 344,
+   "centroid_splat": [
+    0.07904542367095532,
+    -0.031040059006660455,
+    -0.002923963048923052
+   ]
+  },
+  {
+   "instance": 82,
+   "class_name": "couch",
+   "class_id": 12,
+   "n_gaussians": 5,
+   "centroid_splat": [
+    -0.1676395058631897,
+    0.41729623079299927,
+    -0.006269323732703924
+   ]
+  },
+  {
+   "instance": 83,
+   "class_name": "couch",
+   "class_id": 12,
+   "n_gaussians": 36,
+   "centroid_splat": [
+    -0.0036735737521667033,
+    0.34154754504561424,
+    -0.03312037605792284
+   ]
+  },
+  {
+   "instance": 84,
+   "class_name": "couch",
+   "class_id": 12,
+   "n_gaussians": 18,
+   "centroid_splat": [
+    -0.06440021594365437,
+    0.41159715751806897,
+    0.05903296793500582
+   ]
+  },
+  {
+   "instance": 85,
+   "class_name": "box",
+   "class_id": 4,
+   "n_gaussians": 1913,
+   "centroid_splat": [
+    0.3742269748979046,
+    0.039609539299602384,
+    0.0014257264028661018
+   ],
+   "class_name_voted": "couch"
+  },
+  {
+   "instance": 86,
+   "class_name": "box",
+   "class_id": 4,
+   "n_gaussians": 5,
+   "centroid_splat": [
+    0.3061432600021362,
+    0.05538904219865799,
+    0.020754244923591614
+   ],
+   "class_name_voted": "couch"
+  },
+  {
+   "instance": 87,
+   "class_name": "box",
+   "class_id": 4,
+   "n_gaussians": 899,
+   "centroid_splat": [
+    -0.12273467037680368,
+    0.07431598465613143,
+    -0.0013295089494979404
+   ],
+   "class_name_voted": "couch"
+  },
+  {
+   "instance": 88,
+   "class_name": "couch",
+   "class_id": 12,
+   "n_gaussians": 5,
+   "centroid_splat": [
+    0.2741870999336243,
+    0.033515841141343115,
+    0.016194898635149002
+   ]
+  },
+  {
+   "instance": 89,
+   "class_name": "couch",
+   "class_id": 12,
+   "n_gaussians": 33,
+   "centroid_splat": [
+    0.344134018276677,
+    -0.01395564687184312,
+    -0.0007577031338135412
+   ]
+  },
+  {
+   "instance": 90,
+   "class_name": "couch",
+   "class_id": 12,
+   "n_gaussians": 48,
+   "centroid_splat": [
+    -0.3006180040538311,
+    -0.14360593693951765,
+    -0.04887799282247821
+   ]
+  },
+  {
+   "instance": 91,
+   "class_name": "curtain",
+   "class_id": 14,
+   "n_gaussians": 92,
+   "centroid_splat": [
+    -0.18540055871657704,
+    -0.09981525227751421,
+    0.008712491347662011
+   ]
+  },
+  {
+   "instance": 92,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 13260,
+   "centroid_splat": [
+    -0.25113383205189527,
+    -0.18791856838781487,
+    0.05068941853960708
+   ]
+  },
+  {
+   "instance": 93,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 1389,
+   "centroid_splat": [
+    0.01963566470641642,
+    -0.4396702408927926,
+    0.02309634703523179
+   ]
+  },
+  {
+   "instance": 94,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 128,
+   "centroid_splat": [
+    -0.04111099550648341,
+    -0.2663237402836482,
+    0.024111908332016024
+   ]
+  },
+  {
+   "instance": 95,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 27,
+   "centroid_splat": [
+    -0.2727124172228354,
+    0.1579444706439972,
+    0.002596348454028851
+   ]
+  },
+  {
+   "instance": 96,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 6,
+   "centroid_splat": [
+    0.15817620108524957,
+    -0.354695866505305,
+    0.0040164038800867274
+   ]
+  },
+  {
+   "instance": 97,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 4,
+   "centroid_splat": [
+    0.145534485578537,
+    -0.33033881336450577,
+    0.012752895592711866
+   ]
+  },
+  {
+   "instance": 98,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 2860,
+   "centroid_splat": [
+    0.11025792342668113,
+    -0.23388129098600088,
+    0.0311104816016948
+   ]
+  },
+  {
+   "instance": 99,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 147,
+   "centroid_splat": [
+    -0.07617358995132706,
+    -0.007421562618807237,
+    0.01161690330226687
+   ]
+  },
+  {
+   "instance": 100,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 2203,
+   "centroid_splat": [
+    0.11933592445068601,
+    -0.14112500940867956,
+    0.03478311255298979
+   ]
+  },
+  {
+   "instance": 101,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 8743,
+   "centroid_splat": [
+    -0.07441283160418409,
+    0.29638679299109927,
+    0.03476823462897997
+   ]
+  },
+  {
+   "instance": 102,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 44,
+   "centroid_splat": [
+    -0.1204164002768018,
+    0.2461766522716392,
+    0.0007863778103001096
+   ]
+  },
+  {
+   "instance": 103,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 4956,
+   "centroid_splat": [
+    -0.16555614423487688,
+    0.4055596533193754,
+    0.03486139330048566
+   ]
+  },
+  {
+   "instance": 104,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 4,
+   "centroid_splat": [
+    0.034175694454461336,
+    0.18731505051255226,
+    -0.002697235111554619
+   ]
+  },
+  {
+   "instance": 105,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 8,
+   "centroid_splat": [
+    0.027957824524492025,
+    0.21658395789563656,
+    -0.011563884698261973
+   ]
+  },
+  {
+   "instance": 106,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 18,
+   "centroid_splat": [
+    0.027576246816251013,
+    0.20699658824337852,
+    0.06548128525416057
+   ]
+  },
+  {
+   "instance": 107,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 1221,
+   "centroid_splat": [
+    0.4051915170445954,
+    0.00512936865775707,
+    0.0037528418315020446
+   ]
+  },
+  {
+   "instance": 108,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 7751,
+   "centroid_splat": [
+    0.5238692745631439,
+    -0.02035370077114292,
+    0.023591606717587345
+   ]
+  },
+  {
+   "instance": 109,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 4767,
+   "centroid_splat": [
+    0.47921188087736977,
+    0.12597322338184372,
+    0.04136527343293631
+   ]
+  },
+  {
+   "instance": 110,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 8038,
+   "centroid_splat": [
+    0.6813151017729059,
+    0.02569736842943314,
+    0.02743698701134812
+   ]
+  },
+  {
+   "instance": 111,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 7291,
+   "centroid_splat": [
+    0.6868826281488611,
+    0.17404008934285586,
+    0.030224557540535876
+   ]
+  },
+  {
+   "instance": 112,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 8,
+   "centroid_splat": [
+    0.6842341125011444,
+    0.1609481293708086,
+    0.0744131151586771
+   ]
+  },
+  {
+   "instance": 113,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 4761,
+   "centroid_splat": [
+    0.8093270793323375,
+    0.2231284884211448,
+    0.03071001621930804
+   ]
+  },
+  {
+   "instance": 114,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 4,
+   "centroid_splat": [
+    0.8377230763435364,
+    0.23670797049999237,
+    -0.019630510825663805
+   ]
+  },
+  {
+   "instance": 115,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 131,
+   "centroid_splat": [
+    -0.16540050343610346,
+    0.07728739216690883,
+    0.003859926239726974
+   ]
+  },
+  {
+   "instance": 116,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 508,
+   "centroid_splat": [
+    -0.03422669786521844,
+    0.07823341770800857,
+    0.011297509697155247
+   ]
+  },
+  {
+   "instance": 117,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 71,
+   "centroid_splat": [
+    -0.28743710106527304,
+    0.19140212846473909,
+    0.0032607267326249046
+   ]
+  },
+  {
+   "instance": 118,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 5,
+   "centroid_splat": [
+    -0.022963109984993936,
+    -0.041364049166440965,
+    0.04337880425155163
+   ]
+  },
+  {
+   "instance": 119,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 114,
+   "centroid_splat": [
+    -0.009396168168454448,
+    -0.004366961484233718,
+    -0.0014234075857019522
+   ]
+  },
+  {
+   "instance": 120,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 53,
+   "centroid_splat": [
+    0.24513445400966788,
+    -0.04841336924231277,
+    0.0010099950966420846
+   ]
+  },
+  {
+   "instance": 121,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 22,
+   "centroid_splat": [
+    0.12469639154997739,
+    -0.08578925715251402,
+    0.0012038380717223679
+   ]
+  },
+  {
+   "instance": 122,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 10,
+   "centroid_splat": [
+    -0.20895249247550965,
+    -0.22144150584936143,
+    -0.009547687089070677
+   ]
+  },
+  {
+   "instance": 123,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 10,
+   "centroid_splat": [
+    0.19911174327135087,
+    -0.06133164763450623,
+    0.03213855512440204
+   ]
+  },
+  {
+   "instance": 124,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 6,
+   "centroid_splat": [
+    -0.10187635074059169,
+    -0.012759554975976547,
+    0.005789961743478973
+   ]
+  },
+  {
+   "instance": 125,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 14,
+   "centroid_splat": [
+    0.02986436736370836,
+    -0.20266832730599812,
+    0.0010647033268469386
+   ]
+  },
+  {
+   "instance": 126,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 5,
+   "centroid_splat": [
+    -0.059478393942117694,
+    -0.14359487295150758,
+    0.04459671601653099
+   ]
+  },
+  {
+   "instance": 127,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 478,
+   "centroid_splat": [
+    0.031086812447756528,
+    -0.5285865426063537,
+    -0.0037641284759047265
+   ]
+  },
+  {
+   "instance": 128,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 799,
+   "centroid_splat": [
+    0.03230494125322862,
+    -0.5407982244120015,
+    0.042695500658123525
+   ]
+  },
+  {
+   "instance": 129,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 6,
+   "centroid_splat": [
+    -0.3146909276644389,
+    -0.14298381904760996,
+    0.07136247803767522
+   ]
+  },
+  {
+   "instance": 130,
+   "class_name": "door",
+   "class_id": 17,
+   "n_gaussians": 8,
+   "centroid_splat": [
+    -0.29613447561860085,
+    -0.22164592146873474,
+    -0.020207229536026716
+   ]
+  },
+  {
+   "instance": 131,
+   "class_name": "exit sign",
+   "class_id": 20,
+   "n_gaussians": 10,
+   "centroid_splat": [
+    -0.1444300502538681,
+    0.39683730006217954,
+    0.07813199684023857
+   ]
+  },
+  {
+   "instance": 132,
+   "class_name": "fire alarm",
+   "class_id": 21,
+   "n_gaussians": 22,
+   "centroid_splat": [
+    0.5025001276623119,
+    -0.017410617575726726,
+    0.05886994471604174
+   ],
+   "class_name_voted": "exit sign"
+  },
+  {
+   "instance": 133,
+   "class_name": "exit sign",
+   "class_id": 20,
+   "n_gaussians": 45,
+   "centroid_splat": [
+    -0.14952868946960995,
+    0.24051727567400252,
+    0.08125932642391749
+   ]
+  },
+  {
+   "instance": 134,
+   "class_name": "exit sign",
+   "class_id": 20,
+   "n_gaussians": 5,
+   "centroid_splat": [
+    -0.07744916975498199,
+    0.2036634087562561,
+    0.07365707606077194
+   ]
+  },
+  {
+   "instance": 135,
+   "class_name": "exit sign",
+   "class_id": 20,
+   "n_gaussians": 12,
+   "centroid_splat": [
+    0.08820653396348159,
+    -0.08663858224948247,
+    0.09610477462410927
+   ]
+  },
+  {
+   "instance": 136,
+   "class_name": "exit sign",
+   "class_id": 20,
+   "n_gaussians": 4,
+   "centroid_splat": [
+    0.13687970489263535,
+    -0.06589684076607227,
+    0.11483935080468655
+   ]
+  },
+  {
+   "instance": 137,
+   "class_name": "exit sign",
+   "class_id": 20,
+   "n_gaussians": 601,
+   "centroid_splat": [
+    -0.09440505778302952,
+    0.25559321806138874,
+    0.08627263654251488
+   ]
+  },
+  {
+   "instance": 138,
+   "class_name": "exit sign",
+   "class_id": 20,
+   "n_gaussians": 18,
+   "centroid_splat": [
+    -0.024990737955603335,
+    0.022302783094346523,
+    0.0494722682568762
+   ]
+  },
+  {
+   "instance": 139,
+   "class_name": "exit sign",
+   "class_id": 20,
+   "n_gaussians": 9,
+   "centroid_splat": [
+    -0.04861572177873717,
+    -0.25974472363789874,
+    0.0603350694808695
+   ]
+  },
+  {
+   "instance": 140,
+   "class_name": "exit sign",
+   "class_id": 20,
+   "n_gaussians": 9,
+   "centroid_splat": [
+    -0.1083056694931454,
+    0.309052308400472,
+    0.047079410403966904
+   ]
+  },
+  {
+   "instance": 141,
+   "class_name": "exit sign",
+   "class_id": 20,
+   "n_gaussians": 5,
+   "centroid_splat": [
+    -0.11485892087221146,
+    -0.020973112806677817,
+    0.02700987234711647
+   ]
+  },
+  {
+   "instance": 142,
+   "class_name": "exit sign",
+   "class_id": 20,
+   "n_gaussians": 12,
+   "centroid_splat": [
+    0.2880225678284963,
+    -0.025224467118581135,
+    0.052417828080554806
+   ]
+  },
+  {
+   "instance": 143,
+   "class_name": "fire alarm",
+   "class_id": 21,
+   "n_gaussians": 10,
+   "centroid_splat": [
+    0.5355296909809113,
+    -0.010692322067916394,
+    0.0707760650664568
+   ],
+   "class_name_voted": "exit sign"
+  },
+  {
+   "instance": 144,
+   "class_name": "exit sign",
+   "class_id": 20,
+   "n_gaussians": 13,
+   "centroid_splat": [
+    0.33529083086894107,
+    -0.015079480022765122,
+    0.03886450454592705
+   ]
+  },
+  {
+   "instance": 145,
+   "class_name": "fire alarm",
+   "class_id": 21,
+   "n_gaussians": 8,
+   "centroid_splat": [
+    0.18479879386723042,
+    -0.5359145104885101,
+    0.06514051835983992
+   ],
+   "class_name_voted": "exit sign"
+  },
+  {
+   "instance": 146,
+   "class_name": "fire alarm",
+   "class_id": 21,
+   "n_gaussians": 41,
+   "centroid_splat": [
+    0.9597752809524536,
+    0.1239779382944107,
+    0.060203013569116594
+   ],
+   "class_name_voted": "exit sign"
+  },
+  {
+   "instance": 147,
+   "class_name": "fire extinguisher",
+   "class_id": 22,
+   "n_gaussians": 5,
+   "centroid_splat": [
+    -0.00839246055111289,
+    0.33977745175361634,
+    0.059150893986225125
+   ]
+  },
+  {
+   "instance": 148,
+   "class_name": "fire extinguisher",
+   "class_id": 22,
+   "n_gaussians": 17,
+   "centroid_splat": [
+    -0.013134625247296165,
+    0.26744938247344074,
+    0.03633461432421908
+   ]
+  },
+  {
+   "instance": 149,
+   "class_name": "floor",
+   "class_id": 23,
+   "n_gaussians": 103555,
+   "centroid_splat": [
+    0.056704312677717396,
+    0.01790082131643189,
+    -0.01942596617166835
+   ]
+  },
+  {
+   "instance": 150,
+   "class_name": "glass door",
+   "class_id": 24,
+   "n_gaussians": 20,
+   "centroid_splat": [
+    -0.1499517448246479,
+    0.30104767382144926,
+    0.012023594172205776
+   ]
+  },
+  {
+   "instance": 151,
+   "class_name": "glass door",
+   "class_id": 24,
+   "n_gaussians": 438,
+   "centroid_splat": [
+    -0.11582290319533184,
+    0.29800595312282957,
+    0.07043984668522045
+   ]
+  },
+  {
+   "instance": 152,
+   "class_name": "glass door",
+   "class_id": 24,
+   "n_gaussians": 71,
+   "centroid_splat": [
+    -0.07756776751383491,
+    0.4234848614188208,
+    0.019082945408771975
+   ]
+  },
+  {
+   "instance": 153,
+   "class_name": "glass door",
+   "class_id": 24,
+   "n_gaussians": 2508,
+   "centroid_splat": [
+    -0.09399072458726938,
+    0.2102845176840513,
+    0.03216180682278953
+   ]
+  },
+  {
+   "instance": 154,
+   "class_name": "bookshelf",
+   "class_id": 3,
+   "n_gaussians": 73,
+   "centroid_splat": [
+    -0.2968617902226644,
+    0.14351352018444505,
+    0.07934802683861289
+   ],
+   "class_name_voted": "glass door"
+  },
+  {
+   "instance": 155,
+   "class_name": "glass door",
+   "class_id": 24,
+   "n_gaussians": 66,
+   "centroid_splat": [
+    -0.04166609827767719,
+    0.0805564947200544,
+    0.006468169205508082
+   ]
+  },
+  {
+   "instance": 156,
+   "class_name": "bookshelf",
+   "class_id": 3,
+   "n_gaussians": 7,
+   "centroid_splat": [
+    -0.2850582131317684,
+    0.054991211742162704,
+    0.08653274497815541
+   ],
+   "class_name_voted": "glass door"
+  },
+  {
+   "instance": 157,
+   "class_name": "bookshelf",
+   "class_id": 3,
+   "n_gaussians": 164,
+   "centroid_splat": [
+    -0.25468143542236255,
+    0.050234653664944326,
+    0.07654363063172759
+   ],
+   "class_name_voted": "glass door"
+  },
+  {
+   "instance": 158,
+   "class_name": "glass door",
+   "class_id": 24,
+   "n_gaussians": 23,
+   "centroid_splat": [
+    -0.07722067638583806,
+    0.2964081777178723,
+    0.016283074312883873
+   ]
+  },
+  {
+   "instance": 159,
+   "class_name": "glass door",
+   "class_id": 24,
+   "n_gaussians": 31,
+   "centroid_splat": [
+    -0.010999515081845945,
+    -0.005800401487748229,
+    -0.001391334150074756
+   ]
+  },
+  {
+   "instance": 160,
+   "class_name": "glass door",
+   "class_id": 24,
+   "n_gaussians": 5,
+   "centroid_splat": [
+    -0.06615881472826005,
+    0.07073197960853576,
+    -0.0086067583411932
+   ]
+  },
+  {
+   "instance": 161,
+   "class_name": "glass door",
+   "class_id": 24,
+   "n_gaussians": 6,
+   "centroid_splat": [
+    -0.06663533424337705,
+    0.2546556244293849,
+    0.016504724510014057
+   ]
+  },
+  {
+   "instance": 162,
+   "class_name": "handrail",
+   "class_id": 25,
+   "n_gaussians": 286,
+   "centroid_splat": [
+    0.10818005483353503,
+    -0.2328398487973942,
+    0.030414526875427717
+   ]
+  },
+  {
+   "instance": 163,
+   "class_name": "handrail",
+   "class_id": 25,
+   "n_gaussians": 38,
+   "centroid_splat": [
+    0.6866421385815269,
+    0.18041014200762698,
+    0.030894330653705095
+   ]
+  },
+  {
+   "instance": 164,
+   "class_name": "door handle",
+   "class_id": 18,
+   "n_gaussians": 262,
+   "centroid_splat": [
+    -0.00499050338950121,
+    -0.3336212978218541,
+    0.02975328780259147
+   ],
+   "class_name_voted": "lamp"
+  },
+  {
+   "instance": 165,
+   "class_name": "lamp",
+   "class_id": 26,
+   "n_gaussians": 55,
+   "centroid_splat": [
+    0.07144427354688998,
+    -0.02858146821597108,
+    0.05860379207189436
+   ]
+  },
+  {
+   "instance": 166,
+   "class_name": "lamp",
+   "class_id": 26,
+   "n_gaussians": 76,
+   "centroid_splat": [
+    0.01768571020741212,
+    0.181758997471709,
+    0.04998848165728544
+   ]
+  },
+  {
+   "instance": 167,
+   "class_name": "lamp",
+   "class_id": 26,
+   "n_gaussians": 1057,
+   "centroid_splat": [
+    0.7763006132799428,
+    0.21296971525762465,
+    0.05766003646633842
+   ]
+  },
+  {
+   "instance": 168,
+   "class_name": "lamp",
+   "class_id": 26,
+   "n_gaussians": 19,
+   "centroid_splat": [
+    0.0008897665646049733,
+    0.21771710483651413,
+    0.09420683783920188
+   ]
+  },
+  {
+   "instance": 169,
+   "class_name": "lamp",
+   "class_id": 26,
+   "n_gaussians": 168,
+   "centroid_splat": [
+    0.8575176792760049,
+    0.1509591232384405,
+    0.08182999953146904
+   ]
+  },
+  {
+   "instance": 170,
+   "class_name": "lamp",
+   "class_id": 26,
+   "n_gaussians": 82,
+   "centroid_splat": [
+    -0.13455654144650553,
+    -0.15107400933416879,
+    0.08678567091502794
+   ]
+  },
+  {
+   "instance": 171,
+   "class_name": "lamp",
+   "class_id": 26,
+   "n_gaussians": 112,
+   "centroid_splat": [
+    -0.07812526317373399,
+    -0.13764962714205506,
+    0.07296007262763157
+   ]
+  },
+  {
+   "instance": 172,
+   "class_name": "lamp",
+   "class_id": 26,
+   "n_gaussians": 12,
+   "centroid_splat": [
+    -0.14485150575637817,
+    0.2127595047156016,
+    0.07401202122370402
+   ]
+  },
+  {
+   "instance": 173,
+   "class_name": "lamp",
+   "class_id": 26,
+   "n_gaussians": 136,
+   "centroid_splat": [
+    -0.1539621148463134,
+    -0.13166749755759816,
+    0.099055609696514
+   ]
+  },
+  {
+   "instance": 174,
+   "class_name": "lamp",
+   "class_id": 26,
+   "n_gaussians": 5,
+   "centroid_splat": [
+    -0.0915158897638321,
+    0.19442201256752015,
+    0.07168124765157699
+   ]
+  },
+  {
+   "instance": 175,
+   "class_name": "lamp",
+   "class_id": 26,
+   "n_gaussians": 9,
+   "centroid_splat": [
+    -0.055309457083543144,
+    0.19988594618108538,
+    0.08602719836764866
+   ]
+  },
+  {
+   "instance": 176,
+   "class_name": "lamp",
+   "class_id": 26,
+   "n_gaussians": 283,
+   "centroid_splat": [
+    -0.16428691482989588,
+    -0.09774514301636508,
+    0.08854995963868693
+   ]
+  },
+  {
+   "instance": 177,
+   "class_name": "lamp",
+   "class_id": 26,
+   "n_gaussians": 15,
+   "centroid_splat": [
+    -0.10816918479071723,
+    0.24979990389611986,
+    0.08907846526967154
+   ]
+  },
+  {
+   "instance": 178,
+   "class_name": "lamp",
+   "class_id": 26,
+   "n_gaussians": 890,
+   "centroid_splat": [
+    -0.21410237583849165,
+    0.17051508857144249,
+    0.031003994453284476
+   ]
+  },
+  {
+   "instance": 179,
+   "class_name": "lamp",
+   "class_id": 26,
+   "n_gaussians": 12,
+   "centroid_splat": [
+    -0.16453101858496666,
+    0.25560370087623596,
+    0.08841295602420966
+   ]
+  },
+  {
+   "instance": 180,
+   "class_name": "lamp",
+   "class_id": 26,
+   "n_gaussians": 5,
+   "centroid_splat": [
+    -0.1951720595359802,
+    -0.08845357149839402,
+    0.07987740635871887
+   ]
+  },
+  {
+   "instance": 181,
+   "class_name": "lamp",
+   "class_id": 26,
+   "n_gaussians": 31,
+   "centroid_splat": [
+    0.3261177559052744,
+    -0.014174652406044545,
+    0.035309608905546123
+   ]
+  },
+  {
+   "instance": 182,
+   "class_name": "lamp",
+   "class_id": 26,
+   "n_gaussians": 27,
+   "centroid_splat": [
+    0.4254019249368597,
+    0.012339779382778538,
+    0.02195396688249376
+   ]
+  },
+  {
+   "instance": 183,
+   "class_name": "light switch",
+   "class_id": 27,
+   "n_gaussians": 9,
+   "centroid_splat": [
+    -0.21124267081419626,
+    -0.24645830359723833,
+    0.009593649625053836
+   ]
+  },
+  {
+   "instance": 184,
+   "class_name": "light switch",
+   "class_id": 27,
+   "n_gaussians": 156,
+   "centroid_splat": [
+    -0.008891343418508769,
+    -0.39493552565574647,
+    0.043017820864915846
+   ]
+  },
+  {
+   "instance": 185,
+   "class_name": "light switch",
+   "class_id": 27,
+   "n_gaussians": 82,
+   "centroid_splat": [
+    0.015535809062911491,
+    0.1768877737616238,
+    0.00704256144940461
+   ]
+  },
+  {
+   "instance": 186,
+   "class_name": "light switch",
+   "class_id": 27,
+   "n_gaussians": 17,
+   "centroid_splat": [
+    -0.049705782357384175,
+    0.40884854863671694,
+    0.04421957889023949
+   ]
+  },
+  {
+   "instance": 187,
+   "class_name": "light switch",
+   "class_id": 27,
+   "n_gaussians": 5,
+   "centroid_splat": [
+    -0.06733390986919403,
+    0.3359172821044922,
+    0.023312094807624816
+   ]
+  },
+  {
+   "instance": 188,
+   "class_name": "light switch",
+   "class_id": 27,
+   "n_gaussians": 8,
+   "centroid_splat": [
+    -0.07025580573827028,
+    0.29302455112338066,
+    0.011760829715058208
+   ]
+  },
+  {
+   "instance": 189,
+   "class_name": "fire alarm",
+   "class_id": 21,
+   "n_gaussians": 39,
+   "centroid_splat": [
+    0.07749794710140961,
+    -0.031036982838159952,
+    0.014849403670105414
+   ],
+   "class_name_voted": "monitor"
+  },
+  {
+   "instance": 190,
+   "class_name": "monitor",
+   "class_id": 29,
+   "n_gaussians": 8,
+   "centroid_splat": [
+    -0.13714403472840786,
+    -0.1396668218076229,
+    0.08511646464467049
+   ]
+  },
+  {
+   "instance": 191,
+   "class_name": "fire alarm",
+   "class_id": 21,
+   "n_gaussians": 4,
+   "centroid_splat": [
+    -0.10619603656232357,
+    -0.04436096362769604,
+    0.030454225838184357
+   ],
+   "class_name_voted": "monitor"
+  },
+  {
+   "instance": 192,
+   "class_name": "plant",
+   "class_id": 32,
+   "n_gaussians": 473,
+   "centroid_splat": [
+    -0.21944964579016177,
+    -0.0778780708704617,
+    0.013817417770798247
+   ]
+  },
+  {
+   "instance": 193,
+   "class_name": "plant",
+   "class_id": 32,
+   "n_gaussians": 1609,
+   "centroid_splat": [
+    -0.20579000448255502,
+    0.28381386967211203,
+    0.01242793271293377
+   ]
+  },
+  {
+   "instance": 194,
+   "class_name": "plant",
+   "class_id": 32,
+   "n_gaussians": 13,
+   "centroid_splat": [
+    -0.21830063809951147,
+    0.1124861774345239,
+    0.10171215360363324
+   ]
+  },
+  {
+   "instance": 195,
+   "class_name": "plant",
+   "class_id": 32,
+   "n_gaussians": 19,
+   "centroid_splat": [
+    -0.23176746148812144,
+    0.05357421934604645,
+    0.07043246375887018
+   ]
+  },
+  {
+   "instance": 196,
+   "class_name": "poster",
+   "class_id": 33,
+   "n_gaussians": 2054,
+   "centroid_splat": [
+    -0.15847783152257885,
+    -0.2205655284595947,
+    0.061123300110395684
+   ]
+  },
+  {
+   "instance": 197,
+   "class_name": "bookshelf",
+   "class_id": 3,
+   "n_gaussians": 41,
+   "centroid_splat": [
+    -0.2608568508450578,
+    0.019583981756756946,
+    0.0749258577096753
+   ],
+   "class_name_voted": "poster"
+  },
+  {
+   "instance": 198,
+   "class_name": "poster",
+   "class_id": 33,
+   "n_gaussians": 647,
+   "centroid_splat": [
+    -0.06500346675611936,
+    -0.18020371275095196,
+    0.056818003228006814
+   ]
+  },
+  {
+   "instance": 199,
+   "class_name": "bookshelf",
+   "class_id": 3,
+   "n_gaussians": 232,
+   "centroid_splat": [
+    -0.31163828650064634,
+    0.16360366752926717,
+    0.05356074956229381
+   ],
+   "class_name_voted": "poster"
+  },
+  {
+   "instance": 200,
+   "class_name": "bookshelf",
+   "class_id": 3,
+   "n_gaussians": 42,
+   "centroid_splat": [
+    0.058826793428687824,
+    0.047668827342845145,
+    0.04455942598481973
+   ],
+   "class_name_voted": "poster"
+  },
+  {
+   "instance": 201,
+   "class_name": "bookshelf",
+   "class_id": 3,
+   "n_gaussians": 324,
+   "centroid_splat": [
+    0.02838080634594013,
+    0.13475398684817333,
+    0.06207672282363529
+   ],
+   "class_name_voted": "poster"
+  },
+  {
+   "instance": 202,
+   "class_name": "poster",
+   "class_id": 33,
+   "n_gaussians": 1657,
+   "centroid_splat": [
+    0.458629254013934,
+    -0.03984743074335633,
+    0.05656829608939372
+   ]
+  },
+  {
+   "instance": 203,
+   "class_name": "bookshelf",
+   "class_id": 3,
+   "n_gaussians": 38,
+   "centroid_splat": [
+    -0.03219075493612572,
+    0.0368616046187909,
+    0.051909800226751124
+   ],
+   "class_name_voted": "poster"
+  },
+  {
+   "instance": 204,
+   "class_name": "poster",
+   "class_id": 33,
+   "n_gaussians": 107,
+   "centroid_splat": [
+    -0.2933680741029365,
+    0.1725598849425806,
+    0.006913065633988965
+   ]
+  },
+  {
+   "instance": 205,
+   "class_name": "bookshelf",
+   "class_id": 3,
+   "n_gaussians": 25,
+   "centroid_splat": [
+    -0.39618711709976195,
+    0.27993932843208313,
+    0.07650894582271577
+   ],
+   "class_name_voted": "poster"
+  },
+  {
+   "instance": 206,
+   "class_name": "bookshelf",
+   "class_id": 3,
+   "n_gaussians": 5,
+   "centroid_splat": [
+    0.1132376179099083,
+    -0.05671362951397896,
+    0.011712856870144606
+   ],
+   "class_name_voted": "poster"
+  },
+  {
+   "instance": 207,
+   "class_name": "bookshelf",
+   "class_id": 3,
+   "n_gaussians": 25,
+   "centroid_splat": [
+    0.04406057104468346,
+    0.047631167024374005,
+    0.08470972746610642
+   ],
+   "class_name_voted": "poster"
+  },
+  {
+   "instance": 208,
+   "class_name": "poster",
+   "class_id": 33,
+   "n_gaussians": 4,
+   "centroid_splat": [
+    -0.08348358981311321,
+    -0.03630063124001026,
+    0.022522155661135912
+   ]
+  },
+  {
+   "instance": 209,
+   "class_name": "poster",
+   "class_id": 33,
+   "n_gaussians": 24,
+   "centroid_splat": [
+    -0.08126398921012878,
+    0.20733348714808622,
+    0.009556811245905314
+   ]
+  },
+  {
+   "instance": 210,
+   "class_name": "poster",
+   "class_id": 33,
+   "n_gaussians": 21,
+   "centroid_splat": [
+    0.8965635157766796,
+    0.1183807495094481,
+    0.028892206294195994
+   ]
+  },
+  {
+   "instance": 211,
+   "class_name": "poster",
+   "class_id": 33,
+   "n_gaussians": 5,
+   "centroid_splat": [
+    0.024921257235109805,
+    -0.2648790955543518,
+    0.07843936383724212
+   ]
+  },
+  {
+   "instance": 212,
+   "class_name": "poster",
+   "class_id": 33,
+   "n_gaussians": 12,
+   "centroid_splat": [
+    -0.010372873861342669,
+    -0.22338295876979827,
+    0.07150392681360244
+   ]
+  },
+  {
+   "instance": 213,
+   "class_name": "radiator",
+   "class_id": 34,
+   "n_gaussians": 12,
+   "centroid_splat": [
+    -0.1357568030556043,
+    -0.21837604666749635,
+    0.07697511247048776
+   ]
+  },
+  {
+   "instance": 214,
+   "class_name": "box",
+   "class_id": 4,
+   "n_gaussians": 77,
+   "centroid_splat": [
+    -0.16898816765902877,
+    -0.09204298799688165,
+    0.009104442454620519
+   ],
+   "class_name_voted": "reception desk"
+  },
+  {
+   "instance": 215,
+   "class_name": "box",
+   "class_id": 4,
+   "n_gaussians": 479,
+   "centroid_splat": [
+    0.3739672207749934,
+    0.07201371418767123,
+    -0.008351823736472485
+   ],
+   "class_name_voted": "reception desk"
+  },
+  {
+   "instance": 216,
+   "class_name": "box",
+   "class_id": 4,
+   "n_gaussians": 19,
+   "centroid_splat": [
+    0.32649872648088557,
+    0.07064261640373029,
+    0.009963900365523602
+   ],
+   "class_name_voted": "reception desk"
+  },
+  {
+   "instance": 217,
+   "class_name": "box",
+   "class_id": 4,
+   "n_gaussians": 4,
+   "centroid_splat": [
+    0.43769270181655884,
+    0.09064346365630627,
+    -0.01142619107849896
+   ],
+   "class_name_voted": "reception desk"
+  },
+  {
+   "instance": 218,
+   "class_name": "box",
+   "class_id": 4,
+   "n_gaussians": 23,
+   "centroid_splat": [
+    0.3118030713952106,
+    0.019725223355319187,
+    0.011035594441320585
+   ],
+   "class_name_voted": "recycling bin"
+  },
+  {
+   "instance": 219,
+   "class_name": "box",
+   "class_id": 4,
+   "n_gaussians": 9,
+   "centroid_splat": [
+    0.36538393961058724,
+    0.06239033076498243,
+    0.001327953508330716
+   ],
+   "class_name_voted": "recycling bin"
+  },
+  {
+   "instance": 220,
+   "class_name": "box",
+   "class_id": 4,
+   "n_gaussians": 31,
+   "centroid_splat": [
+    0.44502287814694064,
+    0.12114267459800167,
+    0.03144617589010346
+   ],
+   "class_name_voted": "recycling bin"
+  },
+  {
+   "instance": 221,
+   "class_name": "box",
+   "class_id": 4,
+   "n_gaussians": 16,
+   "centroid_splat": [
+    0.393033585765145,
+    0.10878506776961414,
+    0.029589879411188038
+   ],
+   "class_name_voted": "recycling bin"
+  },
+  {
+   "instance": 222,
+   "class_name": "box",
+   "class_id": 4,
+   "n_gaussians": 9,
+   "centroid_splat": [
+    0.23939746452702415,
+    -0.04045173070496983,
+    -0.0027756712219242116
+   ],
+   "class_name_voted": "recycling bin"
+  },
+  {
+   "instance": 223,
+   "class_name": "box",
+   "class_id": 4,
+   "n_gaussians": 7,
+   "centroid_splat": [
+    0.36881160736083984,
+    0.08442170811550957,
+    0.013908092863857746
+   ],
+   "class_name_voted": "recycling bin"
+  },
+  {
+   "instance": 224,
+   "class_name": "cabinet",
+   "class_id": 6,
+   "n_gaussians": 14,
+   "centroid_splat": [
+    -0.045784229678767066,
+    -0.2536123586552484,
+    0.013891244556621782
+   ],
+   "class_name_voted": "shelf"
+  },
+  {
+   "instance": 225,
+   "class_name": "cabinet",
+   "class_id": 6,
+   "n_gaussians": 41,
+   "centroid_splat": [
+    -0.044208332896232605,
+    -0.06996791755280844,
+    -0.005012686494965016
+   ],
+   "class_name_voted": "shelf"
+  },
+  {
+   "instance": 226,
+   "class_name": "cabinet",
+   "class_id": 6,
+   "n_gaussians": 346,
+   "centroid_splat": [
+    -0.007648154609621718,
+    -0.29366595852069366,
+    0.010540519228342395
+   ],
+   "class_name_voted": "shelf"
+  },
+  {
+   "instance": 227,
+   "class_name": "cabinet",
+   "class_id": 6,
+   "n_gaussians": 6,
+   "centroid_splat": [
+    -0.05355194956064224,
+    0.060304151847958565,
+    -0.007531411945819855
+   ],
+   "class_name_voted": "shelf"
+  },
+  {
+   "instance": 228,
+   "class_name": "cabinet",
+   "class_id": 6,
+   "n_gaussians": 5,
+   "centroid_splat": [
+    -0.05576342642307282,
+    0.09811735600233078,
+    -0.006041520088911056
+   ],
+   "class_name_voted": "shelf"
+  },
+  {
+   "instance": 229,
+   "class_name": "sign",
+   "class_id": 38,
+   "n_gaussians": 74,
+   "centroid_splat": [
+    -0.11085868690242158,
+    0.31317050786728556,
+    0.05347954569027779
+   ]
+  },
+  {
+   "instance": 230,
+   "class_name": "couch",
+   "class_id": 12,
+   "n_gaussians": 41,
+   "centroid_splat": [
+    -0.30053364576362984,
+    0.2526626397923725,
+    4.697689628966789e-05
+   ],
+   "class_name_voted": "stool"
+  },
+  {
+   "instance": 231,
+   "class_name": "couch",
+   "class_id": 12,
+   "n_gaussians": 25,
+   "centroid_splat": [
+    -0.045664374530315396,
+    -0.07463331669569015,
+    -0.0037654958479106425
+   ],
+   "class_name_voted": "stool"
+  },
+  {
+   "instance": 232,
+   "class_name": "couch",
+   "class_id": 12,
+   "n_gaussians": 13,
+   "centroid_splat": [
+    -0.23100144473405984,
+    0.293047159910202,
+    0.010376711949132957
+   ],
+   "class_name_voted": "stool"
+  },
+  {
+   "instance": 233,
+   "class_name": "couch",
+   "class_id": 12,
+   "n_gaussians": 34,
+   "centroid_splat": [
+    -0.0665674957939807,
+    -0.02660616218824597,
+    -0.0020870617747063723
+   ],
+   "class_name_voted": "stool"
+  },
+  {
+   "instance": 234,
+   "class_name": "trash can",
+   "class_id": 42,
+   "n_gaussians": 2791,
+   "centroid_splat": [
+    -0.25172974337244236,
+    -0.1398586667143376,
+    0.004432648860302617
+   ]
+  },
+  {
+   "instance": 235,
+   "class_name": "trash can",
+   "class_id": 42,
+   "n_gaussians": 7,
+   "centroid_splat": [
+    0.24206678995064326,
+    -0.043147409068686624,
+    -0.005091271379829517
+   ]
+  },
+  {
+   "instance": 236,
+   "class_name": "trash can",
+   "class_id": 42,
+   "n_gaussians": 9,
+   "centroid_splat": [
+    0.9032038384013705,
+    0.17152356604735056,
+    -0.0023884392705642516
+   ]
+  },
+  {
+   "instance": 237,
+   "class_name": "trash can",
+   "class_id": 42,
+   "n_gaussians": 107,
+   "centroid_splat": [
+    0.3811685364937114,
+    0.009612601420137092,
+    -0.002794674457669384
+   ]
+  },
+  {
+   "instance": 238,
+   "class_name": "trash can",
+   "class_id": 42,
+   "n_gaussians": 24,
+   "centroid_splat": [
+    0.8631584048271179,
+    0.1633508950471878,
+    -0.005938357159417744
+   ]
+  },
+  {
+   "instance": 239,
+   "class_name": "trash can",
+   "class_id": 42,
+   "n_gaussians": 50,
+   "centroid_splat": [
+    0.7776256108283996,
+    0.12890417441725732,
+    -0.002384873809933197
+   ]
+  },
+  {
+   "instance": 240,
+   "class_name": "fire alarm",
+   "class_id": 21,
+   "n_gaussians": 1812,
+   "centroid_splat": [
+    -0.2689271516222117,
+    -0.03472757681262426,
+    0.043757329612442455
+   ],
+   "class_name_voted": "tv"
+  },
+  {
+   "instance": 241,
+   "class_name": "fire alarm",
+   "class_id": 21,
+   "n_gaussians": 95,
+   "centroid_splat": [
+    -0.09210940944521051,
+    -0.058195786727102176,
+    0.020030713571529638
+   ],
+   "class_name_voted": "tv"
+  },
+  {
+   "instance": 242,
+   "class_name": "fire alarm",
+   "class_id": 21,
+   "n_gaussians": 10,
+   "centroid_splat": [
+    0.08313671201467514,
+    -0.029553246311843397,
+    0.012185067124664783
+   ],
+   "class_name_voted": "tv"
+  },
+  {
+   "instance": 243,
+   "class_name": "fire alarm",
+   "class_id": 21,
+   "n_gaussians": 75,
+   "centroid_splat": [
+    0.1358094271272421,
+    -0.022677511209622025,
+    0.008403702333453111
+   ],
+   "class_name_voted": "tv"
+  },
+  {
+   "instance": 244,
+   "class_name": "fire alarm",
+   "class_id": 21,
+   "n_gaussians": 9,
+   "centroid_splat": [
+    0.11645390838384628,
+    -0.05198869191937976,
+    0.014188983788092932
+   ],
+   "class_name_voted": "tv"
+  },
+  {
+   "instance": 245,
+   "class_name": "sign",
+   "class_id": 38,
+   "n_gaussians": 44,
+   "centroid_splat": [
+    0.006417084061963992,
+    0.1523834951221943,
+    0.047097386453639374
+   ],
+   "class_name_voted": "tv"
+  },
+  {
+   "instance": 246,
+   "class_name": "handrail",
+   "class_id": 25,
+   "n_gaussians": 2185,
+   "centroid_splat": [
+    0.7318863312403361,
+    0.06816042214632034,
+    0.02357255555689335
+   ],
+   "class_name_voted": "tv"
+  },
+  {
+   "instance": 247,
+   "class_name": "poster",
+   "class_id": 33,
+   "n_gaussians": 4,
+   "centroid_splat": [
+    -0.26966357231140137,
+    0.049681032076478004,
+    0.05176793783903122
+   ],
+   "class_name_voted": "tv"
+  },
+  {
+   "instance": 248,
+   "class_name": "fire alarm",
+   "class_id": 21,
+   "n_gaussians": 6,
+   "centroid_splat": [
+    0.33664141595363617,
+    -0.012676328886300325,
+    0.0012410470614364992
+   ],
+   "class_name_voted": "tv"
+  },
+  {
+   "instance": 249,
+   "class_name": "handrail",
+   "class_id": 25,
+   "n_gaussians": 5,
+   "centroid_splat": [
+    0.677319347858429,
+    0.06299677044153214,
+    0.009506898187100887
+   ],
+   "class_name_voted": "tv"
+  },
+  {
+   "instance": 250,
+   "class_name": "cabinet",
+   "class_id": 6,
+   "n_gaussians": 5418,
+   "centroid_splat": [
+    -0.028372986352490283,
+    -0.21833517476883504,
+    0.008624210549242728
+   ],
+   "class_name_voted": "vending machine"
+  },
+  {
+   "instance": 251,
+   "class_name": "cabinet",
+   "class_id": 6,
+   "n_gaussians": 13,
+   "centroid_splat": [
+    -0.1638340548827098,
+    -0.08209139395218629,
+    0.007249571544189866
+   ],
+   "class_name_voted": "vending machine"
+  },
+  {
+   "instance": 252,
+   "class_name": "cabinet",
+   "class_id": 6,
+   "n_gaussians": 5,
+   "centroid_splat": [
+    -0.046118438988924024,
+    -0.181905072927475,
+    0.046204093098640445
+   ],
+   "class_name_voted": "vending machine"
+  },
+  {
+   "instance": 253,
+   "class_name": "cabinet",
+   "class_id": 6,
+   "n_gaussians": 4,
+   "centroid_splat": [
+    -0.057484774850308895,
+    -0.18467837199568748,
+    -0.010007048957049847
+   ],
+   "class_name_voted": "vending machine"
+  },
+  {
+   "instance": 254,
+   "class_name": "vent",
+   "class_id": 45,
+   "n_gaussians": 1729,
+   "centroid_splat": [
+    0.7920006705587116,
+    0.2246531974606074,
+    0.0005314602313627087
+   ]
+  },
+  {
+   "instance": 255,
+   "class_name": "wall",
+   "class_id": 46,
+   "n_gaussians": 75999,
+   "centroid_splat": [
+    -0.1363919093989817,
+    0.06174309662610251,
+    0.03413139934439814
+   ]
+  },
+  {
+   "instance": 256,
+   "class_name": "wall",
+   "class_id": 46,
+   "n_gaussians": 1420,
+   "centroid_splat": [
+    0.10958519218373669,
+    -0.27523288622712405,
+    0.019586728309965867
+   ]
+  },
+  {
+   "instance": 257,
+   "class_name": "wall",
+   "class_id": 46,
+   "n_gaussians": 8870,
+   "centroid_splat": [
+    0.39443236000738446,
+    -0.06092514412939398,
+    0.020774287159808683
+   ]
+  },
+  {
+   "instance": 258,
+   "class_name": "wall",
+   "class_id": 46,
+   "n_gaussians": 960,
+   "centroid_splat": [
+    0.8573169460592344,
+    0.12322084493646326,
+    0.008483807666897512
+   ]
+  },
+  {
+   "instance": 259,
+   "class_name": "wall",
+   "class_id": 46,
+   "n_gaussians": 21,
+   "centroid_splat": [
+    -0.3951771883737473,
+    0.283861490942183,
+    0.07241255559381984
+   ]
+  },
+  {
+   "instance": 260,
+   "class_name": "bookshelf",
+   "class_id": 3,
+   "n_gaussians": 5029,
+   "centroid_splat": [
+    -0.2530321813606376,
+    -0.2053466504191549,
+    0.050768423192830585
+   ],
+   "class_name_voted": "window"
+  },
+  {
+   "instance": 261,
+   "class_name": "bookshelf",
+   "class_id": 3,
+   "n_gaussians": 17110,
+   "centroid_splat": [
+    -0.28768926990373933,
+    0.07842524691954303,
+    0.05332246876428903
+   ],
+   "class_name_voted": "window"
+  },
+  {
+   "instance": 262,
+   "class_name": "bookshelf",
+   "class_id": 3,
+   "n_gaussians": 37650,
+   "centroid_splat": [
+    -0.24639460579038147,
+    0.2786611220307887,
+    0.03312965466281916
+   ],
+   "class_name_voted": "window"
+  },
+  {
+   "instance": 263,
+   "class_name": "window",
+   "class_id": 48,
+   "n_gaussians": 16259,
+   "centroid_splat": [
+    0.019748148525634533,
+    0.16120038092675268,
+    0.054071137306139175
+   ]
+  },
+  {
+   "instance": 264,
+   "class_name": "window",
+   "class_id": 48,
+   "n_gaussians": 23,
+   "centroid_splat": [
+    0.077052000100198,
+    -0.0350367768627146,
+    0.009257905124484198
+   ]
+  },
+  {
+   "instance": 265,
+   "class_name": "window",
+   "class_id": 48,
+   "n_gaussians": 44,
+   "centroid_splat": [
+    0.1191638418557969,
+    -0.04776811997660182,
+    0.015284861173396084
+   ]
+  },
+  {
+   "instance": 266,
+   "class_name": "window",
+   "class_id": 48,
+   "n_gaussians": 8,
+   "centroid_splat": [
+    -0.08598004095256329,
+    0.3652983084321022,
+    0.03303073067218065
+   ]
+  },
+  {
+   "instance": 267,
+   "class_name": "window",
+   "class_id": 48,
+   "n_gaussians": 795,
+   "centroid_splat": [
+    -0.08886334867704482,
+    0.43065426221915654,
+    0.03164913905112328
+   ]
+  },
+  {
+   "instance": 268,
+   "class_name": "window",
+   "class_id": 48,
+   "n_gaussians": 137,
+   "centroid_splat": [
+    0.4557694307644002,
+    -0.039564355208545274,
+    0.047155216472209806
+   ]
+  },
+  {
+   "instance": 269,
+   "class_name": "bookshelf",
+   "class_id": 3,
+   "n_gaussians": 6,
+   "centroid_splat": [
+    -0.3001021097103755,
+    -0.013006083744888505,
+    0.08088116347789764
+   ],
+   "class_name_voted": "window"
+  },
+  {
+   "instance": 270,
+   "class_name": "window",
+   "class_id": 48,
+   "n_gaussians": 59,
+   "centroid_splat": [
+    -0.03176297147963512,
+    0.049991499222183634,
+    0.044039340153083965
+   ]
+  },
+  {
+   "instance": 271,
+   "class_name": "window",
+   "class_id": 48,
+   "n_gaussians": 48,
+   "centroid_splat": [
+    -0.06423782984105249,
+    -0.01739965978777036,
+    0.017551874101627618
+   ]
+  },
+  {
+   "instance": 272,
+   "class_name": "bookshelf",
+   "class_id": 3,
+   "n_gaussians": 5,
+   "centroid_splat": [
+    -0.17465965449810028,
+    0.041334082186222074,
+    0.02665628828108311
+   ],
+   "class_name_voted": "window"
+  },
+  {
+   "instance": 273,
+   "class_name": "window",
+   "class_id": 48,
+   "n_gaussians": 50,
+   "centroid_splat": [
+    -0.048648278787732126,
+    0.09825895816087722,
+    0.06164057515561581
+   ]
+  },
+  {
+   "instance": 274,
+   "class_name": "bookshelf",
+   "class_id": 3,
+   "n_gaussians": 1018,
+   "centroid_splat": [
+    -0.15262726283121983,
+    0.1445367913806997,
+    0.02623891082920453
+   ],
+   "class_name_voted": "window"
+  },
+  {
+   "instance": 275,
+   "class_name": "window",
+   "class_id": 48,
+   "n_gaussians": 69,
+   "centroid_splat": [
+    0.37012585401535036,
+    -0.05971299260854721,
+    0.20752445757389068
+   ]
+  },
+  {
+   "instance": 276,
+   "class_name": "window",
+   "class_id": 48,
+   "n_gaussians": 792,
+   "centroid_splat": [
+    -0.07526594985054842,
+    0.29188841556016853,
+    0.011564317586559549
+   ]
+  },
+  {
+   "instance": 277,
+   "class_name": "bookshelf",
+   "class_id": 3,
+   "n_gaussians": 43,
+   "centroid_splat": [
+    -0.22934250235557557,
+    0.15972504417101543,
+    0.05694059232870738
+   ],
+   "class_name_voted": "window"
+  },
+  {
+   "instance": 278,
+   "class_name": "window",
+   "class_id": 48,
+   "n_gaussians": 8,
+   "centroid_splat": [
+    -0.13591940701007843,
+    0.08581584505736828,
+    0.015326938824728131
+   ]
+  },
+  {
+   "instance": 279,
+   "class_name": "bookshelf",
+   "class_id": 3,
+   "n_gaussians": 317,
+   "centroid_splat": [
+    -0.20622345060110092,
+    0.23020539432764053,
+    0.09411561861634254
+   ],
+   "class_name_voted": "window"
+  },
+  {
+   "instance": 280,
+   "class_name": "bookshelf",
+   "class_id": 3,
+   "n_gaussians": 4,
+   "centroid_splat": [
+    -0.2759346291422844,
+    0.10549682006239891,
+    0.027917479164898396
+   ],
+   "class_name_voted": "window"
+  },
+  {
+   "instance": 281,
+   "class_name": "window",
+   "class_id": 48,
+   "n_gaussians": 31,
+   "centroid_splat": [
+    -0.10909252445543965,
+    0.06452484224592486,
+    0.018562468129300302
+   ]
+  },
+  {
+   "instance": 282,
+   "class_name": "bookshelf",
+   "class_id": 3,
+   "n_gaussians": 6,
+   "centroid_splat": [
+    -0.22405713548262915,
+    0.10258297249674797,
+    0.06273298834760983
+   ],
+   "class_name_voted": "window"
+  }
+ ],
+ "params": {
+  "object_priority": 0.0,
+  "small_objects": true,
+  "min_views": 1,
+  "min_share": 0.5,
+  "eps_obj_m": 0.4,
+  "eps_bg_m": 1.0,
+  "min_samples": 10,
+  "min_cluster": 15,
+  "expected_labelling": "option2/s2_prop/expected_labelling.md",
+  "manual_corrections": 65
+ },
+ "params_propagation": {
+  "radius_m": 0.4,
+  "min_neighbors": 3,
+  "min_share": 0.9,
+  "iters": 2
+ }
+}
